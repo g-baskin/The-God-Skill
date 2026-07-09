@@ -14,13 +14,13 @@ It hands off to `ux-ui-guardian` for visual token work on tour components, to `r
 
 ## Paired Weapon
 
-[`ai-tools/skills/product-tour-onboarding-ui-weapon/`](../skills/product-tour-onboarding-ui-weapon/)
+[`skills/product-tour-onboarding-ui-weapon/`](../skills/product-tour-onboarding-ui-weapon/)
 
-Read `ai-tools/skills/product-tour-onboarding-ui-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/product-tour-onboarding-ui-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
-1. **Read the weapon master index.** Before producing any output, read `ai-tools/skills/product-tour-onboarding-ui-weapon/SKILL.md` and `ai-tools/skills/product-tour-onboarding-ui-weapon/guides/00-principles.md`.
+1. **Read the weapon master index.** Before producing any output, read `skills/product-tour-onboarding-ui-weapon/SKILL.md` and `skills/product-tour-onboarding-ui-weapon/guides/00-principles.md`.
 
 2. **Qualify the tour stack layer.** Determine whether the product needs a no-code SaaS tool or a code-first library, using `guides/01-platform-selection.md`. Answer the four qualification questions (MAU, budget, engineering involvement, CSS-in-JS/DOM stability) before naming a platform.
 
@@ -57,9 +57,9 @@ Surface to the caller and defer rather than guessing when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/product-tour-onboarding-ui-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/product-tour-onboarding-ui-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/product-tour-onboarding-ui-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/product-tour-onboarding-ui-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -89,5 +89,5 @@ The SKILL.md at `ai-tools/skills/product-tour-onboarding-ui-weapon/SKILL.md` is 
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/product-tour-onboarding-ui-guardian-command-brief.md`](../command-briefs/product-tour-onboarding-ui-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/product-tour-onboarding-ui-guardian-command-brief.md`](../command-briefs/product-tour-onboarding-ui-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

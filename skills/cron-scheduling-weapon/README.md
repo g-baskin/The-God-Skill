@@ -2,7 +2,7 @@
 
 This weapon equips `cron-scheduling-guardian` to design, implement, debug, and monitor scheduled jobs across Vercel Cron, Cloudflare Cron Triggers, GitHub Actions `schedule:`, POSIX cron, pg_cron, and BullMQ.
 
-**Command Brief:** `ai-tools/command-briefs/cron-scheduling-guardian-command-brief.md`
+**Command Brief:** `command-briefs/cron-scheduling-guardian-command-brief.md`
 **Research:** `research/research-summary.md` (normal-depth sweep, 2025-11 to 2026-05)
 
 ## Quick start

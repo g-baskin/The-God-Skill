@@ -19,9 +19,9 @@ It explicitly does NOT own: support inbox and ticketing setup (customer-support-
 
 ## Paired Weapon
 
-[`ai-tools/skills/knowledge-base-help-center-weapon/`](../skills/knowledge-base-help-center-weapon/)
+[`skills/knowledge-base-help-center-weapon/`](../skills/knowledge-base-help-center-weapon/)
 
-Read `ai-tools/skills/knowledge-base-help-center-weapon/SKILL.md` first; it is the master index for this Angel's arsenal and contains the 2026 platform landscape table.
+Read `skills/knowledge-base-help-center-weapon/SKILL.md` first; it is the master index for this Angel's arsenal and contains the 2026 platform landscape table.
 
 ## Procedure
 
@@ -63,9 +63,9 @@ Surface to the caller and STOP when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/knowledge-base-help-center-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/knowledge-base-help-center-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/knowledge-base-help-center-weapon/SKILL.md` is the master index; read it first.
+The SKILL.md at `skills/knowledge-base-help-center-weapon/SKILL.md` is the master index; read it first.
 
 ### Platform selection and architecture (guides/)
 
@@ -103,5 +103,5 @@ The SKILL.md at `ai-tools/skills/knowledge-base-help-center-weapon/SKILL.md` is 
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/knowledge-base-help-center-guardian-command-brief.md`](../command-briefs/knowledge-base-help-center-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/knowledge-base-help-center-guardian-command-brief.md`](../command-briefs/knowledge-base-help-center-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

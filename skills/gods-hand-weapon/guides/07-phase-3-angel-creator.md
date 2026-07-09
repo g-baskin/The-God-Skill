@@ -1,18 +1,18 @@
 # 07 - Phase 3: angel-creator
 
-Step 8 of the Command Brief's ACTION list. After the weapon folder is built, invoke the `angel-creator` skill to author the Cursor subagent file (the Angel).
+Step 8 of the Command Brief's ACTION list. After the weapon folder is built, invoke the `angel-creator` skill to author the GG Coder guardian file (the Angel).
 
 ## What `angel-creator` does
 
 `angel-creator` is the Phase 3 worker skill. It is documented at:
 
-- `ai-tools/skills/angel-creator/SKILL.md` (repo-local copy)
-- `~/.cursor/skills-cursor/angel-creator/SKILL.md` (global Cursor skills cache)
+- `skills/angel-creator/SKILL.md` (repo-local copy)
+- `~/.gg/skills/angel-creator/SKILL.md` (global GG Coder skills cache)
 
 The skill takes a Command Brief and a populated Weapon folder (with at minimum `SKILL.md`, `guides/`, `examples/`, `templates/`, `reports/`, and `research/`), and authors the Angel file at:
 
 ```
-ai-tools/agents/<guardian-name>.md
+agents/<guardian-name>.md
 ```
 
 The Angel file has YAML frontmatter (with `name`, `description`, and `proactive` fields) and a body broken into standard sections: Identity & responsibility, Paired Weapon, Procedure, Critical directives, Escalation, References to skill files. The References to skill files section enumerates every Read-able file in the Weapon folder so the Angel knows what to consult.
@@ -23,8 +23,8 @@ The Angel file has YAML frontmatter (with `name`, `description`, and `proactive`
 
 - The Angel name (which becomes the agent file name).
 - The Weapon name (which determines the path it walks).
-- The Command Brief path: `ai-tools/command-briefs/<guardian-name>-command-brief.md`.
-- The Weapon folder path: `ai-tools/skills/<weapon-name>/`.
+- The Command Brief path: `command-briefs/<guardian-name>-command-brief.md`.
+- The Weapon folder path: `skills/<weapon-name>/`.
 - The trigger policy: `proactive: true` (default for domain Angels) or `proactive: false` / `on-demand` (for Angels that should not volunteer). The default unless the Command Brief states otherwise is `proactive: true`.
 
 ## Expected output
@@ -32,7 +32,7 @@ The Angel file has YAML frontmatter (with `name`, `description`, and `proactive`
 After `angel-creator` completes, the following MUST exist:
 
 ```
-ai-tools/agents/<guardian-name>.md
+agents/<guardian-name>.md
 ```
 
 The file must contain:
@@ -81,4 +81,4 @@ For new Angels being forged in routine cycles, `angel-creator` will decide based
 
 ## Implementation note for `gods-hand`
 
-Like Phases 1 and 2, Phase 3 is a skill load. `gods-hand` reads `ai-tools/skills/angel-creator/SKILL.md` and follows its instructions to author the Angel file. The skill is short (~150 lines) and self-contained.
+Like Phases 1 and 2, Phase 3 is a skill load. `gods-hand` reads `skills/angel-creator/SKILL.md` and follows its instructions to author the Angel file. The skill is short (~150 lines) and self-contained.

@@ -4,9 +4,9 @@ OKR methodology specialist — writes, grades, and iterates Objectives and Key R
 
 ---
 
-**Angel:** [`ai-tools/agents/okr-goal-setting-guardian.md`](../../agents/okr-goal-setting-guardian.md)
-**Weapon:** [`ai-tools/skills/okr-goal-setting-weapon/`](../../skills/okr-goal-setting-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/okr-goal-setting-guardian-command-brief.md`](../../../command-briefs/okr-goal-setting-guardian-command-brief.md)
+**Angel:** [`agents/okr-goal-setting-guardian.md`](../../../agents/okr-goal-setting-guardian.md)
+**Weapon:** [`skills/okr-goal-setting-weapon/`](../../okr-goal-setting-weapon/)
+**Command Brief:** [`command-briefs/okr-goal-setting-guardian-command-brief.md`](../../../command-briefs/okr-goal-setting-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -75,4 +75,4 @@ Invoke `okr-goal-setting-guardian` when the user:
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

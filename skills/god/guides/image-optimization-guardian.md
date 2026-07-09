@@ -1,8 +1,8 @@
 # Image Optimization Guardian — God's Guide
 
-**Angel:** [`ai-tools/agents/image-optimization-guardian.md`](../../agents/image-optimization-guardian.md)
-**Weapon:** [`ai-tools/skills/image-optimization-weapon/`](../../skills/image-optimization-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/image-optimization-guardian-command-brief.md`](../../../command-briefs/image-optimization-guardian-command-brief.md)
+**Angel:** [`agents/image-optimization-guardian.md`](../../../agents/image-optimization-guardian.md)
+**Weapon:** [`skills/image-optimization-weapon/`](../../image-optimization-weapon/)
+**Command Brief:** [`command-briefs/image-optimization-guardian-command-brief.md`](../../../command-briefs/image-optimization-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -56,4 +56,4 @@ Route to `image-optimization-guardian` when the user says any of:
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

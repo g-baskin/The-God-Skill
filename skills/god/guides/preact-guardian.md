@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `preact-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/preact-guardian.md`](../../agents/preact-guardian.md)
-**Weapon:** [`ai-tools/skills/preact-weapon/`](../../skills/preact-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/preact-guardian-command-brief.md`](../../../command-briefs/preact-guardian-command-brief.md)
+**Angel:** [`agents/preact-guardian.md`](../../../agents/preact-guardian.md)
+**Weapon:** [`skills/preact-weapon/`](../../preact-weapon/)
+**Command Brief:** [`command-briefs/preact-guardian-command-brief.md`](../../../command-briefs/preact-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -72,4 +72,4 @@ If the scenario is ambiguous, `preact-guardian` will ask one targeted clarifying
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

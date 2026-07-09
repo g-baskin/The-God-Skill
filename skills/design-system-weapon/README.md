@@ -1,6 +1,6 @@
 # design-system-weapon
 
-Cursor IDE skill that equips the `design-system-guardian` Angel with the
+GG Coder skill that equips the `design-system-guardian` Angel with the
 procedure for bootstrapping a complete design system from scratch for
 any product. The skill encodes the canonical seven-artifact folder
 structure (master brief, tokens CSS, utility CSS, per-component briefs,

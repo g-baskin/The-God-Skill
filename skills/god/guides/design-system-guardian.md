@@ -33,7 +33,7 @@ Do **not** invoke for wiring the system into a live codebase — the Angel produ
 
 ## Paired Weapon
 
-`.cursor/skills/design-system-weapon/` — contains the master index (SKILL.md), authoring guides for each artifact, three starter kits (`glass-on-beige/`, `flat-modern/`, `editorial-serif/`), templates for brief / tokens / components / screens / HTML examples / readme, worked bootstrap examples, and the research trail.
+`skills/design-system-weapon/` — contains the master index (SKILL.md), authoring guides for each artifact, three starter kits (`glass-on-beige/`, `flat-modern/`, `editorial-serif/`), templates for brief / tokens / components / screens / HTML examples / readme, worked bootstrap examples, and the research trail.
 
 ## Expected input
 

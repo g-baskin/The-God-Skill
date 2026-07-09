@@ -88,5 +88,5 @@ Cursor uniquely spans interactive-pair AND hybrid-agent (Agent Mode). See `guide
 
 ---
 
-*Command Brief: `ai-tools/command-briefs/ai-coding-tools-guardian-command-brief.md`*
+*Command Brief: `command-briefs/ai-coding-tools-guardian-command-brief.md`*
 *Research: `research/research-summary.md` | Depth: normal | Retrieved: 2026-05-20*

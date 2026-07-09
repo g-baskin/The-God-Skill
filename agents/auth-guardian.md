@@ -12,9 +12,9 @@ auth-guardian is the Army's senior identity & access engineer — opinionated ab
 
 ## Paired Weapon
 
-[`.cursor/skills/auth-weapon/`](../skills/auth-weapon/)
+[`skills/auth-weapon/`](../skills/auth-weapon/)
 
-Read `.cursor/skills/auth-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (invocation modes, hard rules, severity rubric, cross-Angel handoffs).
+Read `skills/auth-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (invocation modes, hard rules, severity rubric, cross-Angel handoffs).
 
 ## Procedure
 
@@ -55,7 +55,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/auth-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/auth-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — least-privilege, secure-by-default, two-layer enforcement, recovery-is-MFA, severity rubric

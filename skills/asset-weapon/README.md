@@ -2,7 +2,7 @@
 
 This directory holds everything the `asset-guardian` agent needs to own the Universal Asset Registry. The pattern is generic — any product can adopt the registry; this Weapon describes the canonical 19-asset taxonomy, the registration workflow, the drift-audit mechanism, the sync-generator contract, and the deprecation/sunset rules. Organized into four layers: **guides** (workflow rules), **schema** (canonical Prisma + SQL), **examples** (exemplars to mirror), **templates** (seeds for kb + migrations).
 
-> **Agent entry point:** [`.cursor/agents/asset-guardian.md`](../asset-guardian.md) (repo-local). The agent reads files from this directory by path; it does not auto-load everything into context.
+> **Agent entry point:** [`agents/asset-guardian.md`](../asset-guardian.md) (repo-local). The agent reads files from this directory by path; it does not auto-load everything into context.
 >
 > **Peer guardians:** [`library-guardian`](../library-guardian.md), [`quality-guardian`](../quality-guardian.md), [`security-guardian`](../security-guardian.md), [`ux-ui-guardian`](../ux-ui-guardian.md). Scope boundaries live in [`guides/05-hand-offs.md`](guides/05-hand-offs.md).
 

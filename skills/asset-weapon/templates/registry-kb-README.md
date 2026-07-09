@@ -1,6 +1,6 @@
 # Universal Asset Registry — Knowledge Base
 
-<!-- Owner: asset-guardian. Seed copied from .cursor/skills/asset-weapon/templates/registry-kb-README.md on library/knowledge-base/asset-registry/ scaffold. Edit freely; do not rename the folder without updating the agent. -->
+<!-- Owner: asset-guardian. Seed copied from skills/asset-weapon/templates/registry-kb-README.md on library/knowledge-base/asset-registry/ scaffold. Edit freely; do not rename the folder without updating the agent. -->
 
 This folder is the durable documentation home for the Universal Asset Registry — the platform-owned catalog of every Feature, Page, Route, Surface, Control, Display, Layout, NavEntry, DesignToken, Icon, MediaAsset, Font, Motion, Breakpoint, ContentEntry, Translation, FeatureFlag binding, Meter binding, and Entitlement.
 
@@ -33,12 +33,12 @@ Drift reports do **not** live here. See:
 
 ## Agent ownership
 
-This folder is owned by [`asset-guardian`](../../../.cursor/agents/asset-guardian.md). For cross-cutting concerns:
+This folder is owned by [`asset-guardian`](../../../agents/asset-guardian.md). For cross-cutting concerns:
 
-- **Documentation lifecycle** (numbering, invariants, cross-linking): [`library-guardian`](../../../.cursor/agents/library-guardian.md)
-- **UX/UI semantic token meaning**: [`ux-ui-guardian`](../../../.cursor/agents/ux-ui-guardian.md)
-- **QA of registry-shaped implementations**: [`quality-guardian`](../../../.cursor/agents/quality-guardian.md)
-- **Security review of registry feature PRDs**: [`security-guardian`](../../../.cursor/agents/security-guardian.md)
+- **Documentation lifecycle** (numbering, invariants, cross-linking): [`library-guardian`](../../../agents/library-guardian.md)
+- **UX/UI semantic token meaning**: [`ux-ui-guardian`](../../../agents/ux-ui-guardian.md)
+- **QA of registry-shaped implementations**: [`quality-guardian`](../../../agents/quality-guardian.md)
+- **Security review of registry feature PRDs**: [`security-guardian`](../../../agents/security-guardian.md)
 
 ## Governing principles
 

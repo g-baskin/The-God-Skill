@@ -57,7 +57,7 @@ Documentation craft -- the writing principles, review heuristics, and ghostwriti
 
 ## Paired weapon
 
-`ai-tools/skills/technical-writing-craft-weapon/`
+`skills/technical-writing-craft-weapon/`
 
 ## Notes
 

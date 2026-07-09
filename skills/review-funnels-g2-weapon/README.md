@@ -2,7 +2,7 @@
 
 The weapon that arms `review-funnels-g2-guardian` with the full review-collection and online-reputation playbook for SaaS products.
 
-**Command Brief:** `ai-tools/command-briefs/review-funnels-g2-guardian-command-brief.md`
+**Command Brief:** `command-briefs/review-funnels-g2-guardian-command-brief.md`
 **Research summary:** `research/research-summary.md`
 
 Covers: G2 (and its 2026 acquisitions of Capterra, Software Advice, GetApp), Trustpilot, Product Hunt, AppSumo, in-product review-request UX, G2 incentive compliance, Product Hunt launch-day execution, negative-review response, and badge-as-social-proof deployment.

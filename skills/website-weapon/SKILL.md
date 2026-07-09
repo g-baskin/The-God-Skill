@@ -108,4 +108,4 @@ Full rationale lives in `guides/00-principles.md`.
 
 ---
 
-*Paired Angel: `.cursor/agents/website-guardian.md`*
+*Paired Angel: `agents/website-guardian.md`*

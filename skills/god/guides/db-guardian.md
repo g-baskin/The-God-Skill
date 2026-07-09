@@ -41,7 +41,7 @@ Do **not** invoke for RAG pipelines, chunking, reranking, or retrieval evaluatio
 
 ## Paired Weapon
 
-`.cursor/skills/db-weapon/` — contains the master index (SKILL.md) with invocation modes (design / migration / performance audit / platform-choice) and severity rubric, 9 layered guides covering schema → indexing → migrations → partitioning → performance/pooling → special-purpose → ORM → platform, worked examples (greenfield schema, zero-downtime NOT NULL, platform walkthrough), output templates (schema spec, migration plan, expand-backfill-contract checklist, index decision tree, Drizzle and Prisma starters, PgBouncer config, ADR), deterministic SQL and shell scripts (`analyze-query-plan.sh`, `audit-missing-indexes.sql`, `bloat-check.sql`), and the dated research trail.
+`skills/db-weapon/` — contains the master index (SKILL.md) with invocation modes (design / migration / performance audit / platform-choice) and severity rubric, 9 layered guides covering schema → indexing → migrations → partitioning → performance/pooling → special-purpose → ORM → platform, worked examples (greenfield schema, zero-downtime NOT NULL, platform walkthrough), output templates (schema spec, migration plan, expand-backfill-contract checklist, index decision tree, Drizzle and Prisma starters, PgBouncer config, ADR), deterministic SQL and shell scripts (`analyze-query-plan.sh`, `audit-missing-indexes.sql`, `bloat-check.sql`), and the dated research trail.
 
 ## Expected input
 

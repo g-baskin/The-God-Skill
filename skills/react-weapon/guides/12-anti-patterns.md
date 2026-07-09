@@ -150,7 +150,7 @@ Direct mutation breaks React re-render detection and React Compiler's analysis.
 `scripts/scan-anti-patterns.ts` (stub) scans for the first 8 of these via AST matching. Run via:
 
 ```bash
-pnpm tsx .cursor/skills/react-weapon/scripts/scan-anti-patterns.ts src/
+pnpm tsx skills/react-weapon/scripts/scan-anti-patterns.ts src/
 ```
 
 Output: a markdown report grouping findings by anti-pattern, with file:line and the canonical fix.

@@ -15,13 +15,13 @@ All scripts run with `pnpm tsx`:
 
 ```bash
 # Static audits — local, fast
-pnpm tsx .cursor/skills/mind-weapon/scripts/audit-untraced-llm-calls.ts api/src
-pnpm tsx .cursor/skills/mind-weapon/scripts/audit-tenant-id-filters.ts api/src
+pnpm tsx skills/mind-weapon/scripts/audit-untraced-llm-calls.ts api/src
+pnpm tsx skills/mind-weapon/scripts/audit-tenant-id-filters.ts api/src
 
 # Operational audits — DB access required
-pnpm tsx .cursor/skills/mind-weapon/scripts/coach-routing-audit.ts \
+pnpm tsx skills/mind-weapon/scripts/coach-routing-audit.ts \
   --tenantId=<id> --window=7d
-pnpm tsx .cursor/skills/mind-weapon/scripts/retrieval-precision-snapshot.ts \
+pnpm tsx skills/mind-weapon/scripts/retrieval-precision-snapshot.ts \
   --tenantId=<id> --window=7d
 ```
 
@@ -33,8 +33,8 @@ The static scripts are CI-safe (no DB access). Recommended:
 
 ```yaml
 # .github/workflows/mind-audit.yml
-- run: pnpm tsx .cursor/skills/mind-weapon/scripts/audit-untraced-llm-calls.ts api/src
-- run: pnpm tsx .cursor/skills/mind-weapon/scripts/audit-tenant-id-filters.ts api/src
+- run: pnpm tsx skills/mind-weapon/scripts/audit-untraced-llm-calls.ts api/src
+- run: pnpm tsx skills/mind-weapon/scripts/audit-tenant-id-filters.ts api/src
 ```
 
 Failing exit code → must-fix findings → blocks merge.

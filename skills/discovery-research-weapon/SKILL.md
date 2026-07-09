@@ -124,5 +124,5 @@ discovery-research-weapon/
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/discovery-research-guardian-command-brief.md`](../../command-briefs/discovery-research-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/discovery-research-guardian-command-brief.md`](../../command-briefs/discovery-research-guardian-command-brief.md)*
 *Part of the Legion Army forged by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -4,4 +4,4 @@ Equips `telegram-bot-guardian` with the opinionated Telegram Bot playbook for 20
 
 This weapon synthesizes the scripture-historian research from [`research/research-summary.md`](research/research-summary.md). Every guide cites its primary source from `research/`.
 
-**Command Brief:** [`ai-tools/command-briefs/telegram-bot-guardian-command-brief.md`](../../command-briefs/telegram-bot-guardian-command-brief.md)
+**Command Brief:** [`command-briefs/telegram-bot-guardian-command-brief.md`](../../command-briefs/telegram-bot-guardian-command-brief.md)

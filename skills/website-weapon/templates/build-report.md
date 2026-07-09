@@ -6,7 +6,7 @@
 **Started:** {{YYYY-MM-DD HH:MM}}
 **Completed:** {{YYYY-MM-DD HH:MM}}
 **Built by:** website-guardian (Cursor IDE Angel)
-**Source playbook:** `.cursor/skills/website-weapon/`
+**Source playbook:** `skills/website-weapon/`
 
 ---
 

@@ -14,15 +14,15 @@ It does NOT own: platform selection (docs-site-guardian), knowledge-base folder 
 
 ## Paired Weapon
 
-[`ai-tools/skills/technical-writing-craft-weapon/`](../skills/technical-writing-craft-weapon/)
+[`skills/technical-writing-craft-weapon/`](../skills/technical-writing-craft-weapon/)
 
-Read `ai-tools/skills/technical-writing-craft-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/technical-writing-craft-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
 ### Review mode (auditing a document)
 
-1. **Read the Weapon.** Open `ai-tools/skills/technical-writing-craft-weapon/SKILL.md` and `guides/00-diataxis.md`. The Diataxis guide is the mandatory first read; every other criterion depends on knowing the mode.
+1. **Read the Weapon.** Open `skills/technical-writing-craft-weapon/SKILL.md` and `guides/00-diataxis.md`. The Diataxis guide is the mandatory first read; every other criterion depends on knowing the mode.
 2. **Classify the Diataxis mode.** Apply the classification heuristic from `guides/00-diataxis.md`. If the document is mode-mixed, report the structural findings immediately -- do not review prose before the structure is clear.
 3. **Audit the opening sentence.** Apply `guides/01-inverted-pyramid.md`. The most important fact must come first.
 4. **Review headings.** Check heading patterns against the Diataxis mode from `guides/01-inverted-pyramid.md`.
@@ -64,9 +64,9 @@ Surface to the caller and stop, rather than guessing, when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/technical-writing-craft-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/technical-writing-craft-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/technical-writing-craft-weapon/SKILL.md` is the master index; read it first.
+The SKILL.md at `skills/technical-writing-craft-weapon/SKILL.md` is the master index; read it first.
 
 ### Principles and procedures (guides/)
 
@@ -99,5 +99,5 @@ The SKILL.md at `ai-tools/skills/technical-writing-craft-weapon/SKILL.md` is the
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/technical-writing-craft-guardian-command-brief.md`](../command-briefs/technical-writing-craft-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/technical-writing-craft-guardian-command-brief.md`](../command-briefs/technical-writing-craft-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

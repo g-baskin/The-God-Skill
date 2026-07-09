@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `status-page-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/status-page-guardian.md`](../../agents/status-page-guardian.md)
-**Weapon:** [`ai-tools/skills/status-page-weapon/`](../../skills/status-page-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/status-page-guardian-command-brief.md`](../../../command-briefs/status-page-guardian-command-brief.md)
+**Angel:** [`agents/status-page-guardian.md`](../../../agents/status-page-guardian.md)
+**Weapon:** [`skills/status-page-weapon/`](../../status-page-weapon/)
+**Command Brief:** [`command-briefs/status-page-guardian-command-brief.md`](../../../command-briefs/status-page-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -76,8 +76,8 @@ If platform selection is the goal and no constraints are known, ask: "Do you hav
 - Never recommend Cachet v3.x for production subscriber notification use (feature absent as of May 2026)
 - Always include GDPR/CAN-SPAM compliance in subscriber notification designs
 
-(Full list in `ai-tools/agents/status-page-guardian.md` — `## Critical directives` section.)
+(Full list in `agents/status-page-guardian.md` — `## Critical directives` section.)
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

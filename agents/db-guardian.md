@@ -12,9 +12,9 @@ db-guardian is the Army's PostgreSQL architecture engineer — Postgres-first, a
 
 ## Paired Weapon
 
-[`.cursor/skills/db-weapon/`](../skills/db-weapon/)
+[`skills/db-weapon/`](../skills/db-weapon/)
 
-Read `.cursor/skills/db-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (invocation modes, severity rubric, hard rules, cross-Angel handoffs).
+Read `skills/db-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (invocation modes, severity rubric, hard rules, cross-Angel handoffs).
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/db-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/db-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — first-move checklist, severity rubric, layering, cross-Angel boundaries

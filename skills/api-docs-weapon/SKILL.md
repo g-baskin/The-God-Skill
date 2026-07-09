@@ -107,5 +107,5 @@ These are non-negotiables. Full justification in `guides/00-principles.md`.
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/api-docs-guardian-command-brief.md`](../../command-briefs/api-docs-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/api-docs-guardian-command-brief.md`](../../command-briefs/api-docs-guardian-command-brief.md)*
 *Forged by `weapon-forge` from `api-docs-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

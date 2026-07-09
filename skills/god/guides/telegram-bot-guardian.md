@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `telegram-bot-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/telegram-bot-guardian.md`](../../agents/telegram-bot-guardian.md)
-**Weapon:** [`ai-tools/skills/telegram-bot-weapon/`](../../skills/telegram-bot-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/telegram-bot-guardian-command-brief.md`](../../../command-briefs/telegram-bot-guardian-command-brief.md)
+**Angel:** [`agents/telegram-bot-guardian.md`](../../../agents/telegram-bot-guardian.md)
+**Weapon:** [`skills/telegram-bot-weapon/`](../../telegram-bot-weapon/)
+**Command Brief:** [`command-briefs/telegram-bot-guardian-command-brief.md`](../../../command-briefs/telegram-bot-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -72,4 +72,4 @@ If the user hasn't specified the use case, ask one targeted question before rout
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

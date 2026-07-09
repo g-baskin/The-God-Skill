@@ -4,7 +4,7 @@ The craft knowledge base for `technical-writing-craft-guardian`. This weapon enc
 
 It answers one question: *is this document well-written?* It does not answer questions about platform, folder structure, or metadata -- those belong to peer Angels.
 
-**Command Brief:** `ai-tools/command-briefs/technical-writing-craft-guardian-command-brief.md`
+**Command Brief:** `command-briefs/technical-writing-craft-guardian-command-brief.md`
 **Research summary:** `research/research-summary.md`
 
 Start with `SKILL.md`, then `guides/00-diataxis.md`.

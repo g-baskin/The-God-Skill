@@ -73,4 +73,4 @@ For a standard Next.js 15 App Router + `next/font` + Tailwind v4 stack:
 
 ---
 
-*Research trail: `research/research-summary.md` | Command Brief: `ai-tools/command-briefs/typography-font-guardian-command-brief.md`*
+*Research trail: `research/research-summary.md` | Command Brief: `command-briefs/typography-font-guardian-command-brief.md`*

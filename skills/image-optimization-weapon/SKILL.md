@@ -92,5 +92,5 @@ Key sources: caniuse.com/avif (browser support), Mux blog (LQIP/BlurHash tradeof
 
 ---
 
-*Paired with: [`ai-tools/agents/image-optimization-guardian.md`](../../agents/image-optimization-guardian.md)*
-*Command Brief: [`ai-tools/command-briefs/image-optimization-command-brief.md`](../../command-briefs/image-optimization-command-brief.md)*
+*Paired with: [`agents/image-optimization-guardian.md`](../../agents/image-optimization-guardian.md)*
+*Command Brief: [`command-briefs/image-optimization-command-brief.md`](../../command-briefs/image-optimization-command-brief.md)*

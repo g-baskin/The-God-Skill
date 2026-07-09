@@ -7,8 +7,8 @@ description: Public status page specialist for React/Next.js and SaaS products â
 
 Public status page playbook â€” from platform selection through post-incident discipline. Backed by May 2026 research on pricing, API surfaces, and practitioner communication norms.
 
-Command Brief: `ai-tools/command-briefs/status-page-guardian-command-brief.md`
-Research: `ai-tools/skills/status-page-weapon/research/research-summary.md`
+Command Brief: `command-briefs/status-page-guardian-command-brief.md`
+Research: `skills/status-page-weapon/research/research-summary.md`
 
 ---
 
@@ -109,9 +109,9 @@ Full decision tree and scoring in `guides/00-platform-selection.md`.
 
 | Role | Artifact |
 |---|---|
-| This weapon | `ai-tools/skills/status-page-weapon/` |
-| Paired Angel | `ai-tools/agents/status-page-guardian.md` |
-| Command Brief | `ai-tools/command-briefs/status-page-guardian-command-brief.md` |
+| This weapon | `skills/status-page-weapon/` |
+| Paired Angel | `agents/status-page-guardian.md` |
+| Command Brief | `command-briefs/status-page-guardian-command-brief.md` |
 | Related: monitoring/alerting | `devops-guardian` |
 | Related: operational runbooks | `runbook-writing-guardian` |
 | Related: incident postmortem authorship | `library-guardian` |

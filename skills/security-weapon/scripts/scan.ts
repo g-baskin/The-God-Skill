@@ -6,7 +6,7 @@
 // focus on judgment calls (IDOR, PCI architecture, business-logic trust).
 //
 // Usage (from repo root being audited):
-//   npx tsx .cursor/skills/security-weapon/scripts/scan.ts
+//   npx tsx skills/security-weapon/scripts/scan.ts
 //
 // Exits with code 0 regardless. The Angel decides what is fatal.
 
@@ -67,11 +67,13 @@ write('cve-version-check.txt', versionReport);
 console.log('  ->', join(OUT_DIR, 'cve-version-check.txt'));
 
 // ---------------------------------------------------------------------------
-// 3. Rules File Backdoor — hidden Unicode
+// 3. Rules File Backdoor — hidden Unicode in AI rules files
 // ---------------------------------------------------------------------------
-hr('3. Unicode scan (AI rules files)');
+hr('3. Unicode scan (GG Coder rules, AI instruction files, legacy Cursor rules when present)');
 const UNICODE_RE = /[\u200B-\u200F\u202A-\u202E\u2060-\u2069\uFEFF]/g;
 const RULE_TARGETS = [
+  'rules',
+  '.gg',
   '.cursor/rules',
   '.cursorrules',
   'AGENTS.md',

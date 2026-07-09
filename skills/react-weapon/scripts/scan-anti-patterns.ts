@@ -5,7 +5,7 @@
  * `guides/12-anti-patterns.md`. Produces a markdown report to stdout.
  *
  * Run:
- *   pnpm tsx .cursor/skills/react-weapon/scripts/scan-anti-patterns.ts <src-path>
+ *   pnpm tsx skills/react-weapon/scripts/scan-anti-patterns.ts <src-path>
  *
  * Detectors (first pass — extend as needed):
  *

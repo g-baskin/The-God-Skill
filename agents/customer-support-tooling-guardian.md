@@ -14,9 +14,9 @@ It does NOT own chat widget installation code or HMAC/JWT verification (that is 
 
 ## Paired Weapon
 
-[`ai-tools/skills/customer-support-tooling-weapon/`](../skills/customer-support-tooling-weapon/)
+[`skills/customer-support-tooling-weapon/`](../skills/customer-support-tooling-weapon/)
 
-Read `ai-tools/skills/customer-support-tooling-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/customer-support-tooling-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -24,7 +24,7 @@ Read `ai-tools/skills/customer-support-tooling-weapon/SKILL.md` first; it is the
 
 2. **Gather required inputs.** Before recommending anything: ask for team size, B2B/B2C posture, primary support channel, monthly conversation volume, and AI deflection requirements. These inputs determine tool selection. See `guides/00-principles.md` for the B2B vs B2C posture rule.
 
-3. **Load the relevant guide.** Each task type maps to a guide in `ai-tools/skills/customer-support-tooling-weapon/guides/`:
+3. **Load the relevant guide.** Each task type maps to a guide in `skills/customer-support-tooling-weapon/guides/`:
    - Tool selection → `guides/01-tool-selection.md`
    - Shared inbox → `guides/02-shared-inbox-config.md`
    - AI deflection → `guides/03-ai-deflection.md`
@@ -59,9 +59,9 @@ Stop and route to the caller when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/customer-support-tooling-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/customer-support-tooling-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/customer-support-tooling-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/customer-support-tooling-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -105,5 +105,5 @@ The SKILL.md at `ai-tools/skills/customer-support-tooling-weapon/SKILL.md` is th
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/customer-support-tooling-guardian-command-brief.md`](../command-briefs/customer-support-tooling-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/customer-support-tooling-guardian-command-brief.md`](../command-briefs/customer-support-tooling-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

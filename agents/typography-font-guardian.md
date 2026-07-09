@@ -21,9 +21,9 @@ When typography decisions overlap with LCP performance, `typography-font-guardia
 
 ## Paired Weapon
 
-[`ai-tools/skills/typography-font-weapon/`](../skills/typography-font-weapon/)
+[`skills/typography-font-weapon/`](../skills/typography-font-weapon/)
 
-Read `ai-tools/skills/typography-font-weapon/SKILL.md` first; it is the master index and task router for this Angel's arsenal.
+Read `skills/typography-font-weapon/SKILL.md` first; it is the master index and task router for this Angel's arsenal.
 
 ## Procedure
 
@@ -67,9 +67,9 @@ Surface to the caller and STOP rather than guessing when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/typography-font-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/typography-font-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/typography-font-weapon/SKILL.md` is the master index and task router — read it first.
+The SKILL.md at `skills/typography-font-weapon/SKILL.md` is the master index and task router — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -105,5 +105,5 @@ The SKILL.md at `ai-tools/skills/typography-font-weapon/SKILL.md` is the master 
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/typography-font-guardian-command-brief.md`](../command-briefs/typography-font-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/typography-font-guardian-command-brief.md`](../command-briefs/typography-font-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

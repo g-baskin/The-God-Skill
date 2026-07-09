@@ -6,10 +6,10 @@ Step 4 of the Command Brief's ACTION list. After the queue row is locked into `i
 
 `command-center` is the Phase 1 worker skill of the Legion AI Tools Factory. It is documented at:
 
-- `ai-tools/skills/command-center/SKILL.md` (repo-local copy)
-- `~/.cursor/skills-cursor/command-center/SKILL.md` (global Cursor skills cache)
+- `skills/command-center/SKILL.md` (repo-local copy)
+- `~/.gg/skills/command-center/SKILL.md` (global GG Coder skills cache)
 
-The skill takes a guardian name and a weapon name, copies the repo-root template `command-brief-template.md` into `ai-tools/command-briefs/`, renames it to `<guardian-name>-command-brief.md`, populates the YAML frontmatter, and either conducts a conversational interview with the user (if invoked interactively) or pre-fills sections from a structured payload (if invoked by `gods-hand`).
+The skill takes a guardian name and a weapon name, copies the repo-root template `command-brief-template.md` into `command-briefs/`, renames it to `<guardian-name>-command-brief.md`, populates the YAML frontmatter, and either conducts a conversational interview with the user (if invoked interactively) or pre-fills sections from a structured payload (if invoked by `gods-hand`).
 
 When `gods-hand` is the caller, the brief MUST be authored from the backlog metadata without further user interaction. The Command Brief is then handed off to `scripture-historian` (Phase 1.5) for research.
 
@@ -36,7 +36,7 @@ These map directly to the Command Brief's YAML frontmatter fields. The Purpose s
 After `command-center` completes, the following MUST exist on disk:
 
 ```
-ai-tools/command-briefs/<guardian-name>-command-brief.md
+command-briefs/<guardian-name>-command-brief.md
 ```
 
 The file must contain:
@@ -69,9 +69,9 @@ If `command-center` fails:
 
 ## Implementation note for `gods-hand`
 
-In practice, when `gods-hand` is itself a Cursor subagent, "invoking" `command-center` means one of two things:
+In practice, when `gods-hand` is itself a GG Coder guardian, "invoking" `command-center` means one of two things:
 
-1. **Skill load:** Read `ai-tools/skills/command-center/SKILL.md` and follow its instructions to write the Command Brief directly. This is the simpler path when `gods-hand` and `command-center` share execution context.
+1. **Skill load:** Read `skills/command-center/SKILL.md` and follow its instructions to write the Command Brief directly. This is the simpler path when `gods-hand` and `command-center` share execution context.
 2. **Subagent delegation via Task:** Call `Task(subagent_type="...", prompt="...")` if `command-center` is implemented as a subagent rather than a skill. Currently `command-center` is a skill, not a subagent, so option 1 is the canonical path.
 
 The skill-vs-subagent distinction is documented in the research at `research/external/2026-05-20-cursor-subagents-docs.md` and `research/external/2026-05-20-cursor-skills-docs.md`. For Phase 1, use option 1.

@@ -14,13 +14,13 @@ It does NOT own the engineering roadmap that OKRs point at (`library-guardian`, 
 
 ## Paired Weapon
 
-[`ai-tools/skills/okr-goal-setting-weapon/`](../skills/okr-goal-setting-weapon/)
+[`skills/okr-goal-setting-weapon/`](../skills/okr-goal-setting-weapon/)
 
-Read `ai-tools/skills/okr-goal-setting-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/okr-goal-setting-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
-1. **Open the weapon.** Read `ai-tools/skills/okr-goal-setting-weapon/SKILL.md` to orient. Run the fast-path "are these actually OKRs?" checklist to characterize the current state.
+1. **Open the weapon.** Read `skills/okr-goal-setting-weapon/SKILL.md` to orient. Run the fast-path "are these actually OKRs?" checklist to characterize the current state.
 
 2. **Classify the request** into one of:
    - Audit existing OKRs → `guides/01-okr-canon.md` + `guides/03-writing-key-results.md` + `templates/okr-audit-report.md`
@@ -75,9 +75,9 @@ Surface to the caller and stop (rather than crossing domain boundaries) when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/okr-goal-setting-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/okr-goal-setting-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/okr-goal-setting-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/okr-goal-setting-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -113,5 +113,5 @@ The SKILL.md at `ai-tools/skills/okr-goal-setting-weapon/SKILL.md` is the master
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/okr-goal-setting-guardian-command-brief.md`](../command-briefs/okr-goal-setting-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/okr-goal-setting-guardian-command-brief.md`](../command-briefs/okr-goal-setting-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

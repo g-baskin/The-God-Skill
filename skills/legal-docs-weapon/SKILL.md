@@ -88,6 +88,6 @@ Re-run scripture-historian at `shallow` tier when any of the following occur:
 
 ---
 
-*Paired Angel: `ai-tools/agents/legal-docs-guardian.md`*
-*Command Brief: `ai-tools/command-briefs/legal-docs-guardian-command-brief.md`*
-*Research: `ai-tools/skills/legal-docs-weapon/research/`*
+*Paired Angel: `agents/legal-docs-guardian.md`*
+*Command Brief: `command-briefs/legal-docs-guardian-command-brief.md`*
+*Research: `skills/legal-docs-weapon/research/`*

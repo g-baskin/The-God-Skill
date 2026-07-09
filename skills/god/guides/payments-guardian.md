@@ -38,7 +38,7 @@ Do **not** invoke for PRD authoring — `library-guardian` PRDs the feature; `pa
 
 ## Paired Weapon
 
-`.cursor/skills/payments-weapon/` — contains the master index (SKILL.md) with routing table and severity rubric, 10 guides covering the four hard rules / decision tree / webhook contract / subscriptions / portal / idempotency / testing / March 2025 change / fan-out / failure modes, worked examples (SaaS subscription, one-time payment, webhook debugging walkthrough), output templates (webhook handler in two flavors, Checkout creator, subscription builder, idempotency-table SQL, CLI fixtures, audit template), deterministic scripts (`replay-webhook-locally.sh`, `verify-signature-snippet.ts`), and the dated research trail.
+`skills/payments-weapon/` — contains the master index (SKILL.md) with routing table and severity rubric, 10 guides covering the four hard rules / decision tree / webhook contract / subscriptions / portal / idempotency / testing / March 2025 change / fan-out / failure modes, worked examples (SaaS subscription, one-time payment, webhook debugging walkthrough), output templates (webhook handler in two flavors, Checkout creator, subscription builder, idempotency-table SQL, CLI fixtures, audit template), deterministic scripts (`replay-webhook-locally.sh`, `verify-signature-snippet.ts`), and the dated research trail.
 
 ## Expected input
 

@@ -14,9 +14,9 @@ This Angel exists because the factory is a real pipeline with file-plumbing, rac
 
 ## Paired Weapon
 
-[`ai-tools/skills/gods-hand-weapon/`](../skills/gods-hand-weapon/)
+[`skills/gods-hand-weapon/`](../skills/gods-hand-weapon/)
 
-Read `ai-tools/skills/gods-hand-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/gods-hand-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -30,17 +30,17 @@ A `gods-hand` invocation runs the following 11-step sequence exactly once. Each 
 
 4. **Look up backlog metadata.** Per `guides/02-backlog-lookup.md`: find the `### [ ] N. guardian-name` heading in `proposed-angels-backlog.md` (note the queue uses zero-padded `NNN` but the backlog uses unpadded `N`). Capture the four metadata lines (Research Depth, Research Model, Analyst Model, Builder Model), the Purpose sentence, and the 5-7 search queries. Validate per the four sanity checks in that guide. Also verify uniqueness across all roster surfaces per `guides/03-naming-contracts.md`.
 
-5. **Phase 1: command-center.** Load `ai-tools/skills/command-center/SKILL.md` and follow its instructions to author `ai-tools/command-briefs/<guardian-name>-command-brief.md`. Pass it the captured backlog metadata. Verify the brief exists and is non-empty per `guides/04-phase-1-command-center.md`.
+5. **Phase 1: command-center.** Load `skills/command-center/SKILL.md` and follow its instructions to author `command-briefs/<guardian-name>-command-brief.md`. Pass it the captured backlog metadata. Verify the brief exists and is non-empty per `guides/04-phase-1-command-center.md`.
 
-6. **Scaffold the weapon folder.** Create `ai-tools/skills/<weapon-name>/` with the five canonical subfolders: `examples/`, `guides/`, `reports/`, `research/`, `templates/`. Do NOT author `SKILL.md` yet; that is `weapon-forge`'s job.
+6. **Scaffold the weapon folder.** Create `skills/<weapon-name>/` with the five canonical subfolders: `examples/`, `guides/`, `reports/`, `research/`, `templates/`. Do NOT author `SKILL.md` yet; that is `weapon-forge`'s job.
 
 7. **Phase 1.5: scripture-historian.** Dispatch via the Task tool: `Task(subagent_type="scripture-historian", prompt="...")`. The prompt names the new Angel/Weapon pair and points at the Command Brief. Wait for the canonical handoff line in the subagent's response. Verify the research folder is populated per `guides/05-phase-15-scripture-historian.md`. This is the ONLY phase that uses the Task tool; the others are skill loads.
 
-8. **Phase 2: weapon-forge.** Load `ai-tools/skills/weapon-forge/SKILL.md` and follow its instructions to author `SKILL.md`, guides, examples, templates, and `reports/README.md` in the weapon folder. The skill reads the populated `research/` folder. Verify `SKILL.md` exists, is under ~500 lines, and that all canonical subfolders contain at least one file. See `guides/06-phase-2-weapon-forge.md`.
+8. **Phase 2: weapon-forge.** Load `skills/weapon-forge/SKILL.md` and follow its instructions to author `SKILL.md`, guides, examples, templates, and `reports/README.md` in the weapon folder. The skill reads the populated `research/` folder. Verify `SKILL.md` exists, is under ~500 lines, and that all canonical subfolders contain at least one file. See `guides/06-phase-2-weapon-forge.md`.
 
-9. **Phase 3: angel-creator.** Load `ai-tools/skills/angel-creator/SKILL.md` and follow its instructions to author `ai-tools/agents/<guardian-name>.md`. Verify the file exists with valid YAML frontmatter (`name`, `description`, `proactive`) and all six body sections (Identity & responsibility, Paired Weapon, Procedure, Critical directives, Escalation, References to skill files). See `guides/07-phase-3-angel-creator.md`.
+9. **Phase 3: angel-creator.** Load `skills/angel-creator/SKILL.md` and follow its instructions to author `agents/<guardian-name>.md`. Verify the file exists with valid YAML frontmatter (`name`, `description`, `proactive`) and all six body sections (Identity & responsibility, Paired Weapon, Procedure, Critical directives, Escalation, References to skill files). See `guides/07-phase-3-angel-creator.md`.
 
-10. **Phase 4: god-registrar.** Load `ai-tools/skills/god-registrar/SKILL.md` and follow its instructions to (a) add a roster row to `ai-tools/skills/god/SKILL.md` and (b) author `ai-tools/skills/god/guides/<guardian-name>.md` from `ai-tools/skills/god/templates/guide-template.md`. Verify both the row and the guide exist per `guides/08-phase-4-god-registrar.md`.
+10. **Phase 4: god-registrar.** Load `skills/god-registrar/SKILL.md` and follow its instructions to (a) add a roster row to `skills/god/SKILL.md` and (b) author `skills/god/guides/<guardian-name>.md` from `skills/god/templates/guide-template.md`. Verify both the row and the guide exist per `guides/08-phase-4-god-registrar.md`.
 
 11. **Close out.** Per `guides/09-close-out.md`: (a) verify all five durable artifacts exist on disk, (b) delete the row from `proposed-angels-in-process.md`, (c) append the row to `proposed-angels-completed.md` with the canonical row format including the model triplet (see `templates/completed-row.md`), (d) flip the backlog checkbox from `[ ]` to `[x]` in `proposed-angels-backlog.md`.
 
@@ -59,7 +59,7 @@ Slot mode is an additive extension activated when the orchestrator passes `slot=
 3. **Execute Steps 4-9 normally** (backlog lookup, command-center, weapon scaffold, scripture-historian, weapon-forge, angel-creator). All per-Angel artifact paths are unique by guardian name so there are no write races with sibling slots.
 
 4. **Skip Step 10 (god-registrar).** Instead, write three fragment files to `ai-tools/.batch-state/`:
-   - `slot-NN-roster-add.md` — the exact text to append to `ai-tools/skills/god/SKILL.md` (one roster row)
+   - `slot-NN-roster-add.md` — the exact text to append to `skills/god/SKILL.md` (one roster row)
    - `slot-NN-backlog-flip.md` — the exact search string and replacement for flipping the backlog checkbox (format: `SEARCH:### [ ] NNN. guardian-name` / `REPLACE:### [x] NNN. guardian-name`)
    - `slot-NN-completion.md` — the completed-row entry (format per `templates/completed-row.md`)
 
@@ -120,9 +120,9 @@ When uncertain, surface the question rather than producing a lower-confidence ou
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/gods-hand-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/gods-hand-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/gods-hand-weapon/SKILL.md` is the master index; read it first.
+The SKILL.md at `skills/gods-hand-weapon/SKILL.md` is the master index; read it first.
 
 ### Principles and procedures (guides/)
 
@@ -170,5 +170,5 @@ The SKILL.md at `ai-tools/skills/gods-hand-weapon/SKILL.md` is the master index;
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/gods-hand-command-brief.md`](../command-briefs/gods-hand-command-brief.md)*
+*Command Brief: [`command-briefs/gods-hand-command-brief.md`](../command-briefs/gods-hand-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

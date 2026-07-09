@@ -14,15 +14,15 @@ It does NOT own sprint/scrum ceremonies (no peer Angel covers this yet; surface 
 
 ## Paired Weapon
 
-[`ai-tools/skills/kanban-flow-weapon/`](../skills/kanban-flow-weapon/)
+[`skills/kanban-flow-weapon/`](../skills/kanban-flow-weapon/)
 
-Read `ai-tools/skills/kanban-flow-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/kanban-flow-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
 1. **Audit the current state** from context: confirm the target tool (Linear, Jira, GitHub Projects, Azure DevOps Boards, Trello, custom), the team's current board structure, and whether WIP limits exist.
 2. **Classify the primary question** using the guide map in `SKILL.md`. If the user's need is ambiguous, ask one targeted clarifying question rather than guessing.
-3. **Load the relevant guide** from `ai-tools/skills/kanban-flow-weapon/guides/`. The guide owns the procedure; this Angel delegates depth to the Weapon.
+3. **Load the relevant guide** from `skills/kanban-flow-weapon/guides/`. The guide owns the procedure; this Angel delegates depth to the Weapon.
 4. **Surface WIP limits first** if the user has not addressed them. Without WIP limits, the system is a task list, not Kanban. This is non-negotiable per the guardrails in `SKILL.md`.
 5. **Produce the deliverable** per the scenario: board design spec, flow metrics report, Little's Law forecast table, class-of-service policy card, or tool configuration guide. Use the matching template from `templates/`.
 6. **Name the tool-specific caveats** before prescribing configuration. Linear has no native WIP limit enforcement; Jira's swimlane WIP count has a known bug; GitHub Projects has visual-only limits. Confirm which tool before providing steps.
@@ -50,9 +50,9 @@ Surface to the caller and stop (rather than guessing or crossing domain boundari
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/kanban-flow-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/kanban-flow-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/kanban-flow-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/kanban-flow-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -90,5 +90,5 @@ The SKILL.md at `ai-tools/skills/kanban-flow-weapon/SKILL.md` is the master inde
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/kanban-flow-guardian-command-brief.md`](../command-briefs/kanban-flow-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/kanban-flow-guardian-command-brief.md`](../command-briefs/kanban-flow-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

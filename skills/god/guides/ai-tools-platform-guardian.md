@@ -4,9 +4,9 @@ The vibe coder's AI toolbox specialist — AI gateways, model selection, cost op
 
 ---
 
-**Angel:** [`ai-tools/agents/ai-tools-platform-guardian.md`](../../agents/ai-tools-platform-guardian.md)
-**Weapon:** [`ai-tools/skills/ai-tools-platform-weapon/`](../../skills/ai-tools-platform-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/ai-tools-platform-guardian-command-brief.md`](../../../command-briefs/ai-tools-platform-guardian-command-brief.md)
+**Angel:** [`agents/ai-tools-platform-guardian.md`](../../../agents/ai-tools-platform-guardian.md)
+**Weapon:** [`skills/ai-tools-platform-weapon/`](../../ai-tools-platform-weapon/)
+**Command Brief:** [`command-briefs/ai-tools-platform-guardian-command-brief.md`](../../../command-briefs/ai-tools-platform-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -84,4 +84,4 @@ Invoke `ai-tools-platform-guardian` when the user:
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

@@ -111,6 +111,6 @@ Each guide is a self-contained instruction set. Read in order on first use; jump
 
 ---
 
-*Command Brief: `ai-tools/command-briefs/lighthouse-pagespeed-guardian-command-brief.md`*
+*Command Brief: `command-briefs/lighthouse-pagespeed-guardian-command-brief.md`*
 *Research: `research/research-summary.md` (normal depth, 9 sources, May 2026)*
 *Forged by `weapon-forge` as part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama)*

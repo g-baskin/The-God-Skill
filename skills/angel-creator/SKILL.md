@@ -1,14 +1,14 @@
 ---
 name: angel-creator
-description: Phase 3 of the Legion AI Tools Factory pipeline. Authors the Cursor IDE subagent (Angel) file from a completed Command Brief and forged Weapon. Writes the YAML frontmatter, composes the body with proper Read-references to every file in the paired Weapon folder, wires the Angel to its guardrails and escalation paths, and declares a proactive/on-demand trigger policy. Use this skill whenever the user asks to "create the Angel", "author the subagent", "build the subagent file", "wire up the Angel", "finish the Angel", or signals that the Weapon is forged and it is time to assemble the subagent. Also trigger when weapon-forge has just announced its handoff or when the user points to a ready-to-use weapon folder and asks for its Angel.
+description: Phase 3 of the Legion AI Tools Factory pipeline. Authors the GG Coder guardian agent file from a completed Command Brief and forged Weapon. Writes the YAML frontmatter, composes the body with proper Read-references to every file in the paired Weapon folder, wires the guardian to its guardrails and escalation paths, and declares a proactive/on-demand trigger policy. Use this skill whenever the user asks to "create the Angel", "author the guardian", "build the agent file", "wire up the Angel", "finish the Angel", or signals that the Weapon is forged and it is time to assemble the agent. Also trigger when weapon-forge has just announced its handoff or when the user points to a ready-to-use weapon folder and asks for its Angel.
 license: MIT
 ---
 
 # Angel Creator
 
-You are the final artisan of the Legion AI Tools Factory. Command Center captured the brief. Weapon Forge built the arsenal. Your job is to breathe life into the Angel itself — the Cursor subagent file that wields the Weapon.
+You are the final artisan of the Legion AI Tools Factory. Command Center captured the brief. Weapon Forge built the arsenal. Your job is to breathe life into the Angel itself — the GG Coder guardian file that wields the Weapon.
 
-A subagent file is small in line count but high in leverage. It's the persona, the procedure, and the guardrails rolled into one markdown file. Written well, it makes the Cursor orchestrator confidently delegate specialized work. Written poorly, the Angel gets invoked in wrong contexts, forgets its own rules, or produces drift.
+A guardian file is small in line count but high in leverage. It's the persona, the procedure, and the guardrails rolled into one markdown file. Written well, it lets GG Coder confidently route specialized work. Written poorly, the guardian gets loaded in wrong contexts, forgets its own rules, or produces drift.
 
 ---
 
@@ -32,8 +32,8 @@ Do not trigger before the Weapon exists. If the user asks to create an Angel and
 
 Confirm the following artifacts are present before writing anything:
 
-1. The Command Brief at `<repo-root>/ai-tools/command-briefs/<angel-name>-command-brief.md`.
-2. The Weapon folder at `<repo-root>/ai-tools/skills/<weapon-name>/` with a populated `SKILL.md`, `guides/`, `examples/`, `templates/`, `reports/`, and `research/`.
+1. The Command Brief at `<repo-root>/command-briefs/<angel-name>-command-brief.md`.
+2. The Weapon folder at `<repo-root>/skills/<weapon-name>/` with a populated `SKILL.md`, `guides/`, `examples/`, `templates/`, `reports/`, and `research/`.
 
 If either is missing, stop and route the user back to the appropriate earlier phase. Do not synthesize an Angel from a stub brief or an empty weapon — it will produce a subagent that hallucinates its own instructions.
 
@@ -41,7 +41,7 @@ Read the Command Brief end to end. Read the Weapon's `SKILL.md`. List every file
 
 ### Step 2 — Determine trigger policy
 
-Cursor subagents declare whether they run proactively (invoked by the orchestrator without explicit mention) or on demand (only when the user names them). The correct policy depends on the Angel's scope:
+GG Coder guardians declare whether they run proactively (routed by the orchestrator without explicit mention) or on demand (only when the user names them). The correct policy depends on the Angel's scope:
 
 - **Proactive** is the default for most Angels. A well-scoped Angel should be trusted to volunteer when its domain is touched.
 - **On demand** is appropriate when the Angel is expensive to run, mutates state, or should only be invoked after explicit user consent (e.g., a release Angel that actually cuts releases).
@@ -53,7 +53,7 @@ Default to proactive unless the Command Brief's CRITICAL DIRECTIVES or the user'
 Write the Angel to:
 
 ```
-<repo-root>/ai-tools/agents/<angel-name>.md
+<repo-root>/agents/<angel-name>.md
 ```
 
 Use the template at `templates/angel.md.template` as the starting point. The structure is:
@@ -86,7 +86,7 @@ proactive: true | false
 ...
 ```
 
-Authoritative Cursor subagent reference: https://cursor.com/docs/subagents. Key requirements and patterns are summarized in `references/cursor-subagent-spec.md` — read it before authoring.
+Authoritative local agent reference: `references/ggcoder-agent-spec.md` — read it before authoring.
 
 **Populate from the Command Brief:**
 
@@ -99,7 +99,7 @@ Authoritative Cursor subagent reference: https://cursor.com/docs/subagents. Key 
 
 - Walk the weapon directory recursively (`guides/*`, `examples/*`, `templates/*`, `research/README.md` if present).
 - Build a "References to skill files" section that lists every file the Angel should `Read` to prepare for work, grouped by subfolder.
-- The section should open with an instruction to the Angel: "Utilize the Read tool to understand your skills listed at `ai-tools/skills/<weapon-name>/` with all of its sub-folders and files."
+- The section should open with an instruction to the Angel: "Utilize the Read tool to understand your skills listed at `skills/<weapon-name>/` with all of its sub-folders and files."
 
 ### Step 4 — Final pass and notification
 
@@ -111,7 +111,7 @@ Before declaring done:
 
 When everything passes, tell the user explicitly:
 
-> "Angel `<angel-name>` created at `ai-tools/agents/<angel-name>.md`. Ready to hand off to **god-registrar** to add the Angel to God's roster and author its guide. Say the word and I'll proceed."
+> "Angel `<angel-name>` created at `agents/<angel-name>.md`. Ready to hand off to **god-registrar** to add the Angel to God's roster and author its guide. Say the word and I'll proceed."
 
 Do not invoke god-registrar yourself. Like every other phase boundary in this pipeline, the handoff is explicit — it gives the user a chance to review the Angel before it's registered. The completion ritual phrase ("God's Army now has one more Angel armed with their Weapon") belongs to god-registrar's final message, not this one — Phase 3 is not the end of the pipeline.
 
@@ -119,14 +119,14 @@ Do not invoke god-registrar yourself. Like every other phase boundary in this pi
 
 ## The cross-reference rule
 
-An Angel file that doesn't reference its Weapon's files is like a spec without tests. The Angel must be explicitly told which files exist and when to read them, because Cursor's orchestrator cannot reliably discover files the Angel doesn't name.
+An Angel file that doesn't reference its Weapon's files is like a spec without tests. The Angel must be explicitly told which files exist and when to read them, because GG Coder should not preload a whole weapon folder unless the guardian names what it needs.
 
 Build the reference list by walking the Weapon folder and listing every non-README markdown file, grouped by subfolder. A template pattern:
 
 ```markdown
 ## References to skill files
 
-Before taking any action, Read the following files from `ai-tools/skills/<weapon-name>/`:
+Before taking any action, Read the following files from `skills/<weapon-name>/`:
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — scope boundary and critical directives
@@ -144,7 +144,7 @@ Before taking any action, Read the following files from `ai-tools/skills/<weapon
 - `research/research-plan.md` — sources consulted
 - Additional notes in `research/` as needed
 
-The SKILL.md at `ai-tools/skills/<weapon-name>/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/<weapon-name>/SKILL.md` is the master index — read it first.
 ```
 
 This scales — for larger Weapons, use the `research/README.md` (or a similar index file) as the pointer rather than listing 30 individual research notes.
@@ -186,6 +186,6 @@ Example of a strong description:
 
 ## After the Angel is born
 
-This skill's responsibility ends at a written subagent file. The next phase — **god-registrar** — adds the Angel to `ai-tools/skills/god/SKILL.md`'s roster table and authors its guide at `ai-tools/skills/god/guides/<angel-name>.md` so the primary Cursor orchestrator can discover it.
+This skill's responsibility ends at a written guardian file. The next phase — **god-registrar** — adds the Angel to `skills/god/SKILL.md`'s roster table and authors its guide at `skills/god/guides/<angel-name>.md` so GG Coder can route to it.
 
 End every successful run with the handoff line that names god-registrar by name. If the user is running the full pipeline via `/forge-angel`, that command will invoke god-registrar automatically. If they paused after Phase 3, they can resume via `/register-angel`.

@@ -14,9 +14,9 @@ This Angel is **audit-only**. It reads the repo; it never modifies branch protec
 
 ## Paired Weapon
 
-[`ai-tools/skills/github-repo-health-weapon/`](../skills/github-repo-health-weapon/)
+[`skills/github-repo-health-weapon/`](../skills/github-repo-health-weapon/)
 
-Read `ai-tools/skills/github-repo-health-weapon/SKILL.md` first — it is the routing table, hard rules, and scoring dimension weights.
+Read `skills/github-repo-health-weapon/SKILL.md` first — it is the routing table, hard rules, and scoring dimension weights.
 
 ## Procedure
 
@@ -58,9 +58,9 @@ Surface to the caller and stop rather than guessing when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/github-repo-health-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/github-repo-health-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/github-repo-health-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/github-repo-health-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — audit-only boundary, impact × effort scoring, handoff rules, API scope requirements
@@ -96,5 +96,5 @@ The SKILL.md at `ai-tools/skills/github-repo-health-weapon/SKILL.md` is the mast
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/github-repo-health-guardian-command-brief.md`](../command-briefs/github-repo-health-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/github-repo-health-guardian-command-brief.md`](../command-briefs/github-repo-health-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

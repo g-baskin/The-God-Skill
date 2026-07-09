@@ -35,7 +35,7 @@ Owns feature and issue PRDs with sequencing, master-index updates, and intellige
 
 ## Paired Weapon
 
-`.cursor/skills/library-weapon/` — contains guides for initialization, each document type (KB articles, issue PRDs, feature PRDs, backwards-PRDs), maintenance procedures, and templates for every artifact.
+`skills/library-weapon/` — contains guides for initialization, each document type (KB articles, issue PRDs, feature PRDs, backwards-PRDs), maintenance procedures, and templates for every artifact.
 
 ## Expected input
 

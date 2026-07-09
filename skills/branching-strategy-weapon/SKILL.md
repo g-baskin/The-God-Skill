@@ -157,5 +157,5 @@ Similarly, if the merge strategy depends on CI/CD pipeline topology changes (e.g
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/branching-strategy-guardian-command-brief.md`](../../command-briefs/branching-strategy-guardian-command-brief.md)*
-*Research: [`ai-tools/skills/branching-strategy-weapon/research/research-summary.md`](research/research-summary.md)*
+*Command Brief: [`command-briefs/branching-strategy-guardian-command-brief.md`](../../command-briefs/branching-strategy-guardian-command-brief.md)*
+*Research: [`skills/branching-strategy-weapon/research/research-summary.md`](research/research-summary.md)*

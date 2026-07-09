@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `python-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/python-guardian.md`](../../../agents/python-guardian.md)
-**Weapon:** [`ai-tools/skills/python-weapon/`](../../python-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/python-guardian-command-brief.md`](../../../command-briefs/python-guardian-command-brief.md)
+**Angel:** [`agents/python-guardian.md`](../../../agents/python-guardian.md)
+**Weapon:** [`skills/python-weapon/`](../../python-weapon/)
+**Command Brief:** [`command-briefs/python-guardian-command-brief.md`](../../../command-briefs/python-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -91,4 +91,4 @@ Every finding cites (a) `path/to/file.py:LN` in the user's codebase and (b) the 
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

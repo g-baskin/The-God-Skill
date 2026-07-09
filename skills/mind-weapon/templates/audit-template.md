@@ -111,9 +111,9 @@ Ratings: 🟢 Solid · 🟡 Drifting · 🔴 Needs work
 ## Sources
 
 - `library/knowledge-base/ai/<doc>.md` — relevant docs cited in this audit
-- `.cursor/skills/mind-weapon/guides/<n>.md` — relevant guides
-- `.cursor/skills/mind-weapon/research/<note>.md` — relevant research notes
+- `skills/mind-weapon/guides/<n>.md` — relevant guides
+- `skills/mind-weapon/research/<note>.md` — relevant research notes
 
 ---
 
-*Authored by mind-guardian. Audit shape canonicalized in `.cursor/skills/mind-weapon/templates/audit-template.md`.*
+*Authored by mind-guardian. Audit shape canonicalized in `skills/mind-weapon/templates/audit-template.md`.*

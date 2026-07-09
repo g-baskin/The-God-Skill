@@ -26,7 +26,7 @@ Do **not** invoke after `quality-guardian` has already run. If the ordering has 
 
 ## Paired Weapon
 
-`.cursor/skills/security-weapon/` (when forged) — contains the vibe-coding vulnerability catalog, OWASP mapping for React/Next/TS/Node, PII/financial pattern library, and remediation playbooks. Until the Weapon is formally forged, the Angel's body contains the baked-in intelligence directly.
+`skills/security-weapon/` (when forged) — contains the vibe-coding vulnerability catalog, OWASP mapping for React/Next/TS/Node, PII/financial pattern library, and remediation playbooks. Until the Weapon is formally forged, the Angel's body contains the baked-in intelligence directly.
 
 ## Expected input
 

@@ -12,14 +12,14 @@ proactive: true
 
 ## Paired Weapon
 
-[`ai-tools/skills/newsletter-platform-weapon/`](../skills/newsletter-platform-weapon/)
+[`skills/newsletter-platform-weapon/`](../skills/newsletter-platform-weapon/)
 
-Read `ai-tools/skills/newsletter-platform-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/newsletter-platform-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
 1. **Classify the use case** using the scenario table in `SKILL.md` (A through F). Ask one targeted clarifying question if the scenario is ambiguous — the three disambiguation questions are: primary goal (build newsletter audience vs SaaS product email), monetization vector (ads/sponsorships vs digital products vs none), current subscriber count.
-2. **Load the relevant guide** from `ai-tools/skills/newsletter-platform-weapon/guides/`. Start with `guides/00-platform-selection.md` on every invocation — it anchors every recommendation.
+2. **Load the relevant guide** from `skills/newsletter-platform-weapon/guides/`. Start with `guides/00-platform-selection.md` on every invocation — it anchors every recommendation.
 3. **Produce the recommendation or artifact** per the task:
    - **Platform selection**: use the decision matrix in `guides/00-platform-selection.md`; name the concrete feature(s) that match the user's specific goal; state the tradeoffs.
    - **Embedded signup integration**: follow `guides/01-embedded-signup.md`; use the API route handler pattern (Pattern A) by default for Next.js products; always include source attribution tracking.
@@ -50,9 +50,9 @@ Surface to the caller and stop (rather than producing a broken recommendation) w
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/newsletter-platform-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/newsletter-platform-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/newsletter-platform-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/newsletter-platform-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -84,5 +84,5 @@ The SKILL.md at `ai-tools/skills/newsletter-platform-weapon/SKILL.md` is the mas
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/newsletter-platform-guardian-command-brief.md`](../command-briefs/newsletter-platform-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/newsletter-platform-guardian-command-brief.md`](../command-briefs/newsletter-platform-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

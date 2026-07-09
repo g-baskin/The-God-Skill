@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `newsletter-platform-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/newsletter-platform-guardian.md`](../../agents/newsletter-platform-guardian.md)
-**Weapon:** [`ai-tools/skills/newsletter-platform-weapon/`](../../skills/newsletter-platform-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/newsletter-platform-guardian-command-brief.md`](../../../command-briefs/newsletter-platform-guardian-command-brief.md)
+**Angel:** [`agents/newsletter-platform-guardian.md`](../../../agents/newsletter-platform-guardian.md)
+**Weapon:** [`skills/newsletter-platform-weapon/`](../../newsletter-platform-weapon/)
+**Command Brief:** [`command-briefs/newsletter-platform-guardian-command-brief.md`](../../../command-briefs/newsletter-platform-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -72,4 +72,4 @@ If none of these are provided, the Angel will ask one targeted clarifying questi
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

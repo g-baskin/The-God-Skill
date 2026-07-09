@@ -40,7 +40,7 @@ Do **not** invoke before the auth PRD lands — that's `library-guardian`. auth-
 
 ## Paired Weapon
 
-`.cursor/skills/auth-weapon/` — contains the master index (SKILL.md) with invocation modes and severity rubric, 12 guides covering principles, the provider decision tree, four provider deep-dives, the Google OAuth + verification deep dives, MFA / passkeys, RBAC, session storage, and the common-failure-modes catalog; 6 templates (provider matrix, consent-screen checklist, scope justification, cookie config, RBAC table, audit handoff); 2 deterministic scripts (`validate-oauth-scopes.ts`, `cookie-attribute-checker.ts`); 3 worked examples (B2C Clerk + Google OAuth, B2B WorkOS SSO, Better Auth from scratch); and the dated research trail.
+`skills/auth-weapon/` — contains the master index (SKILL.md) with invocation modes and severity rubric, 12 guides covering principles, the provider decision tree, four provider deep-dives, the Google OAuth + verification deep dives, MFA / passkeys, RBAC, session storage, and the common-failure-modes catalog; 6 templates (provider matrix, consent-screen checklist, scope justification, cookie config, RBAC table, audit handoff); 2 deterministic scripts (`validate-oauth-scopes.ts`, `cookie-attribute-checker.ts`); 3 worked examples (B2C Clerk + Google OAuth, B2B WorkOS SSO, Better Auth from scratch); and the dated research trail.
 
 ## Expected input
 

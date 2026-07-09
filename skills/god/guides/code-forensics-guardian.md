@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `code-forensics-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/code-forensics-guardian.md`](../../../agents/code-forensics-guardian.md)
-**Weapon:** [`ai-tools/skills/code-forensics-weapon/`](../../code-forensics-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/code-forensics-guardian-command-brief.md`](../../../command-briefs/code-forensics-guardian-command-brief.md)
+**Angel:** [`agents/code-forensics-guardian.md`](../../../agents/code-forensics-guardian.md)
+**Weapon:** [`skills/code-forensics-weapon/`](../../code-forensics-weapon/)
+**Command Brief:** [`command-briefs/code-forensics-guardian-command-brief.md`](../../../command-briefs/code-forensics-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -80,4 +80,4 @@ If the project name, client identification, defendants, or at least one source m
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

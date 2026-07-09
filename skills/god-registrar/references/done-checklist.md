@@ -6,21 +6,21 @@ Walk this before announcing registration is complete. Each item should be "done"
 
 ## Inputs verified
 
-- [ ] Command Brief exists at `ai-tools/command-briefs/<angel-name>-command-brief.md`.
-- [ ] Weapon folder exists at `ai-tools/skills/<weapon-name>/` with a populated `SKILL.md`.
-- [ ] Angel file exists at `ai-tools/agents/<angel-name>.md`.
+- [ ] Command Brief exists at `command-briefs/<angel-name>-command-brief.md`.
+- [ ] Weapon folder exists at `skills/<weapon-name>/` with a populated `SKILL.md`.
+- [ ] Angel file exists at `agents/<angel-name>.md`.
 - [ ] God's `SKILL.md`, `templates/guide-template.md`, and `guides/` folder all exist.
 
 ## Collision check
 
 - [ ] No prior roster row exists for this Angel (or the user explicitly approved replacing it).
-- [ ] No prior guide file exists at `ai-tools/skills/god/guides/<angel-name>.md` (or the user approved overwriting it).
+- [ ] No prior guide file exists at `skills/god/guides/<angel-name>.md` (or the user approved overwriting it).
 
 ## Guide file (`guides/<angel-name>.md`)
 
 - [ ] File exists at the correct path.
 - [ ] Title and `{{angel-name}}` references replaced with real values.
-- [ ] Angel, Weapon, and Command Brief links in the top-matter point at real files using current `ai-tools/` paths.
+- [ ] Guardian, Weapon, and Command Brief links in the top-matter point at real files using current GG Coder paths.
 - [ ] Domain paragraph is 3–5 sentences, lifted from the Command Brief.
 - [ ] Trigger phrases section lists 3+ realistic user phrases.
 - [ ] "Do NOT route when" section is non-empty (or explicitly notes "no known competing Angels").
@@ -47,7 +47,7 @@ Walk this before announcing registration is complete. Each item should be "done"
 ## Cross-references
 
 - [ ] Every link in the new guide resolves on disk.
-- [ ] The Angel file (`ai-tools/agents/<angel-name>.md`) is reachable from the guide.
+- [ ] The Angel file (`agents/<angel-name>.md`) is reachable from the guide.
 - [ ] The Weapon folder is reachable from the guide.
 - [ ] The Command Brief is reachable from the guide.
 

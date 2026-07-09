@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `lighthouse-pagespeed-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/lighthouse-pagespeed-guardian.md`](../../agents/lighthouse-pagespeed-guardian.md)
-**Weapon:** [`ai-tools/skills/lighthouse-pagespeed-weapon/`](../../skills/lighthouse-pagespeed-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/lighthouse-pagespeed-guardian-command-brief.md`](../../command-briefs/lighthouse-pagespeed-guardian-command-brief.md)
+**Angel:** [`agents/lighthouse-pagespeed-guardian.md`](../../../agents/lighthouse-pagespeed-guardian.md)
+**Weapon:** [`skills/lighthouse-pagespeed-weapon/`](../../lighthouse-pagespeed-weapon/)
+**Command Brief:** [`command-briefs/lighthouse-pagespeed-guardian-command-brief.md`](../../../command-briefs/lighthouse-pagespeed-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -80,4 +80,4 @@ If the scenario is ambiguous, `lighthouse-pagespeed-guardian` will ask one targe
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

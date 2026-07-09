@@ -1,6 +1,6 @@
 ---
 name: big-bang-earth
-description: Equips the big-bang-space subagent with the canonical rubric, format, and routing logic for proposing brand new Angels (Cursor IDE subagents) into the Legion AI Tools Factory. Use whenever a new guardian needs to be added to `ai-tools/proposed-angels-backlog.md` plus `ai-tools/proposed-angels-queue.md`. Encodes the four-tier research depth rubric, the three-role model routing (Research / Analyst / Builder), the category overrides (math_science, cli_devops, self_hosted_open), the exact backlog entry shape, the exact queue row shape, the search-query authoring discipline, and the position-numbering invariants. Not for editing existing entries, claiming queue rows, or running downstream pipeline steps (command-brief, weapon-forge, create-angel, god-register); those are owned by other skills and agents.
+description: Equips the big-bang-space subagent with the canonical rubric, format, and routing logic for proposing brand new Angels (GG Coder guardians) into the Legion AI Tools Factory. Use whenever a new guardian needs to be added to `ai-tools/proposed-angels-backlog.md` plus `ai-tools/proposed-angels-queue.md`. Encodes the four-tier research depth rubric, the three-role model routing (Research / Analyst / Builder), the category overrides (math_science, cli_devops, self_hosted_open), the exact backlog entry shape, the exact queue row shape, the search-query authoring discipline, and the position-numbering invariants. Not for editing existing entries, claiming queue rows, or running downstream pipeline steps (command-brief, weapon-forge, create-angel, god-register); those are owned by other skills and agents.
 ---
 
 # big-bang-earth
@@ -50,7 +50,7 @@ Conventions, in order:
 4. If the domain is a multi-product comparator, include the comparison axis. `orm-comparison-guardian`, not just `orm-guardian`.
 5. If the domain is a specific named platform plus the surrounding surface, prefer the platform name first. `supabase-guardian`, `firebase-guardian`, `cloudflare-guardian`.
 6. If the domain is a generic concern with no canonical platform, name the concern. `multi-tenancy-saas-guardian`, `data-modeling-guardian`, `caching-strategy-guardian`.
-7. Never reuse a name that already exists in the backlog, the queue, the completed list, or `ai-tools/skills/god/SKILL.md`. Check all four before committing.
+7. Never reuse a name that already exists in the backlog, the queue, the completed list, or `skills/god/SKILL.md`. Check all four before committing.
 
 ## Step 3: Pick the Research Depth
 
@@ -280,4 +280,4 @@ Update the `totals.rows` field inside the queue's YAML frontmatter to match the 
 4. Search queries without a year. Old training data leaks in immediately.
 5. Vague domains. "Helpful AI assistant for backend stuff" is not an Angel. The caller must name a platform, a concern, or a discipline.
 6. Guardian names without the `-guardian` suffix.
-7. Editing `ai-tools/skills/god/SKILL.md` from here. Registration is the final pipeline step, owned by `god-register`, not by this skill.
+7. Editing `skills/god/SKILL.md` from here. Registration is the final pipeline step, owned by `god-register`, not by this skill.

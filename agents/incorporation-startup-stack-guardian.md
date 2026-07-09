@@ -14,9 +14,9 @@ proactive: false
 
 ## Paired Weapon
 
-[`ai-tools/skills/incorporation-startup-stack-weapon/`](../skills/incorporation-startup-stack-weapon/)
+[`skills/incorporation-startup-stack-weapon/`](../skills/incorporation-startup-stack-weapon/)
 
-Read `ai-tools/skills/incorporation-startup-stack-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/incorporation-startup-stack-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -58,9 +58,9 @@ Stop the formation flow and surface to the caller when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/incorporation-startup-stack-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/incorporation-startup-stack-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/incorporation-startup-stack-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/incorporation-startup-stack-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -96,5 +96,5 @@ The SKILL.md at `ai-tools/skills/incorporation-startup-stack-weapon/SKILL.md` is
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/incorporation-startup-stack-guardian-command-brief.md`](../command-briefs/incorporation-startup-stack-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/incorporation-startup-stack-guardian-command-brief.md`](../command-briefs/incorporation-startup-stack-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

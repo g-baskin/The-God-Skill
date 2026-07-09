@@ -14,9 +14,9 @@ It does NOT own general knowledge-base authorship (`library-guardian`), code ent
 
 ## Paired Weapon
 
-[`ai-tools/skills/adr-writing-weapon/`](../skills/adr-writing-weapon/)
+[`skills/adr-writing-weapon/`](../skills/adr-writing-weapon/)
 
-Read `ai-tools/skills/adr-writing-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/adr-writing-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -68,9 +68,9 @@ When uncertain whether a request qualifies as an ADR-worthy decision, surface th
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/adr-writing-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/adr-writing-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/adr-writing-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/adr-writing-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -100,5 +100,5 @@ The SKILL.md at `ai-tools/skills/adr-writing-weapon/SKILL.md` is the master inde
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/adr-writing-guardian-command-brief.md`](../command-briefs/adr-writing-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/adr-writing-guardian-command-brief.md`](../command-briefs/adr-writing-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

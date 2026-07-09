@@ -2,7 +2,7 @@
 
 **File:** `ai-tools/.batch-state/slot-NN-roster-add.md`
 
-**Purpose:** Contains exactly the table row god-registrar would have written to `ai-tools/skills/god/SKILL.md`. The orchestrator appends this to the roster table after all slots in the batch complete.
+**Purpose:** Contains exactly the table row god-registrar would have written to `skills/god/SKILL.md`. The orchestrator appends this to the roster table after all slots in the batch complete.
 
 ---
 
@@ -32,9 +32,9 @@ The file contains a single markdown table row with three pipe-delimited columns,
 
 After all slots in a batch have written `.done` signals, the orchestrator:
 
-1. Loads `ai-tools/skills/god/SKILL.md`.
+1. Loads `skills/god/SKILL.md`.
 2. Finds the roster table (the `## Roster` section or equivalent).
 3. Appends the content of `slot-NN-roster-add.md` as the last row of the table.
-4. Invokes the `god-registrar` skill for god-guide authorship (the guide file at `ai-tools/skills/god/guides/<guardian-name>.md` must also be created — god-registrar does this step, not the slot agent).
+4. Invokes the `god-registrar` skill for god-guide authorship (the guide file at `skills/god/guides/<guardian-name>.md` must also be created — god-registrar does this step, not the slot agent).
 
 **Note:** The slot agent writes this fragment; god-registrar reads it during the serial phase and handles the `god/guides/` file. They are complementary, not redundant.

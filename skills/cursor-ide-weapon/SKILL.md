@@ -137,11 +137,11 @@ Error handling: all errors extend `CursorAgentError { isRetryable, code }`. Clou
 
 | Role | Artifact |
 |---|---|
-| This weapon | `ai-tools/skills/cursor-ide-weapon/` |
-| Paired Angel | `ai-tools/agents/cursor-ide-guardian.md` |
-| Command Brief | `ai-tools/command-briefs/cursor-ide-guardian-command-brief.md` |
-| Cursor SDK skill (installed) | `.cursor/skills-cursor/sdk/SKILL.md` |
-| create-rule skill | `.cursor/skills-cursor/create-rule/SKILL.md` |
+| This weapon | `skills/cursor-ide-weapon/` |
+| Paired Angel | `agents/cursor-ide-guardian.md` |
+| Command Brief | `command-briefs/cursor-ide-guardian-command-brief.md` |
+| Cursor SDK reference | External Cursor SDK docs, not a GG Coder dependency |
+| Cursor rule authoring reference | External Cursor rules docs, not a GG Coder dependency |
 
 ---
 

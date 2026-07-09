@@ -6,7 +6,7 @@
  * finding (hand to security-guardian).
  *
  * Run:
- *   pnpm tsx .cursor/skills/mind-weapon/scripts/audit-tenant-id-filters.ts <api-src-path>
+ *   pnpm tsx skills/mind-weapon/scripts/audit-tenant-id-filters.ts <api-src-path>
  *   # default api-src-path: api/src
  *
  * Detection logic:

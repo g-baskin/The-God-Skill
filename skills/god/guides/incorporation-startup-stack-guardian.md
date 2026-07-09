@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `incorporation-startup-stack-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/incorporation-startup-stack-guardian.md`](../../agents/incorporation-startup-stack-guardian.md)
-**Weapon:** [`ai-tools/skills/incorporation-startup-stack-weapon/`](../../skills/incorporation-startup-stack-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/incorporation-startup-stack-guardian-command-brief.md`](../../../ai-tools/command-briefs/incorporation-startup-stack-guardian-command-brief.md)
+**Angel:** [`agents/incorporation-startup-stack-guardian.md`](../../../agents/incorporation-startup-stack-guardian.md)
+**Weapon:** [`skills/incorporation-startup-stack-weapon/`](../../incorporation-startup-stack-weapon/)
+**Command Brief:** [`command-briefs/incorporation-startup-stack-guardian-command-brief.md`](../../../command-briefs/incorporation-startup-stack-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -81,4 +81,4 @@ If required inputs are missing, ask the user to supply them before invoking.
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

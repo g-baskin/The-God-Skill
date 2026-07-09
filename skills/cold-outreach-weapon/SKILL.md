@@ -133,4 +133,4 @@ Critical rule: Apollo does NOT run email warmup. Always pair with a sending plat
 
 ---
 
-*Forged from `ai-tools/command-briefs/cold-outreach-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*
+*Forged from `command-briefs/cold-outreach-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

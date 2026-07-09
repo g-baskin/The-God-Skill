@@ -5,7 +5,7 @@
  * summarizes by tenant + coach, flags anything below 0.4 sustained.
  *
  * Run:
- *   pnpm tsx .cursor/skills/mind-weapon/scripts/retrieval-precision-snapshot.ts \
+ *   pnpm tsx skills/mind-weapon/scripts/retrieval-precision-snapshot.ts \
  *     --tenantId=<id> --window=7d
  *   # window options: 24h | 7d | 30d
  *

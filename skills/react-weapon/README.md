@@ -1,6 +1,6 @@
 # react-weapon
 
-Cursor skill that equips **react-guardian** to be the Army's authority on bleeding-edge React architecture, patterns, and code quality for 2025-2026. Encodes the bulletproof-react architectural pillars, the awesome-react curated ecosystem, and React 19/Compiler idioms into guides, examples, templates, and scanning scripts.
+GG Coder skill that equips **react-guardian** to be the Army's authority on bleeding-edge React architecture, patterns, and code quality for 2025-2026. Encodes the bulletproof-react architectural pillars, the awesome-react curated ecosystem, and React 19/Compiler idioms into guides, examples, templates, and scanning scripts.
 
 Entry point: `SKILL.md`.
 

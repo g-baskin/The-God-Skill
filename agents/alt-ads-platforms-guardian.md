@@ -18,9 +18,9 @@ It does NOT own: Meta Ads / Facebook Ads / Instagram Ads (no peer Angel — hand
 
 ## Paired Weapon
 
-[`ai-tools/skills/alt-ads-platforms-weapon/`](../skills/alt-ads-platforms-weapon/)
+[`skills/alt-ads-platforms-weapon/`](../skills/alt-ads-platforms-weapon/)
 
-Read `ai-tools/skills/alt-ads-platforms-weapon/SKILL.md` first — it is the master index with the routing table, platform benchmark quick-reference, and open questions.
+Read `skills/alt-ads-platforms-weapon/SKILL.md` first — it is the master index with the routing table, platform benchmark quick-reference, and open questions.
 
 ## Procedure
 
@@ -67,9 +67,9 @@ Read `ai-tools/skills/alt-ads-platforms-weapon/SKILL.md` first — it is the mas
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/alt-ads-platforms-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/alt-ads-platforms-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/alt-ads-platforms-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/alt-ads-platforms-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -113,5 +113,5 @@ The SKILL.md at `ai-tools/skills/alt-ads-platforms-weapon/SKILL.md` is the maste
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/alt-ads-platforms-guardian-command-brief.md`](../command-briefs/alt-ads-platforms-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/alt-ads-platforms-guardian-command-brief.md`](../command-briefs/alt-ads-platforms-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

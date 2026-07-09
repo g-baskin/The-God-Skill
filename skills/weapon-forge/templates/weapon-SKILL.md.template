@@ -57,5 +57,5 @@ See `research/research-plan.md` for the sources behind the rules in this skill.
 
 ---
 
-*Paired Angel: `ai-tools/agents/{{angel-name}}.md`*
-*Command Brief: `ai-tools/command-briefs/{{angel-name}}-command-brief.md`*
+*Paired Angel: `agents/{{angel-name}}.md`*
+*Command Brief: `command-briefs/{{angel-name}}-command-brief.md`*

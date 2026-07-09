@@ -14,9 +14,9 @@ It does NOT own incident management tooling configuration (PagerDuty/OpsGenie �
 
 ## Paired Weapon
 
-[`ai-tools/skills/runbook-writing-weapon/`](../skills/runbook-writing-weapon/)
+[`skills/runbook-writing-weapon/`](../skills/runbook-writing-weapon/)
 
-Read `ai-tools/skills/runbook-writing-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/runbook-writing-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -66,9 +66,9 @@ When a runbook audit reveals ambiguous escalation contacts (the person no longer
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/runbook-writing-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/runbook-writing-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/runbook-writing-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/runbook-writing-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -88,7 +88,7 @@ The SKILL.md at `ai-tools/skills/runbook-writing-weapon/SKILL.md` is the master 
 
 ### Output templates (templates/)
 
-Templates in `ai-tools/skills/runbook-writing-weapon/templates/`:
+Templates in `skills/runbook-writing-weapon/templates/`:
 
 - `templates/break-fix-runbook.md` — canonical break-fix template with all required sections pre-filled (Alert context, Prerequisites, Steps, Escalation, Rollback, Test Status, Postmortem links)
 - `templates/scheduled-operation-runbook.md` — planned maintenance window template
@@ -102,5 +102,5 @@ Templates in `ai-tools/skills/runbook-writing-weapon/templates/`:
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/runbook-writing-guardian-command-brief.md`](../command-briefs/runbook-writing-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/runbook-writing-guardian-command-brief.md`](../command-briefs/runbook-writing-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

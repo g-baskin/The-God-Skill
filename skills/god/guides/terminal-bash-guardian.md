@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `terminal-bash-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/terminal-bash-guardian.md`](../../agents/terminal-bash-guardian.md)
-**Weapon:** [`ai-tools/skills/terminal-bash-weapon/`](../../skills/terminal-bash-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/terminal-bash-guardian-command-brief.md`](../../../command-briefs/terminal-bash-guardian-command-brief.md)
+**Angel:** [`agents/terminal-bash-guardian.md`](../../../agents/terminal-bash-guardian.md)
+**Weapon:** [`skills/terminal-bash-weapon/`](../../terminal-bash-weapon/)
+**Command Brief:** [`command-briefs/terminal-bash-guardian-command-brief.md`](../../../command-briefs/terminal-bash-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -68,4 +68,4 @@ Before invoking, ensure the user has provided (or you can infer):
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

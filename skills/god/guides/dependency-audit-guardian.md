@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `dependency-audit-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/dependency-audit-guardian.md`](../../agents/dependency-audit-guardian.md)
-**Weapon:** [`ai-tools/skills/dependency-audit-weapon/`](../../skills/dependency-audit-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/dependency-audit-guardian-command-brief.md`](../../../command-briefs/dependency-audit-guardian-command-brief.md)
+**Angel:** [`agents/dependency-audit-guardian.md`](../../../agents/dependency-audit-guardian.md)
+**Weapon:** [`skills/dependency-audit-weapon/`](../../dependency-audit-weapon/)
+**Command Brief:** [`command-briefs/dependency-audit-guardian-command-brief.md`](../../../command-briefs/dependency-audit-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -74,4 +74,4 @@ If language/package manager is missing, ask before invoking — the decision mat
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

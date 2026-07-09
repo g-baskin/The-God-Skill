@@ -38,7 +38,7 @@ Do **not** invoke for marketing copy or keyword research — that is a content A
 
 ## Paired Weapon
 
-`.cursor/skills/seo-aeo-weapon/` — contains the master index (SKILL.md) with four invocation modes (audit / implementation / remediation / phased rollout), 12 guides mirroring the canonical playbook's §1–§12 table of contents, 10 production-ready templates, 3 deterministic validation scripts, 3 worked examples, report templates, and a 10-note research trail with a 90-day refresh cadence.
+`skills/seo-aeo-weapon/` — contains the master index (SKILL.md) with four invocation modes (audit / implementation / remediation / phased rollout), 12 guides mirroring the canonical playbook's §1–§12 table of contents, 10 production-ready templates, 3 deterministic validation scripts, 3 worked examples, report templates, and a 10-note research trail with a 90-day refresh cadence.
 
 ## Expected input
 

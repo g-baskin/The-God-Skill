@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `website-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`army/.cursor/agents/website-guardian.md`](../../agents/website-guardian.md)
-**Weapon:** [`army/.cursor/skills/website-weapon/`](../../skills/website-weapon/)
-**Command Brief:** [`army/website-guardian-command-brief.md`](../../../website-guardian-command-brief.md)
+**Angel:** [`agents/website-guardian.md`](../../../agents/website-guardian.md)
+**Weapon:** [`skills/website-weapon/`](../../website-weapon/)
+**Command Brief:** [`command-briefs/website-guardian-command-brief.md`](../../../command-briefs/website-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -72,4 +72,4 @@ If the brand colors or repo path are missing, do not invoke yet — ask the user
 
 ---
 
-*Part of God's roster. See [`army/.cursor/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

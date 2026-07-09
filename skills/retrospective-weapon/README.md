@@ -8,5 +8,5 @@ This weapon exists because most retrospectives produce boards, not behavior chan
 
 See `SKILL.md` for the master index and the read order.
 
-**Source:** `ai-tools/command-briefs/retrospective-guardian-command-brief.md`
+**Source:** `command-briefs/retrospective-guardian-command-brief.md`
 **Research base:** `research/research-summary.md` (normal depth, 2025-11 to 2026-05 window)

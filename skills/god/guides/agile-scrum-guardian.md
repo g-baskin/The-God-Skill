@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `agile-scrum-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/agile-scrum-guardian.md`](../../agents/agile-scrum-guardian.md)
-**Weapon:** [`ai-tools/skills/agile-scrum-weapon/`](../../skills/agile-scrum-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/agile-scrum-guardian-command-brief.md`](../../../command-briefs/agile-scrum-guardian-command-brief.md)
+**Angel:** [`agents/agile-scrum-guardian.md`](../../../agents/agile-scrum-guardian.md)
+**Weapon:** [`skills/agile-scrum-weapon/`](../../agile-scrum-weapon/)
+**Command Brief:** [`command-briefs/agile-scrum-guardian-command-brief.md`](../../../command-briefs/agile-scrum-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -83,4 +83,4 @@ If the request is vague ("audit our process"), the Angel will ask one clarifying
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

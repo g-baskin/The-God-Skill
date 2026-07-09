@@ -96,4 +96,4 @@ Researched by `scripture-historian` on 2026-05-20 at normal depth (6-month windo
 
 ---
 
-*Forged by `weapon-forge` from `ai-tools/command-briefs/investor-cap-table-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*
+*Forged by `weapon-forge` from `command-briefs/investor-cap-table-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -15,20 +15,20 @@ The Weapon's name mirrors the Angel's name with a suffix swap:
 
 ## Why mirror the Angel's name?
 
-- **Discoverability**: the primary Cursor agent and the God router find the Weapon by convention; breaking the pattern breaks routing.
-- **Auditability**: when someone sees `security-guardian.md` in `ai-tools/agents/`, they can guess its Weapon lives at `ai-tools/skills/security-weapon/` without a registry lookup.
+- **Discoverability**: GG Coder and the God router find the Weapon by convention; breaking the pattern breaks routing.
+- **Auditability**: when someone sees `security-guardian.md` in `agents/`, they can guess its Weapon lives at `skills/security-weapon/` without a registry lookup.
 - **Consistency**: the roster is constantly growing; every deviation from the convention compounds maintenance cost.
 
 ## Collisions
 
-Before scaffolding, verify no folder named `<weapon-name>` already exists in `ai-tools/skills/`. If it does, the Angel is not actually new — either you're in Phase 3 of an existing Angel by mistake (hand off to angel-creator), or the prior work should be archived before starting fresh.
+Before scaffolding, verify no folder named `<weapon-name>` already exists in `skills/`. If it does, the Angel is not actually new — either you're in Phase 3 of an existing Angel by mistake (hand off to angel-creator), or the prior work should be archived before starting fresh.
 
 ## Folder path
 
 The Weapon folder lives at:
 
 ```
-<repo-root>/ai-tools/skills/<weapon-name>/
+<repo-root>/skills/<weapon-name>/
 ```
 
-This is the deployable skills directory. Do not place Weapons in `<repo-root>/legion-ai-tools-factory/skills/` — that folder is for the Factory's own meta-skills (command-center, weapon-forge, angel-creator), not the Weapons they produce.
+This is the deployable skills directory. Do not place Weapons in a separate factory-internal skills directory; factory meta-skills such as `command-center`, `weapon-forge`, and `angel-creator` are not the Weapons they produce.

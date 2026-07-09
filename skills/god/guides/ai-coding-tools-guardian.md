@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `ai-coding-tools-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/ai-coding-tools-guardian.md`](../../agents/ai-coding-tools-guardian.md)
-**Weapon:** [`ai-tools/skills/ai-coding-tools-weapon/`](../../skills/ai-coding-tools-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/ai-coding-tools-guardian-command-brief.md`](../../../command-briefs/ai-coding-tools-guardian-command-brief.md)
+**Angel:** [`agents/ai-coding-tools-guardian.md`](../../../agents/ai-coding-tools-guardian.md)
+**Weapon:** [`skills/ai-coding-tools-weapon/`](../../ai-coding-tools-weapon/)
+**Command Brief:** [`command-briefs/ai-coding-tools-guardian-command-brief.md`](../../../command-briefs/ai-coding-tools-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -73,4 +73,4 @@ If the user asks a specific question without workflow context, the Angel's five-
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

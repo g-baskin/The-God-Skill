@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `knowledge-base-help-center-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/knowledge-base-help-center-guardian.md`](../../agents/knowledge-base-help-center-guardian.md)
-**Weapon:** [`ai-tools/skills/knowledge-base-help-center-weapon/`](../../skills/knowledge-base-help-center-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/knowledge-base-help-center-guardian-command-brief.md`](../../../command-briefs/knowledge-base-help-center-guardian-command-brief.md)
+**Angel:** [`agents/knowledge-base-help-center-guardian.md`](../../../agents/knowledge-base-help-center-guardian.md)
+**Weapon:** [`skills/knowledge-base-help-center-weapon/`](../../knowledge-base-help-center-weapon/)
+**Command Brief:** [`command-briefs/knowledge-base-help-center-guardian-command-brief.md`](../../../command-briefs/knowledge-base-help-center-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -75,4 +75,4 @@ If any of the above is missing, the Angel will ask one targeted clarifying quest
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

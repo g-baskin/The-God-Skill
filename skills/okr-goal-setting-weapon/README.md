@@ -19,6 +19,6 @@ This weapon encodes the Grove/Doerr OKR canon, the output-vs-input Key Result di
 
 ## Source documents
 
-- Command Brief: `ai-tools/command-briefs/okr-goal-setting-guardian-command-brief.md`
+- Command Brief: `command-briefs/okr-goal-setting-guardian-command-brief.md`
 - Research summary: `research/research-summary.md`
-- Angel file: `ai-tools/agents/okr-goal-setting-guardian.md`
+- Angel file: `agents/okr-goal-setting-guardian.md`

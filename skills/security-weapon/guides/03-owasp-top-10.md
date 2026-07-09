@@ -210,7 +210,7 @@ Leaks verbose error messages and disables optimizations. **Medium**.
 - `npm audit --json --audit-level=high` — any Critical/High advisory = block ship.
 - CVE check against `research/cve-watchlist.md` Tier 1 list.
 - Newly-added dependencies with <100 weekly downloads: investigate for typosquatting / hallucinated deps (see `guides/02-vibe-coding-patterns.md` A5).
-- `.cursor/rules/**` and AI rules files: scan for hidden Unicode (A4).
+- AI rule/instruction files: scan for hidden Unicode (A4).
 - `package.json` `scripts`: any `postinstall` that runs network calls = investigate.
 
 Research: `research/2026-04-24-semgrep-tooling.md`.

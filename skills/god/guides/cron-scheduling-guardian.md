@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `cron-scheduling-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/cron-scheduling-guardian.md`](../../agents/cron-scheduling-guardian.md)
-**Weapon:** [`ai-tools/skills/cron-scheduling-weapon/`](../../skills/cron-scheduling-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/cron-scheduling-guardian-command-brief.md`](../../../command-briefs/cron-scheduling-guardian-command-brief.md)
+**Angel:** [`agents/cron-scheduling-guardian.md`](../../../agents/cron-scheduling-guardian.md)
+**Weapon:** [`skills/cron-scheduling-weapon/`](../../cron-scheduling-weapon/)
+**Command Brief:** [`command-briefs/cron-scheduling-guardian-command-brief.md`](../../../command-briefs/cron-scheduling-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -79,4 +79,4 @@ If the deployment platform is unknown, ask before prescribing a distributed-cron
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

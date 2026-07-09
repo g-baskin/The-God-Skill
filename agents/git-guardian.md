@@ -14,9 +14,9 @@ It does NOT own: CI/CD pipeline configuration triggered by Git events (devops-gu
 
 ## Paired Weapon
 
-[`ai-tools/skills/git-weapon/`](../skills/git-weapon/)
+[`skills/git-weapon/`](../skills/git-weapon/)
 
-Read `ai-tools/skills/git-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/git-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -76,9 +76,9 @@ When uncertain about whether a rewrite is safe (e.g., unclear if the branch is s
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/git-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/git-weapon/` with all of its sub-folders and files.
 
-The `SKILL.md` at `ai-tools/skills/git-weapon/SKILL.md` is the master index — read it first.
+The `SKILL.md` at `skills/git-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -115,5 +115,5 @@ The `SKILL.md` at `ai-tools/skills/git-weapon/SKILL.md` is the master index — 
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/git-guardian-command-brief.md`](../command-briefs/git-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/git-guardian-command-brief.md`](../command-briefs/git-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

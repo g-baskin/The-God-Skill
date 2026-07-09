@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `readme-writing-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/readme-writing-guardian.md`](../../agents/readme-writing-guardian.md)
-**Weapon:** [`ai-tools/skills/readme-writing-weapon/`](../../skills/readme-writing-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/readme-writing-guardian-command-brief.md`](../../../command-briefs/readme-writing-guardian-command-brief.md)
+**Angel:** [`agents/readme-writing-guardian.md`](../../../agents/readme-writing-guardian.md)
+**Weapon:** [`skills/readme-writing-weapon/`](../../readme-writing-weapon/)
+**Command Brief:** [`command-briefs/readme-writing-guardian-command-brief.md`](../../../command-briefs/readme-writing-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -57,7 +57,7 @@ If the project type cannot be inferred and the user has not specified it, ask be
 - **Primary:** An updated or newly created `README.md` written to disk at the specified path.
 - **Audit table:** A pass/fail/warn table emitted inline before any rewrite (so the user can confirm before changes are written).
 - **Done checklist:** A 12-point validation table emitted at the end confirming every section passes.
-- **Optional audit report:** A dated summary at `ai-tools/skills/readme-writing-weapon/reports/YYYY-MM-DD-{project}-readme-audit.md`.
+- **Optional audit report:** A dated summary at `skills/readme-writing-weapon/reports/YYYY-MM-DD-{project}-readme-audit.md`.
 
 ## Multi-Angel sequences this Angel participates in
 
@@ -76,4 +76,4 @@ If the project type cannot be inferred and the user has not specified it, ask be
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

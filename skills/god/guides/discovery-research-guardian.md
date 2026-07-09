@@ -37,7 +37,7 @@ Do **not** invoke when:
 
 ## Paired Weapon
 
-`ai-tools/skills/discovery-research-weapon/` — encodes Teresa Torres' continuous-discovery framework and cadence rules, OST node taxonomy, JTBD interview methodology (Five Acts, progress-forcing context, forces diagram), assumption-mapping 2×2 (DVFU), lightweight prototype experiment patterns, and the "build less, learn more" decision heuristics.
+`skills/discovery-research-weapon/` — encodes Teresa Torres' continuous-discovery framework and cadence rules, OST node taxonomy, JTBD interview methodology (Five Acts, progress-forcing context, forces diagram), assumption-mapping 2×2 (DVFU), lightweight prototype experiment patterns, and the "build less, learn more" decision heuristics.
 
 ## Expected input
 

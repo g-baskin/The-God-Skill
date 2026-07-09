@@ -163,6 +163,6 @@ Key sources consulted:
 
 ---
 
-*Command Brief: `ai-tools/command-briefs/app-store-submission-guardian-command-brief.md`*
-*Research: `ai-tools/skills/app-store-submission-weapon/research/`*
+*Command Brief: `command-briefs/app-store-submission-guardian-command-brief.md`*
+*Research: `skills/app-store-submission-weapon/research/`*
 *Part of the Legion AI Tools Factory. Created 2026-05-20.*

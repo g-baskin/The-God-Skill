@@ -74,11 +74,11 @@ Research: `research/2026-04-24-cve-2025-55182-react2shell.md`.
 
 ---
 
-## A4 — Rules File Backdoor (Hidden Unicode in `.cursor/rules/**`)
+## A4 — Rules File Backdoor (Hidden Unicode in AI rules files)
 
-**Pattern:** Attacker commits a Cursor/Copilot rules file containing zero-width or bidirectional Unicode characters. The AI reads the hidden payload as natural-language instructions; the human reviewer sees a benign file. All future code generation is subverted.
+**Pattern:** Attacker commits a GG Coder, Cursor, Copilot, or other AI instruction file containing zero-width or bidirectional Unicode characters. The AI reads the hidden payload as natural-language instructions; the human reviewer sees a benign file. All future code generation is subverted.
 
-**Scan targets:** `.cursor/rules/**`, `.cursorrules`, `AGENTS.md`, `CLAUDE.md`, `.github/copilot-instructions.md`.
+**Scan targets:** `rules/**`, `.gg/**`, `AGENTS.md`, `CLAUDE.md`, `.github/copilot-instructions.md`, plus legacy Cursor rule files if present.
 
 **Codepoints to detect:** `U+200B`, `U+200C`, `U+200D`, `U+2060`, `U+FEFF`, `U+202A`–`U+202E`, `U+2066`–`U+2069`.
 

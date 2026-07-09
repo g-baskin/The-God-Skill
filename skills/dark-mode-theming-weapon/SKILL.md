@@ -71,4 +71,4 @@ For a standard Next.js 15 App Router + `next-themes` + Tailwind v4 stack:
 
 ---
 
-*Research trail: `research/research-summary.md` | Command Brief: `ai-tools/command-briefs/dark-mode-theming-guardian-command-brief.md`*
+*Research trail: `research/research-summary.md` | Command Brief: `command-briefs/dark-mode-theming-guardian-command-brief.md`*

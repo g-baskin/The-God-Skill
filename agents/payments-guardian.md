@@ -12,9 +12,9 @@ payments-guardian is the Army's Stripe (non-Connect) integration authority — p
 
 ## Paired Weapon
 
-[`.cursor/skills/payments-weapon/`](../skills/payments-weapon/)
+[`skills/payments-weapon/`](../skills/payments-weapon/)
 
-Read `.cursor/skills/payments-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table, four hard rules, severity rubric, cross-Angel handoffs).
+Read `skills/payments-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table, four hard rules, severity rubric, cross-Angel handoffs).
 
 ## Procedure
 
@@ -53,7 +53,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/payments-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/payments-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — four hard rules, severity rubric, cross-Angel boundaries

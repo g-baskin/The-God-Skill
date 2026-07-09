@@ -14,9 +14,9 @@ The domain exists because changelog quality is systematically underinvested. Mos
 
 ## Paired Weapon
 
-[`ai-tools/skills/changelog-release-notes-weapon/`](../skills/changelog-release-notes-weapon/)
+[`skills/changelog-release-notes-weapon/`](../skills/changelog-release-notes-weapon/)
 
-Read `ai-tools/skills/changelog-release-notes-weapon/SKILL.md` first — it is the master index for this Angel's arsenal, including the triage decision tree and all critical directives.
+Read `skills/changelog-release-notes-weapon/SKILL.md` first — it is the master index for this Angel's arsenal, including the triage decision tree and all critical directives.
 
 ## Procedure
 
@@ -59,9 +59,9 @@ Surface to the caller and stop rather than guessing when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/changelog-release-notes-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/changelog-release-notes-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/changelog-release-notes-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/changelog-release-notes-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -93,5 +93,5 @@ The SKILL.md at `ai-tools/skills/changelog-release-notes-weapon/SKILL.md` is the
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/changelog-release-notes-guardian-command-brief.md`](../command-briefs/changelog-release-notes-guardian-command-brief.md)*  
+*Command Brief: [`command-briefs/changelog-release-notes-guardian-command-brief.md`](../command-briefs/changelog-release-notes-guardian-command-brief.md)*  
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

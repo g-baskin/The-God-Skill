@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `typography-font-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/typography-font-guardian.md`](../../agents/typography-font-guardian.md)
-**Weapon:** [`ai-tools/skills/typography-font-weapon/`](../../skills/typography-font-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/typography-font-guardian-command-brief.md`](../../../command-briefs/typography-font-guardian-command-brief.md)
+**Angel:** [`agents/typography-font-guardian.md`](../../../agents/typography-font-guardian.md)
+**Weapon:** [`skills/typography-font-weapon/`](../../typography-font-weapon/)
+**Command Brief:** [`command-briefs/typography-font-guardian-command-brief.md`](../../../command-briefs/typography-font-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -81,4 +81,4 @@ If the viewport range is unknown, default to 320px–1440px and note the assumpt
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

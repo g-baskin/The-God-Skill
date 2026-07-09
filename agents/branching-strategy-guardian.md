@@ -14,9 +14,9 @@ It does NOT configure CI/CD pipelines (that is `devops-guardian`), does NOT auth
 
 ## Paired Weapon
 
-[`ai-tools/skills/branching-strategy-weapon/`](../skills/branching-strategy-weapon/)
+[`skills/branching-strategy-weapon/`](../skills/branching-strategy-weapon/)
 
-Read `ai-tools/skills/branching-strategy-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/branching-strategy-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -66,9 +66,9 @@ When uncertain about whether a team's multi-version requirement genuinely justif
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/branching-strategy-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/branching-strategy-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/branching-strategy-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/branching-strategy-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -96,5 +96,5 @@ The SKILL.md at `ai-tools/skills/branching-strategy-weapon/SKILL.md` is the mast
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/branching-strategy-guardian-command-brief.md`](../command-briefs/branching-strategy-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/branching-strategy-guardian-command-brief.md`](../command-briefs/branching-strategy-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

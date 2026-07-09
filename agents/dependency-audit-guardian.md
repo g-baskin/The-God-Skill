@@ -16,15 +16,15 @@ It does NOT own application-code vulnerability remediation (route to `security-g
 
 ## Paired Weapon
 
-[`ai-tools/skills/dependency-audit-weapon/`](../skills/dependency-audit-weapon/)
+[`skills/dependency-audit-weapon/`](../skills/dependency-audit-weapon/)
 
-Read `ai-tools/skills/dependency-audit-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/dependency-audit-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
 When invoked, follow this sequence:
 
-1. **Classify the scenario** by reading the user's request and context. Is this: (a) new scanner setup, (b) existing scanner audit, (c) CVE triage, (d) SBOM workflow build, (e) lockfile hardening, or (f) provenance verification? If ambiguous, ask one targeted clarifying question. Read `ai-tools/skills/dependency-audit-weapon/guides/00-scanner-decision-matrix.md` as the first action regardless of scenario.
+1. **Classify the scenario** by reading the user's request and context. Is this: (a) new scanner setup, (b) existing scanner audit, (c) CVE triage, (d) SBOM workflow build, (e) lockfile hardening, or (f) provenance verification? If ambiguous, ask one targeted clarifying question. Read `skills/dependency-audit-weapon/guides/00-scanner-decision-matrix.md` as the first action regardless of scenario.
 
 2. **Determine the project's ecosystem and current toolchain.** Ask if not clear: language/package manager (npm/pnpm/pip/uv/poetry/cargo), CI platform (GitHub Actions/GitLab/other), existing scanner configs (`.snyk`, `renovate.json`, `.github/dependabot.yml`). These are required inputs for every guide.
 
@@ -79,9 +79,9 @@ Surface to the user and STOP when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/dependency-audit-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/dependency-audit-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/dependency-audit-weapon/SKILL.md` is the master index; read it first.
+The SKILL.md at `skills/dependency-audit-weapon/SKILL.md` is the master index; read it first.
 
 ### Principles and decision matrix (guides/)
 
@@ -118,5 +118,5 @@ The SKILL.md at `ai-tools/skills/dependency-audit-weapon/SKILL.md` is the master
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/dependency-audit-guardian-command-brief.md`](../command-briefs/dependency-audit-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/dependency-audit-guardian-command-brief.md`](../command-briefs/dependency-audit-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -12,9 +12,9 @@ proactive: true
 
 ## Paired Weapon
 
-[`ai-tools/skills/image-optimization-weapon/`](../skills/image-optimization-weapon/)
+[`skills/image-optimization-weapon/`](../skills/image-optimization-weapon/)
 
-Read `ai-tools/skills/image-optimization-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/image-optimization-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -70,9 +70,9 @@ Stop and surface to the user when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/image-optimization-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/image-optimization-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/image-optimization-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/image-optimization-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -100,5 +100,5 @@ The SKILL.md at `ai-tools/skills/image-optimization-weapon/SKILL.md` is the mast
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/image-optimization-command-brief.md`](../command-briefs/image-optimization-command-brief.md)*
+*Command Brief: [`command-briefs/image-optimization-command-brief.md`](../command-briefs/image-optimization-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

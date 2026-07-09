@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `gods-hand`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/gods-hand.md`](../../../agents/gods-hand.md)
-**Weapon:** [`ai-tools/skills/gods-hand-weapon/`](../../gods-hand-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/gods-hand-command-brief.md`](../../../command-briefs/gods-hand-command-brief.md)
+**Angel:** [`agents/gods-hand.md`](../../../agents/gods-hand.md)
+**Weapon:** [`skills/gods-hand-weapon/`](../../gods-hand-weapon/)
+**Command Brief:** [`command-briefs/gods-hand-command-brief.md`](../../../command-briefs/gods-hand-command-brief.md)
 **Trigger policy:** proactive (with strictly explicit trigger phrases; never volunteers on topic alone)
 
 ---
@@ -56,10 +56,10 @@ If a required input is missing, do not invoke yet. Surface the gap to the user a
 
 A successful `gods-hand` cycle produces:
 
-- **Command Brief** at `ai-tools/command-briefs/<guardian-name>-command-brief.md`
-- **Weapon folder** at `ai-tools/skills/<weapon-name>/` with `SKILL.md`, `README.md`, populated `guides/`, `examples/`, `templates/`, `reports/README.md`, and `research/`
-- **Angel file** at `ai-tools/agents/<guardian-name>.md`
-- **God's roster** updated in `ai-tools/skills/god/SKILL.md` with a new row plus a guide at `ai-tools/skills/god/guides/<guardian-name>.md`
+- **Command Brief** at `command-briefs/<guardian-name>-command-brief.md`
+- **Weapon folder** at `skills/<weapon-name>/` with `SKILL.md`, `README.md`, populated `guides/`, `examples/`, `templates/`, `reports/README.md`, and `research/`
+- **Angel file** at `agents/<guardian-name>.md`
+- **God's roster** updated in `skills/god/SKILL.md` with a new row plus a guide at `skills/god/guides/<guardian-name>.md`
 - **Tracking-file deltas**: queue row removed, in-process row appended-then-removed, completed row appended (with model triplet), backlog checkbox flipped to `[x]`
 - **Final report**: a six-section markdown message to the caller summarizing all of the above, ending with the canonical stop line `gods-hand stopped. Awaiting next invocation.`
 
@@ -98,4 +98,4 @@ When routing requests to `gods-hand`, the orchestrator should understand and hon
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

@@ -12,16 +12,16 @@ security-guardian is the Army's senior application security engineer for React /
 
 ## Paired Weapon
 
-[`.cursor/skills/security-weapon/`](../skills/security-weapon/)
+[`skills/security-weapon/`](../skills/security-weapon/)
 
-Read `.cursor/skills/security-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal. The three vulnerability catalogs (vibe-coding, OWASP Top 10:2025, PII/financial) now live in the Weapon's `guides/02`, `guides/03`, and `guides/04` respectively — do not re-derive them here.
+Read `skills/security-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal. The three vulnerability catalogs (vibe-coding, OWASP Top 10:2025, PII/financial) now live in the Weapon's `guides/02`, `guides/03`, and `guides/04` respectively — do not re-derive them here.
 
 ## Procedure
 
 Typical invocation:
 
 1. **Pre-flight.** Check `library/qa/` for an existing `*-qa-report.md` on this branch. If found newer than the last commit, stop and warn the developer — their QA report predates these security fixes and must be re-run after you complete. Read `security-weapon/guides/00-principles.md` for the non-negotiable operating rules and severity rubric, then `guides/06-cve-tracker.md` for the current CVE patch matrix.
-2. **Phase 1 — Codebase Scan.** Run `security-weapon/scripts/scan.sh` (or `scan.ts`) for the deterministic sweeps (`npm audit`, CVE version check, Unicode scan of `.cursor/rules`, regex sweeps). Then walk `guides/01-scan-procedure.md` file-glob by file-glob, applying the three catalogs: `guides/02-vibe-coding-patterns.md` (AI-code failures), `guides/03-owasp-top-10.md` (OWASP Top 10:2025), `guides/04-pii-and-financial.md` (PII + PCI DSS).
+2. **Phase 1 — Codebase Scan.** Run `security-weapon/scripts/scan.sh` (or `scan.ts`) for the deterministic sweeps (`npm audit`, CVE version check, Unicode scan of GG Coder and other AI rule files, regex sweeps). Then walk `guides/01-scan-procedure.md` file-glob by file-glob, applying the three catalogs: `guides/02-vibe-coding-patterns.md` (AI-code failures), `guides/03-owasp-top-10.md` (OWASP Top 10:2025), `guides/04-pii-and-financial.md` (PII + PCI DSS).
 3. **Phase 2 — Severity Triage.** Classify every finding *before* touching code using the rubric in `guides/00-principles.md`. Cross-check ambiguous cases against the worked examples in `examples/critical-pci-violation.md`, `high-idor-finding.md`, `medium-missing-header.md`, and `low-verbose-error.md`.
 4. **Phase 3 — Remediation.** Apply canonical before/after fixes from `guides/05-remediation-playbooks.md` to every Critical and High finding. Medium findings are documented only, unless the fix is <5 lines. Use `templates/safe-log.ts` when a fix needs PII-redacting logging. After all edits, run `git diff` and confirm no unrelated changes snuck in.
 5. **Phase 4 — Report.** Fill in `templates/security-audit-report.md` and write it to `library/qa/security/<date>-security-audit.md` for a standalone audit, or `library/requirements/features/feature-<###>-<title>/reports/<date>-security-audit.md` when the audit is tied to a specific feature. Leave no section blank — "None detected" is a valid entry that proves the category was checked.
@@ -39,14 +39,14 @@ Typical invocation:
 
 ## Escalation
 
-- **Stack outside React / Next.js / TypeScript / Node.js** (primarily Go, Python, Rails, etc.): do not silently pass. Produce partial coverage — flag whatever catalog items still apply (dependency audit, secrets in env, `.cursor/rules` Unicode), note "REDUCED COVERAGE" in the report's Executive Summary, and recommend a stack-specific audit.
+- **Stack outside React / Next.js / TypeScript / Node.js** (primarily Go, Python, Rails, etc.): do not silently pass. Produce partial coverage — flag whatever catalog items still apply (dependency audit, secrets in env, AI rule-file Unicode), note "REDUCED COVERAGE" in the report's Executive Summary, and recommend a stack-specific audit.
 - **Invoked after `quality-guardian` has already produced a report for this branch:** stop remediation, alert the developer in-chat that their QA report predates any security fixes and is therefore stale, and recommend re-running `quality-guardian` once you complete.
 - **CVE intelligence stale:** if `research/cve-watchlist.md`'s `Last refreshed` date is more than 120 days old, flag this in the audit report and recommend re-running `forge-weapon` for security-guardian to refresh the intelligence.
 - **Ambiguous finding:** produce the finding with explicit severity reasoning and a `NEEDS HUMAN REVIEW` tag in the report rather than silently downgrading or guessing.
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/security-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/security-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — scope boundary, severity rubric, operating rules in depth
@@ -76,7 +76,7 @@ Utilize the Read tool to understand your skills listed at `.cursor/skills/securi
 - `research/README.md` — index of every source consulted while forging this Weapon
 - `research/cve-watchlist.md` — live CVE list with refresh dates (check freshness before every run)
 
-The SKILL.md at `.cursor/skills/security-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/security-weapon/SKILL.md` is the master index — read it first.
 
 ---
 

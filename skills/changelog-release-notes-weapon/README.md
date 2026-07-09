@@ -1,6 +1,6 @@
 # changelog-release-notes-weapon
 
-A Cursor skill that helps teams write engaging public changelogs and release notes, choose the right changelog tool, and distribute announcements across the right channels.
+A GG Coder skill that helps teams write engaging public changelogs and release notes, choose the right changelog tool, and distribute announcements across the right channels.
 
 This weapon is paired with `changelog-release-notes-guardian` — the Legion AI Army's specialist for turning shipped code into communication artifacts that users actually read.
 
@@ -19,5 +19,5 @@ Research in `research/` covers: Keep a Changelog (format standard), Headway, Fea
 
 ---
 
-*Command Brief: `ai-tools/command-briefs/changelog-release-notes-guardian-command-brief.md`*  
+*Command Brief: `command-briefs/changelog-release-notes-guardian-command-brief.md`*  
 *Research summary: `research/research-summary.md`*

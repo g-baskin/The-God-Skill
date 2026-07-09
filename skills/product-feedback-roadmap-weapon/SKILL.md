@@ -69,7 +69,7 @@ product-feedback-roadmap-weapon/
 
 ## Critical directives (from Command Brief)
 
-These apply on every invocation. Full justifications in the Command Brief at `ai-tools/command-briefs/product-feedback-roadmap-guardian-command-brief.md`.
+These apply on every invocation. Full justifications in the Command Brief at `command-briefs/product-feedback-roadmap-guardian-command-brief.md`.
 
 - **De-duplicate before scoring.** Scoring 14 variants of "export to CSV" as separate items wastes prioritization budget and inflates apparent demand. The canonical merge step must precede any RICE/ICE run.
 - **Every status transition must trigger a customer notification.** The loop is only "closed" when the customer hears back. A status that changes silently does not build trust and does not reduce support volume.

@@ -12,9 +12,9 @@ proactive: true
 
 ## Paired Weapon
 
-[`ai-tools/skills/hiring-ats-weapon/`](../skills/hiring-ats-weapon/)
+[`skills/hiring-ats-weapon/`](../skills/hiring-ats-weapon/)
 
-Read `ai-tools/skills/hiring-ats-weapon/SKILL.md` first — it is the master index with the quick-start decision tree and all guide pointers.
+Read `skills/hiring-ats-weapon/SKILL.md` first — it is the master index with the quick-start decision tree and all guide pointers.
 
 ## Procedure
 
@@ -55,9 +55,9 @@ Stop and surface to the caller when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/hiring-ats-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/hiring-ats-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/hiring-ats-weapon/SKILL.md` is the master index; read it first.
+The SKILL.md at `skills/hiring-ats-weapon/SKILL.md` is the master index; read it first.
 
 ### Guides (guides/)
 
@@ -92,5 +92,5 @@ The SKILL.md at `ai-tools/skills/hiring-ats-weapon/SKILL.md` is the master index
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/hiring-ats-guardian-command-brief.md`](../command-briefs/hiring-ats-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/hiring-ats-guardian-command-brief.md`](../command-briefs/hiring-ats-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

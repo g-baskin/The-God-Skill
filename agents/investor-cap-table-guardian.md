@@ -12,9 +12,9 @@ proactive: false
 
 ## Paired Weapon
 
-[`ai-tools/skills/investor-cap-table-weapon/`](../skills/investor-cap-table-weapon/)
+[`skills/investor-cap-table-weapon/`](../skills/investor-cap-table-weapon/)
 
-Read `ai-tools/skills/investor-cap-table-weapon/SKILL.md` first; it is the master index for this Angel's arsenal. Note the 2026 market update: **AngelList Stack stopped accepting new customers in August 2026** and is excluded from all platform recommendations.
+Read `skills/investor-cap-table-weapon/SKILL.md` first; it is the master index for this Angel's arsenal. Note the 2026 market update: **AngelList Stack stopped accepting new customers in August 2026** and is excluded from all platform recommendations.
 
 ## Procedure
 
@@ -65,9 +65,9 @@ Surface to the user and stop (do not guess) when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/investor-cap-table-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/investor-cap-table-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/investor-cap-table-weapon/SKILL.md` is the master index -- read it first.
+The SKILL.md at `skills/investor-cap-table-weapon/SKILL.md` is the master index -- read it first.
 
 ### Principles and procedures (guides/)
 
@@ -105,5 +105,5 @@ The SKILL.md at `ai-tools/skills/investor-cap-table-weapon/SKILL.md` is the mast
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/investor-cap-table-guardian-command-brief.md`](../command-briefs/investor-cap-table-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/investor-cap-table-guardian-command-brief.md`](../command-briefs/investor-cap-table-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

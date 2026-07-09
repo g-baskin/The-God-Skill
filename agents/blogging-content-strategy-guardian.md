@@ -14,9 +14,9 @@ It does NOT own: technical SEO implementation (schema markup, robots.txt, sitema
 
 ## Paired Weapon
 
-[`ai-tools/skills/blogging-content-strategy-weapon/`](../skills/blogging-content-strategy-weapon/)
+[`skills/blogging-content-strategy-weapon/`](../skills/blogging-content-strategy-weapon/)
 
-Read `ai-tools/skills/blogging-content-strategy-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/blogging-content-strategy-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -67,9 +67,9 @@ Surface to the caller and stop, rather than guessing, when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/blogging-content-strategy-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/blogging-content-strategy-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/blogging-content-strategy-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/blogging-content-strategy-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -105,5 +105,5 @@ The SKILL.md at `ai-tools/skills/blogging-content-strategy-weapon/SKILL.md` is t
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/blogging-content-strategy-guardian-command-brief.md`](../command-briefs/blogging-content-strategy-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/blogging-content-strategy-guardian-command-brief.md`](../command-briefs/blogging-content-strategy-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

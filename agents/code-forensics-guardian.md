@@ -16,9 +16,9 @@ This Angel does NOT provide legal advice. It produces evidence for retained coun
 
 ## Paired Weapon
 
-[`army/.cursor/skills/code-forensics-weapon/`](../skills/code-forensics-weapon/)
+[`skills/code-forensics-weapon/`](../skills/code-forensics-weapon/)
 
-Read `army/.cursor/skills/code-forensics-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/code-forensics-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -80,9 +80,9 @@ When uncertain about scope, surface the question rather than producing a lower-c
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `army/.cursor/skills/code-forensics-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/code-forensics-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `army/.cursor/skills/code-forensics-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/code-forensics-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 

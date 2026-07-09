@@ -34,7 +34,7 @@ Guide cross-refs: `guides/02-vibe-coding-patterns.md` A2, A3; `guides/06-cve-tra
 
 ## Step 2 — Rules-file backdoor scan
 
-Glob: `.cursor/rules/**/*.{md,mdc,txt}`, `.cursorrules`, `AGENTS.md`, `CLAUDE.md`, `.github/copilot-instructions.md`.
+Glob: `rules/**/*.{md,mdc,txt}`, `.gg/**/*.{md,mdc,txt}`, `AGENTS.md`, `CLAUDE.md`, `.github/copilot-instructions.md`, plus legacy Cursor rule files if present.
 
 Search each for zero-width / bidi codepoints (U+200B-200F, U+202A-202E, U+2060-2069, U+FEFF). Any hit = **Critical**, silent supply-chain backdoor.
 

@@ -128,4 +128,4 @@ The `research/` folder was populated by `scripture-historian` at `normal` depth 
 
 ---
 
-*Forged from `ai-tools/command-briefs/cron-scheduling-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*
+*Forged from `command-briefs/cron-scheduling-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

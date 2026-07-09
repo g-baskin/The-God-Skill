@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `product-feedback-roadmap-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/product-feedback-roadmap-guardian.md`](../../agents/product-feedback-roadmap-guardian.md)  
-**Weapon:** [`ai-tools/skills/product-feedback-roadmap-weapon/`](../../skills/product-feedback-roadmap-weapon/)  
-**Command Brief:** [`ai-tools/command-briefs/product-feedback-roadmap-guardian-command-brief.md`](../../../command-briefs/product-feedback-roadmap-guardian-command-brief.md)  
+**Angel:** [`agents/product-feedback-roadmap-guardian.md`](../../../agents/product-feedback-roadmap-guardian.md)  
+**Weapon:** [`skills/product-feedback-roadmap-weapon/`](../../product-feedback-roadmap-weapon/)  
+**Command Brief:** [`command-briefs/product-feedback-roadmap-guardian-command-brief.md`](../../../command-briefs/product-feedback-roadmap-guardian-command-brief.md)  
 **Trigger policy:** on-demand
 
 ---
@@ -86,4 +86,4 @@ If audience type and existing integrations are unknown, the Angel will ask befor
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

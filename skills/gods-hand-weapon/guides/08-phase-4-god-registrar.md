@@ -6,15 +6,15 @@ Step 9 of the Command Brief's ACTION list. After the Angel file is written, invo
 
 `god-registrar` is the Phase 4 (final pipeline phase) worker skill. It is documented at:
 
-- `ai-tools/skills/god-registrar/SKILL.md` (repo-local copy)
-- `~/.cursor/skills-cursor/god-registrar/SKILL.md` (global Cursor skills cache)
+- `skills/god-registrar/SKILL.md` (repo-local copy)
+- `~/.gg/skills/god-registrar/SKILL.md` (global GG Coder skills cache)
 
 The skill performs exactly two atomic operations:
 
-1. **Add a roster row** to the Roster table in `ai-tools/skills/god/SKILL.md`. The row contains the Angel name, a one-line domain summary, trigger keywords, and a link to the new Angel's guide.
-2. **Author a guide file** at `ai-tools/skills/god/guides/<guardian-name>.md` from the template `ai-tools/skills/god/templates/guide-template.md`. The guide is the orchestrator's reference for when to invoke the Angel.
+1. **Add a roster row** to the Roster table in `skills/god/SKILL.md`. The row contains the Angel name, a one-line domain summary, trigger keywords, and a link to the new Angel's guide.
+2. **Author a guide file** at `skills/god/guides/<guardian-name>.md` from the template `skills/god/templates/guide-template.md`. The guide is the orchestrator's reference for when to invoke the Angel.
 
-After Phase 4, the new Angel is discoverable. The primary Cursor orchestrator can route to it by reading God's roster.
+After Phase 4, the new Angel is discoverable. The primary GG Coder router can route to it by reading God's roster.
 
 ## Inputs `gods-hand` passes to `god-registrar`
 
@@ -22,9 +22,9 @@ After Phase 4, the new Angel is discoverable. The primary Cursor orchestrator ca
 
 - The Angel name.
 - The Weapon name.
-- The Command Brief path: `ai-tools/command-briefs/<guardian-name>-command-brief.md`.
-- The Angel file path: `ai-tools/agents/<guardian-name>.md`.
-- The Weapon folder path: `ai-tools/skills/<weapon-name>/`.
+- The Command Brief path: `command-briefs/<guardian-name>-command-brief.md`.
+- The Angel file path: `agents/<guardian-name>.md`.
+- The Weapon folder path: `skills/<weapon-name>/`.
 
 The skill discovers everything else by reading these inputs.
 
@@ -32,13 +32,13 @@ The skill discovers everything else by reading these inputs.
 
 After `god-registrar` completes, the following MUST exist:
 
-1. A new row in the Roster table in `ai-tools/skills/god/SKILL.md`. The row appears in alphabetical-by-Angel-name order or appended to the bottom of the table (per `god-registrar`'s own convention; check the skill's SKILL.md for the rule).
-2. A new file at `ai-tools/skills/god/guides/<guardian-name>.md` populated from the template.
+1. A new row in the Roster table in `skills/god/SKILL.md`. The row appears in alphabetical-by-Angel-name order or appended to the bottom of the table (per `god-registrar`'s own convention; check the skill's SKILL.md for the rule).
+2. A new file at `skills/god/guides/<guardian-name>.md` populated from the template.
 
 `gods-hand` verifies:
 
-1. Search `ai-tools/skills/god/SKILL.md` for the new Angel's name. There should be exactly one match (the new roster row).
-2. Verify `ai-tools/skills/god/guides/<guardian-name>.md` exists and is non-empty.
+1. Search `skills/god/SKILL.md` for the new Angel's name. There should be exactly one match (the new roster row).
+2. Verify `skills/god/guides/<guardian-name>.md` exists and is non-empty.
 3. The guide file has all six standard sections from the template (Domain, Trigger phrases, Do NOT route when, Inputs the Angel needs, Outputs the Angel produces, Multi-Angel sequences this Angel participates in, Critical directives the orchestrator should respect).
 4. The God SKILL.md's "N Angels registered" count (in the footnote below the table) is incremented by 1.
 
@@ -59,7 +59,7 @@ The roster table in `god/SKILL.md` has four columns:
 
 ## God-side guide file authoring rules
 
-The guide is authored from `ai-tools/skills/god/templates/guide-template.md`. The template has placeholders that `god-registrar` substitutes:
+The guide is authored from `skills/god/templates/guide-template.md`. The template has placeholders that `god-registrar` substitutes:
 
 - `{{Angel Display Name}}` -- the H1 display name from the Angel file.
 - `{{angel-name}}` -- the kebab-case Angel name.
@@ -84,4 +84,4 @@ The pipeline ends here. `gods-hand`'s remaining work is administrative (close-ou
 
 ## Implementation note for `gods-hand`
 
-Like the prior phases, Phase 4 is a skill load. `gods-hand` reads `ai-tools/skills/god-registrar/SKILL.md` and follows its instructions to add the roster row and author the guide.
+Like the prior phases, Phase 4 is a skill load. `gods-hand` reads `skills/god-registrar/SKILL.md` and follows its instructions to add the roster row and author the guide.

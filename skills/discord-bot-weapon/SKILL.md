@@ -103,4 +103,4 @@ Every code sample, review comment, and recommendation from this weapon must resp
 
 ---
 
-*Forged by weapon-forge from `ai-tools/command-briefs/discord-bot-guardian-command-brief.md` + `research/research-summary.md`. Part of the Legion Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*
+*Forged by weapon-forge from `command-briefs/discord-bot-guardian-command-brief.md` + `research/research-summary.md`. Part of the Legion Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

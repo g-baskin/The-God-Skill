@@ -6,7 +6,7 @@ Before handing off to angel-creator, walk this checklist. Every item should be e
 
 ## Structure
 
-- [ ] The folder `ai-tools/skills/<weapon-name>/` exists.
+- [ ] The folder `skills/<weapon-name>/` exists.
 - [ ] `SKILL.md` is present at the folder root.
 - [ ] `README.md` describes the skill's purpose in three sentences.
 - [ ] `guides/`, `examples/`, `templates/`, `reports/`, and `research/` subfolders exist.

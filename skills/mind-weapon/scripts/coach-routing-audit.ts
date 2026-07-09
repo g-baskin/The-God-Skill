@@ -6,7 +6,7 @@
  * computes routing accuracy via evaluateRouting(), flags below 90%.
  *
  * Run:
- *   pnpm tsx .cursor/skills/mind-weapon/scripts/coach-routing-audit.ts \
+ *   pnpm tsx skills/mind-weapon/scripts/coach-routing-audit.ts \
  *     --tenantId=<id> --window=7d
  *   # window options: 24h | 7d | 30d
  *

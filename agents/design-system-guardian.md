@@ -12,9 +12,9 @@ design-system-guardian is the Army's design-system bootstrapper. It extracts a p
 
 ## Paired Weapon
 
-[`.cursor/skills/design-system-weapon/`](../skills/design-system-weapon/)
+[`skills/design-system-weapon/`](../skills/design-system-weapon/)
 
-Read `.cursor/skills/design-system-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/design-system-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ If the user says "you decide" on the aesthetic, push back with a request for thr
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/design-system-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/design-system-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — layering discipline, naming, change control, non-negotiables patterns

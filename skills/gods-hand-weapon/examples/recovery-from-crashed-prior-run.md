@@ -16,11 +16,11 @@ The four tracking files are:
 - `proposed-angels-backlog.md`: `### [ ] 5. vite-guardian` (still unchecked because the cycle did not close out).
 
 On disk:
-- `ai-tools/command-briefs/vite-guardian-command-brief.md` exists (Phase 1 succeeded).
-- `ai-tools/skills/vite-weapon/research/` exists with files (Phase 1.5 succeeded).
-- `ai-tools/skills/vite-weapon/SKILL.md` does NOT exist (Phase 2 failed before writing it).
-- `ai-tools/agents/vite-guardian.md` does NOT exist.
-- No roster row for `vite-guardian` in `ai-tools/skills/god/SKILL.md`.
+- `command-briefs/vite-guardian-command-brief.md` exists (Phase 1 succeeded).
+- `skills/vite-weapon/research/` exists with files (Phase 1.5 succeeded).
+- `skills/vite-weapon/SKILL.md` does NOT exist (Phase 2 failed before writing it).
+- `agents/vite-guardian.md` does NOT exist.
+- No roster row for `vite-guardian` in `skills/god/SKILL.md`.
 
 ## Step 1 (would-be Pick)
 
@@ -71,8 +71,8 @@ Manually edit:
 - `ai-tools/proposed-angels-queue.md`: prepend `005|vite-guardian` to the top of the body, increment `totals.rows`.
 
 Then optionally delete the partial artifacts:
-- `ai-tools/command-briefs/vite-guardian-command-brief.md`
-- `ai-tools/skills/vite-weapon/` (the entire folder)
+- `command-briefs/vite-guardian-command-brief.md`
+- `skills/vite-weapon/` (the entire folder)
 
 After cleanup, invoke me normally. I will pick row 005 from the queue again and start from Phase 1.
 

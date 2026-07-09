@@ -120,5 +120,5 @@ alt-ads-platforms-weapon/
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/alt-ads-platforms-guardian-command-brief.md`](../../command-briefs/alt-ads-platforms-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/alt-ads-platforms-guardian-command-brief.md`](../../command-briefs/alt-ads-platforms-guardian-command-brief.md)*
 *Forged by weapon-forge from `command-brief` + `research/`. Part of the Legion AI Tools Factory by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -31,10 +31,10 @@ Read `ai-tools/proposed-angels-in-process-slot-NN.md`. Parse the single line `NN
 Find `### [ ] NNN. guardian-name` in `proposed-angels-backlog.md` (note the backlog uses unpadded N, not zero-padded NNN). Capture the four metadata lines (Research Depth, Research Model, Analyst Model, Builder Model), the Purpose sentence, and the search queries. See `guides/02-backlog-lookup.md` for full protocol. Validate per the four sanity checks there.
 
 ### Step 3 — Phase 1: command-center
-Load and run `command-center` skill. Author `ai-tools/command-briefs/<guardian-name>-command-brief.md`. Verify it exists and is non-empty. On failure: write `slot-NN.failed` with `failed:command-center`, preserve slot file, stop.
+Load and run `command-center` skill. Author `command-briefs/<guardian-name>-command-brief.md`. Verify it exists and is non-empty. On failure: write `slot-NN.failed` with `failed:command-center`, preserve slot file, stop.
 
 ### Step 4 — Scaffold weapon folder
-Create `ai-tools/skills/<weapon-name>/` with the five canonical subfolders: `examples/`, `guides/`, `reports/`, `research/`, `templates/`. Derive the weapon name per `guides/03-naming-contracts.md`. On naming conflict: write `slot-NN.failed` with `failed:naming-conflict`, stop.
+Create `skills/<weapon-name>/` with the five canonical subfolders: `examples/`, `guides/`, `reports/`, `research/`, `templates/`. Derive the weapon name per `guides/03-naming-contracts.md`. On naming conflict: write `slot-NN.failed` with `failed:naming-conflict`, stop.
 
 ### Step 5 — Phase 1.5: scripture-historian
 Dispatch via `Task(subagent_type="scripture-historian", ...)`. Wait for handoff. Verify `research/` is populated. On failure: write `slot-NN.failed` with `failed:scripture-historian`, preserve slot file, stop.
@@ -43,12 +43,12 @@ Dispatch via `Task(subagent_type="scripture-historian", ...)`. Wait for handoff.
 Load and run `weapon-forge` skill. Verify `SKILL.md` exists and all subfolders have at least one file. On failure: write `slot-NN.failed` with `failed:weapon-forge`, stop.
 
 ### Step 7 — Phase 3: angel-creator
-Load and run `angel-creator` skill. Verify `ai-tools/agents/<guardian-name>.md` exists with valid frontmatter. On failure: write `slot-NN.failed` with `failed:angel-creator`, stop.
+Load and run `angel-creator` skill. Verify `agents/<guardian-name>.md` exists with valid frontmatter. On failure: write `slot-NN.failed` with `failed:angel-creator`, stop.
 
 ### Step 8 — Write fragment files
 Write all three fragments to `ai-tools/.batch-state/`:
 
-**`slot-NN-roster-add.md`** — one complete table row for `ai-tools/skills/god/SKILL.md`. Use the exact format from `templates/slot-roster-add-fragment.md`:
+**`slot-NN-roster-add.md`** — one complete table row for `skills/god/SKILL.md`. Use the exact format from `templates/slot-roster-add-fragment.md`:
 ```
 | <guardian-name> | <one-line purpose> | <trigger phrase 1>; <trigger phrase 2> |
 ```
@@ -67,9 +67,9 @@ NNN|guardian-name|completed|YYYY-MM-DD|research:<research-model>|analyst:<analys
 
 ### Step 9 — Verify all five artifacts
 Before closing out, verify all five durable artifacts exist on disk:
-1. `ai-tools/command-briefs/<guardian-name>-command-brief.md`
-2. `ai-tools/skills/<weapon-name>/SKILL.md`
-3. `ai-tools/agents/<guardian-name>.md`
+1. `command-briefs/<guardian-name>-command-brief.md`
+2. `skills/<weapon-name>/SKILL.md`
+3. `agents/<guardian-name>.md`
 4. `ai-tools/.batch-state/slot-NN-roster-add.md`
 5. `ai-tools/.batch-state/slot-NN-completion.md`
 
@@ -91,7 +91,7 @@ gods-hand slot-NN stopped. Awaiting orchestrator consolidation.
 
 After all slots in a batch have written `.done` or `.failed` signals:
 
-1. **Serial god-registrar**: For each successful slot (has `.done`), read `slot-NN-roster-add.md` and invoke `god-registrar` once. The fragment file contains exactly the text god-registrar would produce. god-registrar writes it to `ai-tools/skills/god/SKILL.md` and creates `ai-tools/skills/god/guides/<guardian-name>.md`.
+1. **Serial god-registrar**: For each successful slot (has `.done`), read `slot-NN-roster-add.md` and invoke `god-registrar` once. The fragment file contains exactly the text god-registrar would produce. god-registrar writes it to `skills/god/SKILL.md` and creates `skills/god/guides/<guardian-name>.md`.
 
 2. **Append to completed log**: Read all `slot-NN-completion.md` fragments from successful slots. Append them to `ai-tools/proposed-angels-completed.md` in one write.
 

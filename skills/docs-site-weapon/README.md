@@ -4,4 +4,4 @@ The `docs-site-weapon` equips `docs-site-guardian` to select, set up, and mainta
 
 **Critical 2026 context:** MkDocs Material entered maintenance mode in November 2025. Starlight (Astro) is the recommended greenfield choice as of 2026.
 
-This weapon was forged from `ai-tools/command-briefs/docs-site-guardian-command-brief.md` and research gathered in `research/research-summary.md` (depth: normal, window: Nov 2025 - May 2026, 14 source files).
+This weapon was forged from `command-briefs/docs-site-guardian-command-brief.md` and research gathered in `research/research-summary.md` (depth: normal, window: Nov 2025 - May 2026, 14 source files).

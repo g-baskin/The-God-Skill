@@ -130,4 +130,4 @@ Route infrastructure-level DNS work (SPF/DKIM/DMARC records) to `devops-guardian
 
 ---
 
-*Forged by weapon-forge from `ai-tools/command-briefs/newsletter-platform-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory.*
+*Forged by weapon-forge from `command-briefs/newsletter-platform-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory.*

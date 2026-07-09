@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `changelog-release-notes-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/changelog-release-notes-guardian.md`](../../agents/changelog-release-notes-guardian.md)  
-**Weapon:** [`ai-tools/skills/changelog-release-notes-weapon/`](../../skills/changelog-release-notes-weapon/)  
-**Command Brief:** [`ai-tools/command-briefs/changelog-release-notes-guardian-command-brief.md`](../../../command-briefs/changelog-release-notes-guardian-command-brief.md)  
+**Angel:** [`agents/changelog-release-notes-guardian.md`](../../../agents/changelog-release-notes-guardian.md)  
+**Weapon:** [`skills/changelog-release-notes-weapon/`](../../changelog-release-notes-weapon/)  
+**Command Brief:** [`command-briefs/changelog-release-notes-guardian-command-brief.md`](../../../command-briefs/changelog-release-notes-guardian-command-brief.md)  
 **Trigger policy:** proactive
 
 ---
@@ -72,4 +72,4 @@ If "what shipped" is missing, ask before invoking — the Angel cannot write a c
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

@@ -6,7 +6,7 @@
  * canonical fix suggestion.
  *
  * Run:
- *   pnpm tsx .cursor/skills/mind-weapon/scripts/audit-untraced-llm-calls.ts <api-src-path>
+ *   pnpm tsx skills/mind-weapon/scripts/audit-untraced-llm-calls.ts <api-src-path>
  *   # default api-src-path: api/src
  *
  * Detection logic:

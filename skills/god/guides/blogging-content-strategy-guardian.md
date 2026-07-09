@@ -1,8 +1,8 @@
 # Blogging Content Strategy Guardian — God's Guide
 
-**Angel:** [`ai-tools/agents/blogging-content-strategy-guardian.md`](../../agents/blogging-content-strategy-guardian.md)
-**Weapon:** [`ai-tools/skills/blogging-content-strategy-weapon/`](../../skills/blogging-content-strategy-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/blogging-content-strategy-guardian-command-brief.md`](../../../command-briefs/blogging-content-strategy-guardian-command-brief.md)
+**Angel:** [`agents/blogging-content-strategy-guardian.md`](../../../agents/blogging-content-strategy-guardian.md)
+**Weapon:** [`skills/blogging-content-strategy-weapon/`](../../blogging-content-strategy-weapon/)
+**Command Brief:** [`command-briefs/blogging-content-strategy-guardian-command-brief.md`](../../../command-briefs/blogging-content-strategy-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -55,4 +55,4 @@ Route to `blogging-content-strategy-guardian` when the user says any of:
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

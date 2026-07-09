@@ -4,7 +4,7 @@ Operational playbook for `app-store-submission-guardian` — the Legion Army's s
 
 This Weapon covers App Store Optimization (keywords, screenshots, preview videos), privacy compliance (Apple nutrition labels, PrivacyInfo.xcprivacy, Google data safety forms), rejection diagnosis and remediation, age rating, In-App Purchase configuration (StoreKit 2 / Google Play Billing Library 7+), and realistic timeline expectations for both platforms.
 
-**Command Brief:** `ai-tools/command-briefs/app-store-submission-guardian-command-brief.md`
+**Command Brief:** `command-briefs/app-store-submission-guardian-command-brief.md`
 **Research basis:** `research/research-summary.md` (normal depth, 2025-11 to 2026-05 window, 17 files)
 
 ## Folder layout

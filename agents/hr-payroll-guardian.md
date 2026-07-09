@@ -14,9 +14,9 @@ It defers to auth-guardian for SSO/SCIM provisioning of the payroll platform, db
 
 ## Paired Weapon
 
-[`ai-tools/skills/hr-payroll-weapon/`](../skills/hr-payroll-weapon/)
+[`skills/hr-payroll-weapon/`](../skills/hr-payroll-weapon/)
 
-Read `ai-tools/skills/hr-payroll-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table, four hard rules, cross-Angel handoffs, and refresh cadence).
+Read `skills/hr-payroll-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table, four hard rules, cross-Angel handoffs, and refresh cadence).
 
 ## Procedure
 
@@ -74,9 +74,9 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/hr-payroll-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/hr-payroll-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/hr-payroll-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/hr-payroll-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -114,5 +114,5 @@ The SKILL.md at `ai-tools/skills/hr-payroll-weapon/SKILL.md` is the master index
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/hr-payroll-guardian-command-brief.md`](../command-briefs/hr-payroll-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/hr-payroll-guardian-command-brief.md`](../command-briefs/hr-payroll-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

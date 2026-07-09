@@ -2,7 +2,7 @@
 
 This directory holds everything the `library-guardian` agent needs to do its job. Organized into three layers: **guides** (workflow rules), **examples** (exemplars to imitate), **templates** (files copied on `initialize`).
 
-> **Agent entry point:** [`.cursor/agents/library-guardian.md`](../library-guardian.md) (repo-local). The agent reads files from this directory by path; it does not auto-load everything into context.
+> **Agent entry point:** [`agents/library-guardian.md`](../library-guardian.md) (repo-local). The agent reads files from this directory by path; it does not auto-load everything into context.
 >
 > **QA authorship is out of scope.** A separate sibling agent — [`quality-guardian`](../quality-guardian.md) — owns the authorship of QA reports. Reports tied to a feature land in `library/requirements/features/feature-<###>-<title>/reports/<date>-qa-report.md`; reports tied to an issue land in `library/requirements/issues/issue-<###>-<title>/reports/<date>-qa-report.md`; standalone audits land in `library/qa/<domain>/<date>-qa-report.md`. This agent still owns the folder structure, numbering invariants, and lifecycle moves, but does not write QA content.
 
@@ -94,13 +94,13 @@ When a user invokes you:
 
 ## Supersession
 
-This agent consolidates 4 predecessors; archived at `~/.cursor/archive/`:
+This agent consolidates 4 predecessors; archived outside the active GG Coder load path:
 
-- `prd-generator` (was `~/.cursor/agents/prd-generator.md`)
-- `documentation-guardian` (was `.cursor/skills/documentation-guardian/` in a repo)
-- `issue-guardian` (was `.cursor/skills/issue-guardian/` in a repo)
-- `backwards-prd` (was `.cursor/skills/backwards-prd/` in a repo)
+- `prd-generator` (was `~/agents/prd-generator.md`)
+- `documentation-guardian` (was `skills/documentation-guardian/` in a repo)
+- `issue-guardian` (was `skills/issue-guardian/` in a repo)
+- `backwards-prd` (was `skills/backwards-prd/` in a repo)
 
-The former `implementation-qa` predecessor is NOT folded in here — it was kept as a sibling and renamed `quality-guardian`. See `.cursor/agents/quality-guardian.md`.
+The former `implementation-qa` predecessor is NOT folded in here — it was kept as a sibling and renamed `quality-guardian`. See `agents/quality-guardian.md`.
 
 Do not read archived sources; the guides in this directory are authoritative.

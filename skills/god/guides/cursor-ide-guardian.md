@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `cursor-ide-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/cursor-ide-guardian.md`](../../agents/cursor-ide-guardian.md)
-**Weapon:** [`ai-tools/skills/cursor-ide-weapon/`](../../skills/cursor-ide-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/cursor-ide-guardian-command-brief.md`](../../../command-briefs/cursor-ide-guardian-command-brief.md)
+**Angel:** [`agents/cursor-ide-guardian.md`](../../../agents/cursor-ide-guardian.md)
+**Weapon:** [`skills/cursor-ide-weapon/`](../../cursor-ide-weapon/)
+**Command Brief:** [`command-briefs/cursor-ide-guardian-command-brief.md`](../../../command-briefs/cursor-ide-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -71,4 +71,4 @@ If the Cursor version is unknown and the requested feature is version-gated, ask
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

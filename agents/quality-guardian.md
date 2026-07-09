@@ -12,9 +12,9 @@ quality-guardian is the final checkpoint in the plan → implement → security 
 
 ## Paired Weapon
 
-[`.cursor/skills/quality-weapon/`](../skills/quality-weapon/)
+[`skills/quality-weapon/`](../skills/quality-weapon/)
 
-Read `.cursor/skills/quality-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/quality-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/quality-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/quality-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — scope boundary, ordering rule, and critical directives in depth

@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `app-store-submission-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/app-store-submission-guardian.md`](../../agents/app-store-submission-guardian.md)
-**Weapon:** [`ai-tools/skills/app-store-submission-weapon/`](../../skills/app-store-submission-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/app-store-submission-guardian-command-brief.md`](../../../command-briefs/app-store-submission-guardian-command-brief.md)
+**Angel:** [`agents/app-store-submission-guardian.md`](../../../agents/app-store-submission-guardian.md)
+**Weapon:** [`skills/app-store-submission-weapon/`](../../app-store-submission-weapon/)
+**Command Brief:** [`command-briefs/app-store-submission-guardian-command-brief.md`](../../../command-briefs/app-store-submission-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -77,4 +77,4 @@ If a rejection notice is present but the user did not paste the full text, ask f
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

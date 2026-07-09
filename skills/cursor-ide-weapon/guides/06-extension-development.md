@@ -10,7 +10,7 @@ Cursor extensions are VS Code-compatible extensions that additionally register i
 
 - Bundle an MCP server and register it programmatically at extension activation.
 - Register plugin paths that Cursor's agent loading machinery discovers.
-- Contribute skills (`.cursor/skills/`) packaged inside the extension.
+- Contribute Cursor-packaged skills inside the extension.
 - Add commands, panels, and settings via standard VS Code contribution points.
 
 ## Extension manifest (`package.json`) — confirmed fields

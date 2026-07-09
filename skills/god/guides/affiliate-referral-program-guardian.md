@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `affiliate-referral-program-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/affiliate-referral-program-guardian.md`](../../agents/affiliate-referral-program-guardian.md)
-**Weapon:** [`ai-tools/skills/affiliate-referral-program-weapon/`](../../skills/affiliate-referral-program-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/affiliate-referral-program-guardian-command-brief.md`](../../../command-briefs/affiliate-referral-program-guardian-command-brief.md)
+**Angel:** [`agents/affiliate-referral-program-guardian.md`](../../../agents/affiliate-referral-program-guardian.md)
+**Weapon:** [`skills/affiliate-referral-program-weapon/`](../../affiliate-referral-program-weapon/)
+**Command Brief:** [`command-briefs/affiliate-referral-program-guardian-command-brief.md`](../../../command-briefs/affiliate-referral-program-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -80,4 +80,4 @@ Optional (Angel defaults to industry benchmarks if absent):
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `http-rest-fundamentals-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/http-rest-fundamentals-guardian.md`](../../agents/http-rest-fundamentals-guardian.md)
-**Weapon:** [`ai-tools/skills/http-rest-fundamentals-weapon/`](../../skills/http-rest-fundamentals-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/http-rest-fundamentals-guardian-command-brief.md`](../../../command-briefs/http-rest-fundamentals-guardian-command-brief.md)
+**Angel:** [`agents/http-rest-fundamentals-guardian.md`](../../../agents/http-rest-fundamentals-guardian.md)
+**Weapon:** [`skills/http-rest-fundamentals-weapon/`](../../http-rest-fundamentals-weapon/)
+**Command Brief:** [`command-briefs/http-rest-fundamentals-guardian-command-brief.md`](../../../command-briefs/http-rest-fundamentals-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -73,4 +73,4 @@ If no code or spec is provided and the request is general ("explain CORS"), the 
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

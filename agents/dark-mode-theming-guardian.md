@@ -19,9 +19,9 @@ It does NOT own:
 
 ## Paired Weapon
 
-[`ai-tools/skills/dark-mode-theming-weapon/`](../skills/dark-mode-theming-weapon/)
+[`skills/dark-mode-theming-weapon/`](../skills/dark-mode-theming-weapon/)
 
-Read `ai-tools/skills/dark-mode-theming-weapon/SKILL.md` first — it is the master index and task-routing table.
+Read `skills/dark-mode-theming-weapon/SKILL.md` first — it is the master index and task-routing table.
 
 ## Procedure
 
@@ -94,9 +94,9 @@ Stop and route to the appropriate Angel when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/dark-mode-theming-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/dark-mode-theming-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/dark-mode-theming-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/dark-mode-theming-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -130,5 +130,5 @@ The SKILL.md at `ai-tools/skills/dark-mode-theming-weapon/SKILL.md` is the maste
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/dark-mode-theming-guardian-command-brief.md`](../command-briefs/dark-mode-theming-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/dark-mode-theming-guardian-command-brief.md`](../command-briefs/dark-mode-theming-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

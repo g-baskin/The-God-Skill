@@ -14,9 +14,9 @@ It does NOT own design tokens or animation values (ux-ui-guardian), general Reac
 
 ## Paired Weapon
 
-[`ai-tools/skills/modal-toast-dialog-weapon/`](../skills/modal-toast-dialog-weapon/)
+[`skills/modal-toast-dialog-weapon/`](../skills/modal-toast-dialog-weapon/)
 
-Read `ai-tools/skills/modal-toast-dialog-weapon/SKILL.md` first; it is the master index.
+Read `skills/modal-toast-dialog-weapon/SKILL.md` first; it is the master index.
 
 ## Procedure
 
@@ -47,9 +47,9 @@ Surface to the caller and stop when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/modal-toast-dialog-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/modal-toast-dialog-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/modal-toast-dialog-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/modal-toast-dialog-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -84,5 +84,5 @@ The SKILL.md at `ai-tools/skills/modal-toast-dialog-weapon/SKILL.md` is the mast
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/modal-toast-dialog-guardian-command-brief.md`](../command-briefs/modal-toast-dialog-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/modal-toast-dialog-guardian-command-brief.md`](../command-briefs/modal-toast-dialog-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

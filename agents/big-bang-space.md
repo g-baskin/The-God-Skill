@@ -17,7 +17,7 @@ You never build weapons. You never write command briefs. You never register Ange
 
 Load the paired skill **before doing anything else**:
 
-- Read `.cursor/skills/big-bang-earth/SKILL.md` in full.
+- Read `skills/big-bang-earth/SKILL.md` in full.
 - Treat that skill as authoritative for: depth rubric, model triplet routing, category overrides, entry format, queue row format, search query authoring, position numbering rules, and self-check list.
 
 Do NOT re-derive the rubric from memory. The skill is the source of truth and may be updated independently of this agent file.
@@ -50,7 +50,7 @@ Apply the naming rules from `big-bang-earth` step 2:
 - Lowercase, kebab-case, ASCII.
 - Always ends in `-guardian`.
 - Singular noun phrase.
-- Unique across the backlog, queue, completed file, and `ai-tools/skills/god/SKILL.md`.
+- Unique across the backlog, queue, completed file, and `skills/god/SKILL.md`.
 
 To verify uniqueness, search all four files for the candidate name BEFORE writing.
 
@@ -172,10 +172,10 @@ Do not chain into command-brief, weapon-forge, create-angel, or god-register. Yo
 
 | Role | Artifact |
 |---|---|
-| This Angel | `.cursor/agents/big-bang-space.md` (this file) |
-| Paired skill | `.cursor/skills/big-bang-earth/SKILL.md` |
+| This Angel | `agents/big-bang-space.md` (this file) |
+| Paired skill | `skills/big-bang-earth/SKILL.md` |
 | Backlog file | `ai-tools/proposed-angels-backlog.md` |
 | Queue file | `ai-tools/proposed-angels-queue.md` |
 | Completed log | `ai-tools/proposed-angels-completed.md` (read-only for this Angel) |
 | Model matrix | `ai-tools/model-comparison-matrix.md` (read-only for this Angel) |
-| Existing roster | `ai-tools/skills/god/SKILL.md` (read-only for this Angel; uniqueness check only) |
+| Existing roster | `skills/god/SKILL.md` (read-only for this Angel; uniqueness check only) |

@@ -20,11 +20,11 @@ The shape of the final summary message `gods-hand` emits at the end of every run
 
 ## Artifacts produced
 
-- Command Brief: `ai-tools/command-briefs/<guardian-name>-command-brief.md`
-- Weapon folder: `ai-tools/skills/<weapon-name>/` (guides/ N files, examples/ N files, templates/ N files, research/ N files)
-- Angel file: `ai-tools/agents/<guardian-name>.md`
-- God's roster: row added to `ai-tools/skills/god/SKILL.md` (line ~NN)
-- God-side guide: `ai-tools/skills/god/guides/<guardian-name>.md`
+- Command Brief: `command-briefs/<guardian-name>-command-brief.md`
+- Weapon folder: `skills/<weapon-name>/` (guides/ N files, examples/ N files, templates/ N files, research/ N files)
+- Angel file: `agents/<guardian-name>.md`
+- God's roster: row added to `skills/god/SKILL.md` (line ~NN)
+- God-side guide: `skills/god/guides/<guardian-name>.md`
 
 ## Phase timing
 
@@ -69,11 +69,11 @@ Forged Angel `001|nextjs-guardian`. Pipeline complete in 22 minutes 44 seconds.
 
 ## Artifacts produced
 
-- Command Brief: `ai-tools/command-briefs/nextjs-guardian-command-brief.md`
-- Weapon folder: `ai-tools/skills/nextjs-weapon/` (guides/ 8 files, examples/ 3 files, templates/ 5 files, research/ 92 files)
-- Angel file: `ai-tools/agents/nextjs-guardian.md`
-- God's roster: row added to `ai-tools/skills/god/SKILL.md` (line 23)
-- God-side guide: `ai-tools/skills/god/guides/nextjs-guardian.md`
+- Command Brief: `command-briefs/nextjs-guardian-command-brief.md`
+- Weapon folder: `skills/nextjs-weapon/` (guides/ 8 files, examples/ 3 files, templates/ 5 files, research/ 92 files)
+- Angel file: `agents/nextjs-guardian.md`
+- God's roster: row added to `skills/god/SKILL.md` (line 23)
+- God-side guide: `skills/god/guides/nextjs-guardian.md`
 
 ## Phase timing
 
@@ -117,8 +117,8 @@ Cycle stopped at Phase 2 (weapon-forge). Row `005|vite-guardian` remains in-proc
 
 ## Artifacts produced
 
-- Command Brief: `ai-tools/command-briefs/vite-guardian-command-brief.md` (Phase 1 OK)
-- Weapon folder research subfolder: `ai-tools/skills/vite-weapon/research/` (Phase 1.5 OK, 87 files)
+- Command Brief: `command-briefs/vite-guardian-command-brief.md` (Phase 1 OK)
+- Weapon folder research subfolder: `skills/vite-weapon/research/` (Phase 1.5 OK, 87 files)
 - Weapon SKILL.md: NOT produced (Phase 2 failed)
 - Angel file: NOT produced
 - God's roster: NOT updated
@@ -138,7 +138,7 @@ Cycle stopped at Phase 2 (weapon-forge). Row `005|vite-guardian` remains in-proc
 ## Flags and warnings
 
 - Phase 2 weapon-forge returned without writing SKILL.md. Worker logs indicate a model timeout during synthesis.
-- Research folder is intact at `ai-tools/skills/vite-weapon/research/`. A retry of Phase 2 can reuse it without re-running scripture-historian.
+- Research folder is intact at `skills/vite-weapon/research/`. A retry of Phase 2 can reuse it without re-running scripture-historian.
 
 ## Next steps for the orchestrator
 

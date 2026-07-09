@@ -7,9 +7,9 @@ description: Review collection and online-reputation specialist for SaaS product
 
 The procedural arsenal for `review-funnels-g2-guardian`. This Weapon encodes the full review-collection and reputation-management lifecycle for SaaS products, grounded in 2026 platform policies and practitioner-level research.
 
-**Paired Angel:** `ai-tools/agents/review-funnels-g2-guardian.md`
-**Command Brief:** `ai-tools/command-briefs/review-funnels-g2-guardian-command-brief.md`
-**Research:** `ai-tools/skills/review-funnels-g2-weapon/research/` (populated 2026-05-20 by scripture-historian)
+**Paired Angel:** `agents/review-funnels-g2-guardian.md`
+**Command Brief:** `command-briefs/review-funnels-g2-guardian-command-brief.md`
+**Research:** `skills/review-funnels-g2-weapon/research/` (populated 2026-05-20 by scripture-historian)
 
 ---
 

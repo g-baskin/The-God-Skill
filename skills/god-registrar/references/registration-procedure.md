@@ -48,7 +48,7 @@ Never use `replace_all` for table edits — it's too easy to clobber unrelated r
 
 ## Authoring the guide file
 
-The guide is created by reading `ai-tools/skills/god/templates/guide-template.md` and substituting every `{{placeholder}}` with content derived from the three source artifacts (Command Brief, Weapon SKILL.md, Angel file).
+The guide is created by reading `skills/god/templates/guide-template.md` and substituting every `{{placeholder}}` with content derived from the three source artifacts (Command Brief, Weapon SKILL.md, Angel file).
 
 ### Sourcing each placeholder
 
@@ -66,16 +66,16 @@ The guide is created by reading `ai-tools/skills/god/templates/guide-template.md
 
 ### Path normalization
 
-If God's template still uses `army/.cursor/` notation, normalize when filling in:
+If older source material mentions Cursor or `ai-tools` paths, normalize when filling in:
 
-- `army/.cursor/agents/<angel>.md` → `ai-tools/agents/<angel>.md`
-- `army/.cursor/skills/<weapon>/` → `ai-tools/skills/<weapon>/`
-- `army/<angel>-command-brief.md` → `ai-tools/command-briefs/<angel>-command-brief.md`
+- Guardian file: `agents/<angel>.md`
+- Weapon folder: `skills/<weapon>/`
+- Command Brief: `command-briefs/<angel>-command-brief.md`
 
-Relative links inside the guide (which lives at `ai-tools/skills/god/guides/<angel>.md`):
+Relative links inside the guide (which lives at `skills/god/guides/<angel>.md`):
 
-- to the Angel file: `../../agents/<angel>.md`
-- to the Weapon folder: `../../skills/<weapon>/`
+- to the Guardian file: `../../../agents/<angel>.md`
+- to the Weapon folder: `../../<weapon>/`
 - to the Command Brief: `../../../command-briefs/<angel>-command-brief.md`
 
 ---
@@ -100,7 +100,7 @@ When updating, preserve the existing sequence structure. Add the Angel as a new 
 
 If a roster row exists with a guide file behind it, the Angel is already in the system. Tell the user:
 
-> "`<angel-name>` is already registered in God's roster — guide at `ai-tools/skills/god/guides/<angel-name>.md`. No action taken. If you want to refresh the guide (e.g., the Angel's description or directives changed), confirm and I'll rewrite it."
+> "`<angel-name>` is already registered in God's roster — guide at `skills/god/guides/<angel-name>.md`. No action taken. If you want to refresh the guide (e.g., the Angel's description or directives changed), confirm and I'll rewrite it."
 
 Wait for explicit confirmation before re-authoring.
 

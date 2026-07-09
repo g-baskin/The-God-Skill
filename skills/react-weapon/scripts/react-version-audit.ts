@@ -9,7 +9,7 @@
  *   - Deprecated libraries to retire (moment, enzyme, recoil, CRA, ...)
  *
  * Run:
- *   pnpm tsx .cursor/skills/react-weapon/scripts/react-version-audit.ts
+ *   pnpm tsx skills/react-weapon/scripts/react-version-audit.ts
  *
  * Output: markdown report to stdout; exit 0.
  */

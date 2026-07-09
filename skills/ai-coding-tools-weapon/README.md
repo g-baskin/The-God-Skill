@@ -4,7 +4,7 @@ The vibe-coder's AI coding tool advisor. This Weapon equips `ai-coding-tools-gua
 
 **Tools covered:** Cursor, Claude Code, Aider, Cline, Windsurf (Cascade), Continue.dev, Replit Agent, Devin 2.0, Bolt.new.
 
-**Command Brief:** `ai-tools/command-briefs/ai-coding-tools-guardian-command-brief.md`
+**Command Brief:** `command-briefs/ai-coding-tools-guardian-command-brief.md`
 **Research summary:** `research/research-summary.md` (depth: normal, retrieved 2026-05-20)
 
 ## Folder structure

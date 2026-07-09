@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `modal-toast-dialog-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/modal-toast-dialog-guardian.md`](../../agents/modal-toast-dialog-guardian.md)
-**Weapon:** [`ai-tools/skills/modal-toast-dialog-weapon/`](../../skills/modal-toast-dialog-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/modal-toast-dialog-guardian-command-brief.md`](../../../command-briefs/modal-toast-dialog-guardian-command-brief.md)
+**Angel:** [`agents/modal-toast-dialog-guardian.md`](../../../agents/modal-toast-dialog-guardian.md)
+**Weapon:** [`skills/modal-toast-dialog-weapon/`](../../modal-toast-dialog-weapon/)
+**Command Brief:** [`command-briefs/modal-toast-dialog-guardian-command-brief.md`](../../../command-briefs/modal-toast-dialog-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -74,4 +74,4 @@ If the overlay type is unclear, ask before invoking — the taxonomy decision is
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

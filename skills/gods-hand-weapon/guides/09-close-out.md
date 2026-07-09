@@ -8,11 +8,11 @@ This is the final transition in the state machine described in `guides/00-princi
 
 Before any tracking-file mutation, double-check that the five durable artifacts all exist on disk:
 
-1. `ai-tools/command-briefs/<guardian-name>-command-brief.md` (from Phase 1)
-2. `ai-tools/skills/<weapon-name>/research/research-summary.md` (from Phase 1.5)
-3. `ai-tools/skills/<weapon-name>/SKILL.md` (from Phase 2)
-4. `ai-tools/agents/<guardian-name>.md` (from Phase 3)
-5. New roster row in `ai-tools/skills/god/SKILL.md` plus `ai-tools/skills/god/guides/<guardian-name>.md` (from Phase 4)
+1. `command-briefs/<guardian-name>-command-brief.md` (from Phase 1)
+2. `skills/<weapon-name>/research/research-summary.md` (from Phase 1.5)
+3. `skills/<weapon-name>/SKILL.md` (from Phase 2)
+4. `agents/<guardian-name>.md` (from Phase 3)
+5. New roster row in `skills/god/SKILL.md` plus `skills/god/guides/<guardian-name>.md` (from Phase 4)
 
 If any of these is missing, do NOT close out. STOP and route to `guides/10-failure-modes.md`. Closing out a partial cycle would mark the backlog `[x]` for an Angel that does not actually exist.
 

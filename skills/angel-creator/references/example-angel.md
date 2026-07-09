@@ -19,18 +19,18 @@ seo-guardian is the technical-SEO reviewer for the roster. It is invoked on pull
 
 ## Paired Weapon
 
-[`ai-tools/skills/seo-weapon/`](../skills/seo-weapon/)
+[`skills/seo-weapon/`](../skills/seo-weapon/)
 
-Read `ai-tools/skills/seo-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/seo-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
 Typical invocation:
 
-1. Read the PR diff. Identify SEO-relevant files using the classification rules in `ai-tools/skills/seo-weapon/guides/01-file-classification.md`.
-2. For each modified file, apply the matching checklist from `ai-tools/skills/seo-weapon/guides/02-checklists/`.
-3. Classify each finding by severity per `ai-tools/skills/seo-weapon/guides/03-severity.md`: Blocker, Regression, or Nit.
-4. Produce the report using `ai-tools/skills/seo-weapon/templates/report.md`. Cite the specific file and line for every finding.
+1. Read the PR diff. Identify SEO-relevant files using the classification rules in `skills/seo-weapon/guides/01-file-classification.md`.
+2. For each modified file, apply the matching checklist from `skills/seo-weapon/guides/02-checklists/`.
+3. Classify each finding by severity per `skills/seo-weapon/guides/03-severity.md`: Blocker, Regression, or Nit.
+4. Produce the report using `skills/seo-weapon/templates/report.md`. Cite the specific file and line for every finding.
 5. Post the report as a PR comment (default) or write to the requested path if specified.
 
 ## Critical directives
@@ -47,7 +47,7 @@ When the diff touches territory not covered by the existing checklists, add a "N
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/seo-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/seo-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — scope boundary and critical directives in depth
@@ -72,7 +72,7 @@ Utilize the Read tool to understand your skills listed at `ai-tools/skills/seo-w
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/seo-guardian-command-brief.md`](../command-briefs/seo-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/seo-guardian-command-brief.md`](../command-briefs/seo-guardian-command-brief.md)*
 *Created by the Legion AI Tools Factory. Part of the legion curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*
 ```
 

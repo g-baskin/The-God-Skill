@@ -31,9 +31,9 @@ It does NOT own:
 
 ## Paired Weapon
 
-[`ai-tools/skills/product-feedback-roadmap-weapon/`](../skills/product-feedback-roadmap-weapon/)
+[`skills/product-feedback-roadmap-weapon/`](../skills/product-feedback-roadmap-weapon/)
 
-Read `ai-tools/skills/product-feedback-roadmap-weapon/SKILL.md` first. It is the master index, triage decision tree, and critical directives list.
+Read `skills/product-feedback-roadmap-weapon/SKILL.md` first. It is the master index, triage decision tree, and critical directives list.
 
 ## Procedure
 
@@ -86,9 +86,9 @@ Surface to the caller and stop rather than guessing when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/product-feedback-roadmap-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/product-feedback-roadmap-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/product-feedback-roadmap-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/product-feedback-roadmap-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -122,5 +122,5 @@ The SKILL.md at `ai-tools/skills/product-feedback-roadmap-weapon/SKILL.md` is th
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/product-feedback-roadmap-guardian-command-brief.md`](../command-briefs/product-feedback-roadmap-guardian-command-brief.md)*  
+*Command Brief: [`command-briefs/product-feedback-roadmap-guardian-command-brief.md`](../command-briefs/product-feedback-roadmap-guardian-command-brief.md)*  
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -12,9 +12,9 @@ proactive: true
 
 ## Paired Weapon
 
-[`ai-tools/skills/affiliate-referral-program-weapon/`](../skills/affiliate-referral-program-weapon/)
+[`skills/affiliate-referral-program-weapon/`](../skills/affiliate-referral-program-weapon/)
 
-Read `ai-tools/skills/affiliate-referral-program-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/affiliate-referral-program-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -22,41 +22,41 @@ Read `ai-tools/skills/affiliate-referral-program-weapon/SKILL.md` first; it is t
 
 Distinguish affiliate (third-party publisher network, EPC-driven) from referral (customer advocacy, invite-link-driven) and confirm the correct platform class for the requested program type. Surface when running both simultaneously is premature.
 
-See `ai-tools/skills/affiliate-referral-program-weapon/guides/00-principles.md` for the full taxonomy, the three economic levers, and the five platform evaluation criteria.
+See `skills/affiliate-referral-program-weapon/guides/00-principles.md` for the full taxonomy, the three economic levers, and the five platform evaluation criteria.
 
 ### Step 2 -- Select the platform
 
 Apply the decision matrix (Rewardful vs FirstPromoter vs Tolt for SMB; PartnerStack vs Impact for enterprise) against the product's Stripe plan, team size, budget, and compliance posture. Model the break-even math (Rewardful vs FirstPromoter crossover at ~$5K/month affiliate revenue). Produce a ranked shortlist with rationale.
 
-See `ai-tools/skills/affiliate-referral-program-weapon/guides/01-platform-selection.md` for the full decision matrix and the enterprise-tier deep-dives (PartnerStack pricing structure, Impact positioning).
+See `skills/affiliate-referral-program-weapon/guides/01-platform-selection.md` for the full decision matrix and the enterprise-tier deep-dives (PartnerStack pricing structure, Impact positioning).
 
 ### Step 3 -- Design the attribution model
 
 Explain the 2026 attribution landscape: 30-35% of global traffic is already cookie-blocked (Safari ITP + Firefox ETP). Configure cookie duration and disclose the effective duration for Safari users (7 days for JS-set cookies, regardless of platform settings). Recommend S2S postback as the primary attribution method for all new programs. Flag UTM parameter risks and EU cookie consent requirements.
 
-See `ai-tools/skills/affiliate-referral-program-weapon/guides/02-attribution-architecture.md` for the full ITP cap explanation, S2S postback architecture, and implementation checklist.
+See `skills/affiliate-referral-program-weapon/guides/02-attribution-architecture.md` for the full ITP cap explanation, S2S postback architecture, and implementation checklist.
 
 ### Step 4 -- Configure payout rules
 
 Specify commission type (percentage vs flat), recurring vs one-time, hold period aligned to refund window, minimum payout threshold, and payout mechanism (Stripe Express recommended). Surface US 1099/W-9 obligations and EU GDPR data obligations before any payout configuration.
 
-See `ai-tools/skills/affiliate-referral-program-weapon/guides/03-payout-design.md` for commission benchmarks, hold period guidance, and tax compliance checklist.
+See `skills/affiliate-referral-program-weapon/guides/03-payout-design.md` for commission benchmarks, hold period guidance, and tax compliance checklist.
 
 ### Step 5 -- Wire the fraud-detection layer
 
 Configure the five mandatory minimum controls before the program goes live: self-referral detection (IP + /24 subnet), conversion rate anomaly monitoring (2 std dev threshold), velocity alerts (3-5x daily baseline), click-to-conversion time distribution monitoring, and disposable email domain block list. Recommend supplemental tools (IPQS, Fingerprint.com) for programs above 100 affiliates or $5K/month commissions.
 
-See `ai-tools/skills/affiliate-referral-program-weapon/guides/04-fraud-detection.md` for detection thresholds, per-platform native control comparison, and the fraud response playbook.
+See `skills/affiliate-referral-program-weapon/guides/04-fraud-detection.md` for detection thresholds, per-platform native control comparison, and the fraud response playbook.
 
 ### Step 6 -- Model program economics
 
 Calculate expected EPC, estimated LTV payback, break-even commission rate, and blended CAC impact vs other acquisition channels. Flag if total commission cost as % of LTV exceeds gross margin after the hold period.
 
-See `ai-tools/skills/affiliate-referral-program-weapon/guides/05-economics-model.md` for the full formula set and the industry benchmark table (Rewardful 2026).
+See `skills/affiliate-referral-program-weapon/guides/05-economics-model.md` for the full formula set and the industry benchmark table (Rewardful 2026).
 
 ### Step 7 -- Author the integration guide and configuration spec
 
-Produce a structured report using `ai-tools/skills/affiliate-referral-program-weapon/templates/program-config-spec.md`, with step-by-step setup instructions scoped to the chosen platform and payment stack. Name any required handoffs to peer Angels (payments-guardian for Stripe Express, security-guardian for API key handling, db-guardian for custom schema).
+Produce a structured report using `skills/affiliate-referral-program-weapon/templates/program-config-spec.md`, with step-by-step setup instructions scoped to the chosen platform and payment stack. Name any required handoffs to peer Angels (payments-guardian for Stripe Express, security-guardian for API key handling, db-guardian for custom schema).
 
 ## Critical directives
 
@@ -78,9 +78,9 @@ Surface to the user and pause rather than guessing when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/affiliate-referral-program-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/affiliate-referral-program-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/affiliate-referral-program-weapon/SKILL.md` is the master index -- read it first.
+The SKILL.md at `skills/affiliate-referral-program-weapon/SKILL.md` is the master index -- read it first.
 
 ### Principles and procedures (guides/)
 
@@ -112,5 +112,5 @@ The SKILL.md at `ai-tools/skills/affiliate-referral-program-weapon/SKILL.md` is 
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/affiliate-referral-program-guardian-command-brief.md`](../command-briefs/affiliate-referral-program-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/affiliate-referral-program-guardian-command-brief.md`](../command-briefs/affiliate-referral-program-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

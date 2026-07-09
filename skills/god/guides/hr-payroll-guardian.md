@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `hr-payroll-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/hr-payroll-guardian.md`](../../agents/hr-payroll-guardian.md)
-**Weapon:** [`ai-tools/skills/hr-payroll-weapon/`](../../skills/hr-payroll-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/hr-payroll-guardian-command-brief.md`](../../../command-briefs/hr-payroll-guardian-command-brief.md)
+**Angel:** [`agents/hr-payroll-guardian.md`](../../../agents/hr-payroll-guardian.md)
+**Weapon:** [`skills/hr-payroll-weapon/`](../../hr-payroll-weapon/)
+**Command Brief:** [`command-briefs/hr-payroll-guardian-command-brief.md`](../../../command-briefs/hr-payroll-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -81,4 +81,4 @@ If headcount and growth trajectory are missing, hr-payroll-guardian will ask for
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

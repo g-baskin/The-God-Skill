@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `git-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/git-guardian.md`](../../agents/git-guardian.md)
-**Weapon:** [`ai-tools/skills/git-weapon/`](../../skills/git-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/git-guardian-command-brief.md`](../../../command-briefs/git-guardian-command-brief.md)
+**Angel:** [`agents/git-guardian.md`](../../../agents/git-guardian.md)
+**Weapon:** [`skills/git-weapon/`](../../git-weapon/)
+**Command Brief:** [`command-briefs/git-guardian-command-brief.md`](../../../command-briefs/git-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -87,4 +87,4 @@ If the goal is unclear, the Angel will ask for clarification before proceeding â
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

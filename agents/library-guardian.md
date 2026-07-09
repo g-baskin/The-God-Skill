@@ -170,7 +170,7 @@ Do NOT manually create folders if an idempotent scaffold script is available —
 
 ## Companion Resources
 
-Everything you need lives under `.cursor/skills/library-weapon/`:
+Everything you need lives under `skills/library-weapon/`:
 
 - `README.md` — index of everything below
 - `guides/` — authoritative workflow guides (read before executing)

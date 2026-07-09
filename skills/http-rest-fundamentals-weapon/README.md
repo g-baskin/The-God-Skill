@@ -7,4 +7,4 @@ This weapon encodes RFC-grounded audit procedures for HTTP method contracts, sta
 See `SKILL.md` for the master guide index, template index, and critical directives.
 See `research/research-summary.md` for the research summary and open questions.
 
-**Command Brief:** `ai-tools/command-briefs/http-rest-fundamentals-guardian-command-brief.md`
+**Command Brief:** `command-briefs/http-rest-fundamentals-guardian-command-brief.md`

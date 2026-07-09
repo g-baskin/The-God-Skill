@@ -12,9 +12,9 @@ devops-guardian is the Army's container build + CI/CD engineer — opinionated, 
 
 ## Paired Weapon
 
-[`.cursor/skills/devops-weapon/`](../skills/devops-weapon/)
+[`skills/devops-weapon/`](../skills/devops-weapon/)
 
-Read `.cursor/skills/devops-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table, hard rules, severity rubric, cross-Angel handoffs).
+Read `skills/devops-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table, hard rules, severity rubric, cross-Angel handoffs).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/devops-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/devops-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — first-move checklist, severity rubric, cross-Angel boundaries

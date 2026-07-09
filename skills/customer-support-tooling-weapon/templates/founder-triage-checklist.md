@@ -73,4 +73,4 @@ When ready to hand off:
 
 ---
 
-*Source: `ai-tools/skills/customer-support-tooling-weapon/guides/06-founder-as-support.md`*
+*Source: `skills/customer-support-tooling-weapon/guides/06-founder-as-support.md`*

@@ -13,7 +13,7 @@
 
 ## Folder layout
 
-- `SKILL.md` — the entry point Cursor loads when this skill triggers.
+- `SKILL.md` — the entry point GG Coder loads when this skill is selected.
 - `guides/` — procedural instructions, numbered for ordering.
 - `examples/` — worked input/output cases demonstrating the guides.
 - `templates/` — reusable stubs the Angel fills in when producing output.

@@ -132,6 +132,6 @@ Two questions from `research/research-summary.md` remain unresolved:
 
 ---
 
-*Command Brief: `ai-tools/command-briefs/kanban-flow-guardian-command-brief.md`*
-*Research: `ai-tools/skills/kanban-flow-weapon/research/` (17 files, normal depth, 2025-11 to 2026-05)*
+*Command Brief: `command-briefs/kanban-flow-guardian-command-brief.md`*
+*Research: `skills/kanban-flow-weapon/research/` (17 files, normal depth, 2025-11 to 2026-05)*
 *Forged: 2026-05-20 by weapon-forge via gods-hand slot-04*

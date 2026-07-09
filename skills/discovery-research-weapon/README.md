@@ -2,7 +2,7 @@
 
 The continuous-discovery playbook for `discovery-research-guardian`. This weapon encodes Teresa Torres' interview cadence, Opportunity Solution Trees, Jobs-to-be-Done interview methodology, DVFU assumption mapping, and lightweight prototype experiment design — giving the Angel specific, opinionated procedures rather than generic UX theory.
 
-**Command Brief:** [`ai-tools/command-briefs/discovery-research-guardian-command-brief.md`](../../command-briefs/discovery-research-guardian-command-brief.md)
+**Command Brief:** [`command-briefs/discovery-research-guardian-command-brief.md`](../../command-briefs/discovery-research-guardian-command-brief.md)
 **Research summary:** [`research/research-summary.md`](research/research-summary.md)
 **Primary source coverage:** Nov 2025 - May 2026 (13 research notes)
 

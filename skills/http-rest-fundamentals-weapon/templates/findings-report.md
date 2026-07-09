@@ -79,4 +79,4 @@
 
 ---
 
-*Report template: `ai-tools/skills/http-rest-fundamentals-weapon/templates/findings-report.md`*
+*Report template: `skills/http-rest-fundamentals-weapon/templates/findings-report.md`*

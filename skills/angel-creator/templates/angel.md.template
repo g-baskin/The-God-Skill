@@ -12,9 +12,9 @@ proactive: {{true | false}}
 
 ## Paired Weapon
 
-[`ai-tools/skills/{{weapon-name}}/`](../skills/{{weapon-name}}/)
+[`skills/{{weapon-name}}/`](../skills/{{weapon-name}}/)
 
-Read `ai-tools/skills/{{weapon-name}}/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/{{weapon-name}}/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -23,7 +23,7 @@ Typical invocation:
 1. {{Step 1. Cite the specific guide in the Weapon folder that covers this step's details.}}
 2. {{Step 2.}}
 3. {{Step 3.}}
-4. {{Produce the output per `ai-tools/skills/{{weapon-name}}/templates/<output-template>.md` and deliver it per EXPECTED OUTPUT.}}
+4. {{Produce the output per `skills/{{weapon-name}}/templates/<output-template>.md` and deliver it per EXPECTED OUTPUT.}}
 
 ## Critical directives
 
@@ -37,7 +37,7 @@ When uncertain, {{specify the escalation behavior — flag for user, ask clarify
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/{{weapon-name}}/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/{{weapon-name}}/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — scope boundary and critical directives in depth
@@ -55,5 +55,5 @@ Utilize the Read tool to understand your skills listed at `ai-tools/skills/{{wea
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/{{angel-name}}-command-brief.md`](../command-briefs/{{angel-name}}-command-brief.md)*
+*Command Brief: [`command-briefs/{{angel-name}}-command-brief.md`](../command-briefs/{{angel-name}}-command-brief.md)*
 *Created by the Legion AI Tools Factory. Part of the legion curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -1,12 +1,13 @@
 # God
 
-The master routing skill for the God repository Cursor setup.
+The master routing skill for the GG Coder setup in this repository.
 
-God does not perform work. It routes the primary Cursor agent's tasks to the correct Angel (subagent) in the Army, passing along the paired Weapon (skill) so every delegation arrives fully equipped.
+God does not perform work. It routes GG Coder's tasks to the correct guardian and paired weapon, while keeping the context load small.
 
-## Entry point
+## Entry points
 
-- [`SKILL.md`](./SKILL.md) — the skill definition Cursor loads.
+- [`.gg/skills/god/SKILL.md`](../../.gg/skills/god/SKILL.md) — the GG Coder shim that lazy-loads this router.
+- [`SKILL.md`](./SKILL.md) — the canonical routing roster.
 
 ## Roster
 
@@ -26,13 +27,13 @@ Each Angel has a dedicated, in-depth guide:
 - [`guides/seo-aeo-guardian.md`](guides/seo-aeo-guardian.md)
 - [`guides/ux-ui-guardian.md`](guides/ux-ui-guardian.md)
 
-## Adding new Angels
+## Adding new guardians
 
-The Legendary Angel Factory forges new Angels end to end. To register a new Angel with God after the Factory has produced the artifacts:
+The Factory forges new guardians end to end. To register a new guardian with God after the Factory has produced the artifacts:
 
-1. Add the Angel to the roster table in [`SKILL.md`](./SKILL.md).
+1. Add the guardian to the roster table in [`SKILL.md`](./SKILL.md).
 2. Author a new guide under [`guides/`](./guides/) using [`templates/guide-template.md`](./templates/guide-template.md).
-3. Update the multi-Angel orchestration section in `SKILL.md` if the new Angel fits an existing sequence.
+3. Update the multi-agent orchestration section in `SKILL.md` if the new guardian fits an existing sequence.
 
 ## Philosophy
 
@@ -40,4 +41,4 @@ See [`references/philosophy.md`](./references/philosophy.md) for the rationale b
 
 ---
 
-*Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*
+*Part of The Notorious Avengers shared agent, skill, and rule library.*

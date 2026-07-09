@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `alt-ads-platforms-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/alt-ads-platforms-guardian.md`](../../agents/alt-ads-platforms-guardian.md)
-**Weapon:** [`ai-tools/skills/alt-ads-platforms-weapon/`](../../skills/alt-ads-platforms-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/alt-ads-platforms-guardian-command-brief.md`](../../../command-briefs/alt-ads-platforms-guardian-command-brief.md)
+**Angel:** [`agents/alt-ads-platforms-guardian.md`](../../../agents/alt-ads-platforms-guardian.md)
+**Weapon:** [`skills/alt-ads-platforms-weapon/`](../../alt-ads-platforms-weapon/)
+**Command Brief:** [`command-briefs/alt-ads-platforms-guardian-command-brief.md`](../../../command-briefs/alt-ads-platforms-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -85,4 +85,4 @@ If ICP and budget are missing, ask for them before any setup guidance.
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

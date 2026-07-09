@@ -50,4 +50,4 @@ This weapon covers the **Bolt SDK (JS, Python, Java)** and the classic Slack Pla
 
 ---
 
-*Forged by `weapon-forge` from `ai-tools/command-briefs/slack-app-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory.*
+*Forged by `weapon-forge` from `command-briefs/slack-app-guardian-command-brief.md` and `research/`. Part of the Legion AI Tools Factory.*

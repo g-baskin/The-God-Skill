@@ -14,9 +14,9 @@ This Angel does NOT own full documentation site architecture (`library-guardian`
 
 ## Paired Weapon
 
-[`ai-tools/skills/readme-writing-weapon/`](../skills/readme-writing-weapon/)
+[`skills/readme-writing-weapon/`](../skills/readme-writing-weapon/)
 
-Read `ai-tools/skills/readme-writing-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/readme-writing-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -66,9 +66,9 @@ Surface to the user and stop, rather than guessing, when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/readme-writing-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/readme-writing-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/readme-writing-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/readme-writing-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -104,5 +104,5 @@ The SKILL.md at `ai-tools/skills/readme-writing-weapon/SKILL.md` is the master i
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/readme-writing-guardian-command-brief.md`](../command-briefs/readme-writing-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/readme-writing-guardian-command-brief.md`](../command-briefs/readme-writing-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

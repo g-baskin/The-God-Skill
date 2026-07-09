@@ -33,11 +33,11 @@ If the cycle failed mid-run, the "After" column reflects the partial state.
 
 A list of the five durable artifacts, with paths:
 
-- Command Brief: `ai-tools/command-briefs/<guardian-name>-command-brief.md`
-- Weapon folder: `ai-tools/skills/<weapon-name>/` (with subfolder counts: e.g., `guides/ (12 files)`, `examples/ (2 files)`, `research/ (19 files)`)
-- Angel file: `ai-tools/agents/<guardian-name>.md`
-- God's roster row: added to `ai-tools/skills/god/SKILL.md` (with line number if possible)
-- God-side guide: `ai-tools/skills/god/guides/<guardian-name>.md`
+- Command Brief: `command-briefs/<guardian-name>-command-brief.md`
+- Weapon folder: `skills/<weapon-name>/` (with subfolder counts: e.g., `guides/ (12 files)`, `examples/ (2 files)`, `research/ (19 files)`)
+- Angel file: `agents/<guardian-name>.md`
+- God's roster row: added to `skills/god/SKILL.md` (with line number if possible)
+- God-side guide: `skills/god/guides/<guardian-name>.md`
 
 For a failed cycle, list only the artifacts that were produced and mark the missing ones.
 

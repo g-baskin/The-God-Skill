@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `investor-cap-table-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/investor-cap-table-guardian.md`](../../agents/investor-cap-table-guardian.md)
-**Weapon:** [`ai-tools/skills/investor-cap-table-weapon/`](../../skills/investor-cap-table-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/investor-cap-table-guardian-command-brief.md`](../../../command-briefs/investor-cap-table-guardian-command-brief.md)
+**Angel:** [`agents/investor-cap-table-guardian.md`](../../../agents/investor-cap-table-guardian.md)
+**Weapon:** [`skills/investor-cap-table-weapon/`](../../investor-cap-table-weapon/)
+**Command Brief:** [`command-briefs/investor-cap-table-guardian-command-brief.md`](../../../command-briefs/investor-cap-table-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -80,4 +80,4 @@ If the stage and question type are ambiguous, the Angel will ask before diving i
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

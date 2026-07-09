@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `markdown-mdx-content-pipeline-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/markdown-mdx-content-pipeline-guardian.md`](../../agents/markdown-mdx-content-pipeline-guardian.md)
-**Weapon:** [`ai-tools/skills/markdown-mdx-content-pipeline-weapon/`](../../skills/markdown-mdx-content-pipeline-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/markdown-mdx-content-pipeline-guardian-command-brief.md`](../../../command-briefs/markdown-mdx-content-pipeline-guardian-command-brief.md)
+**Angel:** [`agents/markdown-mdx-content-pipeline-guardian.md`](../../../agents/markdown-mdx-content-pipeline-guardian.md)
+**Weapon:** [`skills/markdown-mdx-content-pipeline-weapon/`](../../markdown-mdx-content-pipeline-weapon/)
+**Command Brief:** [`command-briefs/markdown-mdx-content-pipeline-guardian-command-brief.md`](../../../command-briefs/markdown-mdx-content-pipeline-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -85,4 +85,4 @@ If the runtime is missing and the request is about compiler selection, ask: "Is 
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

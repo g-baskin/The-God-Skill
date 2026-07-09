@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `runbook-writing-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/runbook-writing-guardian.md`](../../agents/runbook-writing-guardian.md)
-**Weapon:** [`ai-tools/skills/runbook-writing-weapon/`](../../skills/runbook-writing-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/runbook-writing-guardian-command-brief.md`](../../../command-briefs/runbook-writing-guardian-command-brief.md)
+**Angel:** [`agents/runbook-writing-guardian.md`](../../../agents/runbook-writing-guardian.md)
+**Weapon:** [`skills/runbook-writing-weapon/`](../../runbook-writing-weapon/)
+**Command Brief:** [`command-briefs/runbook-writing-guardian-command-brief.md`](../../../command-briefs/runbook-writing-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -76,4 +76,4 @@ If the alert name or service is missing and cannot be inferred from context, ask
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

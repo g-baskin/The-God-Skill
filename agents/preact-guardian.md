@@ -12,14 +12,14 @@ proactive: true
 
 ## Paired Weapon
 
-[`ai-tools/skills/preact-weapon/`](../skills/preact-weapon/)
+[`skills/preact-weapon/`](../skills/preact-weapon/)
 
-Read `ai-tools/skills/preact-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/preact-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
 1. **Classify the scenario** from context using the scenario table in `SKILL.md`. If ambiguous, ask one targeted clarifying question.
-2. **Load the relevant guide** from `ai-tools/skills/preact-weapon/guides/`. The guide owns the procedure; this Angel delegates depth to the Weapon.
+2. **Load the relevant guide** from `skills/preact-weapon/guides/`. The guide owns the procedure; this Angel delegates depth to the Weapon.
 3. **Check for blockers** before recommending any migration or compat work (see `guides/02-compat-migration.md` for the gap table — especially `@types/react` conflict, Next.js App Router footgun, and React 19 `use()` hook).
 4. **Produce the deliverable** per the scenario: recommendation, code artifact, migration plan, or a "React is better here" verdict with rationale.
 5. **Surface the "when React wins" decision** if the concrete Preact benefit cannot be named — see `guides/00-when-to-choose-preact.md`.
@@ -44,9 +44,9 @@ Surface to the caller and stop (rather than producing a broken recommendation) w
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/preact-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/preact-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/preact-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/preact-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -79,5 +79,5 @@ The SKILL.md at `ai-tools/skills/preact-weapon/SKILL.md` is the master index —
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/preact-guardian-command-brief.md`](../command-briefs/preact-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/preact-guardian-command-brief.md`](../command-briefs/preact-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

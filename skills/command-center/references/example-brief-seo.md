@@ -6,7 +6,7 @@ This is a reference example of what a completed Command Brief looks like. Use it
 
 # seo-guardian Command Brief
 
-A Cursor IDE subagent that reviews pull requests for technical SEO regressions before they ship, paired with a skill that encodes Google Search Central's current technical best practices, common regression patterns, and a checklist-driven audit procedure.
+A GG Coder guardian that reviews pull requests for technical SEO regressions before they ship, paired with a skill that encodes Google Search Central's current technical best practices, common regression patterns, and a checklist-driven audit procedure.
 
 ## Angel (subagent)
 
@@ -59,7 +59,7 @@ Consumers: the PR author, the reviewer, and a CI status check that parses the "M
 
 ## Weapon (skill)
 
-A Cursor skill that equips seo-guardian with the current technical SEO rulebook, checklists per file type, and templated findings text.
+A GG Coder skill that equips seo-guardian with the current technical SEO rulebook, checklists per file type, and templated findings text.
 
 ### REFERENCE MATERIAL
 

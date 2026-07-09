@@ -82,7 +82,7 @@ The live watchlist with refresh dates is `research/cve-watchlist.md`. If its `La
 
 1. `npm audit --json --audit-level=high`
 2. CVE version checks against Next.js and React from `package-lock.json`
-3. Unicode scan of `.cursor/rules/**`, `.cursorrules`, `AGENTS.md`, `CLAUDE.md`
+3. Unicode scan of `rules/**`, `.gg/**`, `AGENTS.md`, `CLAUDE.md`, `.github/copilot-instructions.md`, plus legacy Cursor rule files when present
 4. Regex sweeps for well-known vulnerable patterns (`dangerouslySetInnerHTML`, `cardNumber`, `Object.assign(.*JSON.parse`, `algorithms:.*none`, `NEXT_PUBLIC_.*(sk_|key|secret)`)
 
 Pipe each output into a local scratch dir like `.scan-output/` (gitignored — these are ephemeral, regenerate per audit) and work from there. You read; the script greps.

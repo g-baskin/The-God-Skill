@@ -2,7 +2,7 @@
 
 This directory holds everything the `wiki-guardian` Angel needs to do its job. Organized into six layers: **guides** (procedural rules), **references** (cheat sheets loaded on demand), **templates** (page seeds copied per write), **examples** (worked invocations to mirror), **reports** (output shapes and past runs), **research** (audit trail for the guides).
 
-> **Agent entry point:** [`legion/.cursor/agents/wiki-guardian.md`](../../agents/wiki-guardian.md) (repo-local). The agent reads files from this directory by path; it does not auto-load everything into context.
+> **Agent entry point:** [`agents/wiki-guardian.md`](../../agents/wiki-guardian.md) (repo-local). The agent reads files from this directory by path; it does not auto-load everything into context.
 >
 > **Brief:** [`legion/command-briefs/wiki-guardian-command-brief.md`](../../../command-briefs/wiki-guardian-command-brief.md)
 > **Recon:** [`legion/command-briefs/research/2026-04-29-claude-obsidian-recon.md`](../../../command-briefs/research/2026-04-29-claude-obsidian-recon.md)
@@ -11,7 +11,7 @@ This directory holds everything the `wiki-guardian` Angel needs to do its job. O
 
 ```
 wiki-weapon/
-├── SKILL.md                    # thin Cursor-skill wrapper, points here
+├── SKILL.md                    # thin GG Coder skill entrypoint, points here
 ├── README.md                   # you are here — navigation
 ├── guides/                     # procedural rules — agent MUST read the matching guide before acting
 │   ├── 00-principles.md
@@ -130,7 +130,7 @@ All templates use Obsidian-flavored YAML frontmatter and `[[wikilinks]]` — bot
 
 ## Sibling boundaries
 
-- `library-guardian` writes module narratives at `library/knowledge-base/<module>/*.md`. wiki-guardian does not touch this folder. See [`legion/.cursor/skills/library-weapon/README.md`](../library-weapon/README.md).
+- `library-guardian` writes module narratives at `library/knowledge-base/<module>/*.md`. wiki-guardian does not touch this folder. See [`skills/library-weapon/README.md`](../library-weapon/README.md).
 - `quality-guardian` writes QA reports under `library/qa/` and feature/issue `reports/` folders. wiki-guardian does not touch these.
 - The TS driver (Legion VS Code extension) owns `index.md`, `<type>/_index.md`, `log.md`, `hot.md`, `.legion/file-hashes.json` inside `library/knowledge-base/wiki/`. wiki-guardian writes per-page content only.
 

@@ -8,7 +8,7 @@ SaaS founders launching affiliate or referral programs face three failure modes:
 
 ## Source of truth
 
-- **Command Brief:** `ai-tools/command-briefs/affiliate-referral-program-guardian-command-brief.md`
+- **Command Brief:** `command-briefs/affiliate-referral-program-guardian-command-brief.md`
 - **Research summary:** `research/research-summary.md` (Rewardful 2026 benchmark data, ITP explainers, PartnerStack pricing deep-dives, S2S postback guides, fraud detection thresholds)
 
 ## Refresh cadence

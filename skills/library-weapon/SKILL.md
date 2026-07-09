@@ -5,9 +5,9 @@ description: Equips library-guardian with the documentation lifecycle — knowle
 
 # library-weapon
 
-Cursor-skill wrapper for the `library-guardian` Angel's companion resource bundle. The full directory map, intent-routing tables, examples catalog, templates list, path conventions, and self-operation notes are in [`README.md`](README.md) — start there.
+GG Coder skill entrypoint for the `library-guardian` Angel's companion resource bundle. The full directory map, intent-routing tables, examples catalog, templates list, path conventions, and self-operation notes are in [`README.md`](README.md) — start there.
 
-> **Agent entry point:** [`library-guardian.md`](../../agents/library-guardian.md) — deployed via the host repo's `.cursor/agents/` folder.
+> **Agent entry point:** [`library-guardian.md`](../../agents/library-guardian.md) — deployed via the host repo's `agents/` folder.
 >
 > **Peer Angels:** [`quality-guardian`](../../agents/quality-guardian.md) owns QA report authorship. [`asset-guardian`](../../agents/asset-guardian.md) owns the parallel asset registry.
 

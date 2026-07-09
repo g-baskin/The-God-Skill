@@ -56,18 +56,18 @@ Captures:
 Validation checks all pass.
 
 Uniqueness checks (`guides/03-naming-contracts.md`):
-- `nextjs-guardian` not present in `ai-tools/skills/god/SKILL.md` -- OK.
+- `nextjs-guardian` not present in `skills/god/SKILL.md` -- OK.
 - `nextjs-guardian` not present in `proposed-angels-completed.md` -- OK.
 - `nextjs-guardian` not present in queue (was just removed) -- OK.
-- `ai-tools/skills/nextjs-weapon/` does not exist -- OK.
-- `ai-tools/agents/nextjs-guardian.md` does not exist -- OK.
+- `skills/nextjs-weapon/` does not exist -- OK.
+- `agents/nextjs-guardian.md` does not exist -- OK.
 
 ## Step 4: Phase 1 (command-center)
 
-`gods-hand` loads `ai-tools/skills/command-center/SKILL.md` and follows its instructions. The skill:
+`gods-hand` loads `skills/command-center/SKILL.md` and follows its instructions. The skill:
 
 1. Reads the template at `command-brief-template.md` (repo root).
-2. Writes a populated brief to `ai-tools/command-briefs/nextjs-guardian-command-brief.md` with:
+2. Writes a populated brief to `command-briefs/nextjs-guardian-command-brief.md` with:
    - YAML frontmatter (8 fields) populated from the backlog metadata.
    - H1 heading: `# nextjs-guardian Command Brief`.
    - Angel half populated from the Purpose and `gods-hand`'s pre-filled context.
@@ -82,7 +82,7 @@ Wall clock: 1m 23s.
 `gods-hand` creates:
 
 ```
-ai-tools/skills/nextjs-weapon/
+skills/nextjs-weapon/
   examples/
   guides/
   reports/
@@ -105,8 +105,8 @@ You are Phase 1.5 of the Legion AI Tools Factory pipeline, invoked by `gods-hand
 
 - Angel: `nextjs-guardian`
 - Weapon: `nextjs-weapon`
-- Command Brief: `ai-tools/command-briefs/nextjs-guardian-command-brief.md`
-- Research output: `ai-tools/skills/nextjs-weapon/research/`
+- Command Brief: `command-briefs/nextjs-guardian-command-brief.md`
+- Research output: `skills/nextjs-weapon/research/`
 - Depth tier: `deep`
 
 Read the brief, build a research plan, conduct depth-calibrated research, and end with the canonical handoff line.
@@ -116,7 +116,7 @@ Read the brief, build a research plan, conduct depth-calibrated research, and en
 
 `scripture-historian` runs for 12m 45s and emits its handoff line:
 
-> "Research for `nextjs-guardian` is complete at `ai-tools/skills/nextjs-weapon/research/` (92 files, depth: deep, window: 6 months). Ready to hand off to **weapon-forge**."
+> "Research for `nextjs-guardian` is complete at `skills/nextjs-weapon/research/` (92 files, depth: deep, window: 6 months). Ready to hand off to **weapon-forge**."
 
 `gods-hand` verifies:
 - `research/research-plan.md` exists.
@@ -128,7 +128,7 @@ OK. Proceed to Phase 2.
 
 ## Step 7: Phase 2 (weapon-forge)
 
-`gods-hand` loads `ai-tools/skills/weapon-forge/SKILL.md` and follows its instructions. The skill:
+`gods-hand` loads `skills/weapon-forge/SKILL.md` and follows its instructions. The skill:
 
 1. Reads the Command Brief.
 2. Reads `research/research-summary.md` for the executive summary.
@@ -151,11 +151,11 @@ OK. Proceed to Phase 3.
 
 ## Step 8: Phase 3 (angel-creator)
 
-`gods-hand` loads `ai-tools/skills/angel-creator/SKILL.md` and follows its instructions. The skill:
+`gods-hand` loads `skills/angel-creator/SKILL.md` and follows its instructions. The skill:
 
 1. Reads the Command Brief.
 2. Walks the Weapon folder recursively to enumerate files for the References section.
-3. Writes the Angel file at `ai-tools/agents/nextjs-guardian.md` with:
+3. Writes the Angel file at `agents/nextjs-guardian.md` with:
    - YAML frontmatter (`name: nextjs-guardian`, populated `description`, `proactive: true`).
    - H1: `# Next.js Guardian`.
    - All six standard body sections.
@@ -167,13 +167,13 @@ Wall clock: 1m 42s.
 
 ## Step 9: Phase 4 (god-registrar)
 
-`gods-hand` loads `ai-tools/skills/god-registrar/SKILL.md` and follows its instructions. The skill:
+`gods-hand` loads `skills/god-registrar/SKILL.md` and follows its instructions. The skill:
 
-1. Adds a row to the Roster table in `ai-tools/skills/god/SKILL.md`:
+1. Adds a row to the Roster table in `skills/god/SKILL.md`:
    ```
    | `nextjs-guardian` | Next.js 15+ App Router authority ... | "use Next.js", "review App Router code", ... | [guides/nextjs-guardian.md](guides/nextjs-guardian.md) |
    ```
-2. Writes `ai-tools/skills/god/guides/nextjs-guardian.md` from `templates/guide-template.md`, substituting placeholders.
+2. Writes `skills/god/guides/nextjs-guardian.md` from `templates/guide-template.md`, substituting placeholders.
 3. Increments the "N Angels registered" footnote from 17 to 18.
 
 Wall clock: 38s.
@@ -221,11 +221,11 @@ Wall clock for close-out: 5s.
 - `proposed-angels-backlog.md`: tier 1 has `### [x] 1. nextjs-guardian`.
 
 On disk:
-- `ai-tools/command-briefs/nextjs-guardian-command-brief.md`
-- `ai-tools/skills/nextjs-weapon/` (with SKILL.md, README.md, guides/, examples/, templates/, reports/, research/)
-- `ai-tools/agents/nextjs-guardian.md`
-- `ai-tools/skills/god/SKILL.md` (with new roster row)
-- `ai-tools/skills/god/guides/nextjs-guardian.md`
+- `command-briefs/nextjs-guardian-command-brief.md`
+- `skills/nextjs-weapon/` (with SKILL.md, README.md, guides/, examples/, templates/, reports/, research/)
+- `agents/nextjs-guardian.md`
+- `skills/god/SKILL.md` (with new roster row)
+- `skills/god/guides/nextjs-guardian.md`
 
 `gods-hand` ends with the stop line. The orchestrator decides whether to invoke `gods-hand` again for `002|cursor-ide-guardian` or pause for human review.
 

@@ -6,13 +6,13 @@ Walk this checklist before announcing the Angel is ready. Each item should be "d
 
 ## Inputs verified
 
-- [ ] Command Brief exists at `ai-tools/command-briefs/<angel-name>-command-brief.md` and is complete (every section has substantive content).
-- [ ] Weapon folder exists at `ai-tools/skills/<weapon-name>/` with populated guides, examples, templates, reports, and research.
+- [ ] Command Brief exists at `command-briefs/<angel-name>-command-brief.md` and is complete (every section has substantive content).
+- [ ] Weapon folder exists at `skills/<weapon-name>/` with populated guides, examples, templates, reports, and research.
 - [ ] Weapon's `SKILL.md` has a triggering description.
 
 ## File location and naming
 
-- [ ] Angel file is at `ai-tools/agents/<angel-name>.md`.
+- [ ] Angel file is at `agents/<angel-name>.md`.
 - [ ] Filename matches the `name` frontmatter field.
 - [ ] Angel name ends in `-guardian`.
 - [ ] Paired Weapon name ends in `-weapon` and shares the same prefix.

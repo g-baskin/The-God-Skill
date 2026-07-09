@@ -2,7 +2,7 @@
 
 The paired Weapon for `estimation-guardian`. Encodes the full software estimation and probabilistic forecasting knowledge base: relative-sizing frameworks (Fibonacci story points, T-shirt sizing), the NoEstimates movement, the planning-fallacy literature, and Monte Carlo simulation for delivery forecasting.
 
-**Command Brief:** [`ai-tools/command-briefs/estimation-guardian-command-brief.md`](../../command-briefs/estimation-guardian-command-brief.md)
+**Command Brief:** [`command-briefs/estimation-guardian-command-brief.md`](../../command-briefs/estimation-guardian-command-brief.md)
 **Research summary:** [`research/research-summary.md`](research/research-summary.md)
 
 ## Quick-start for estimation-guardian

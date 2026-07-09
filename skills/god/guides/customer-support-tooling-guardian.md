@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `customer-support-tooling-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/customer-support-tooling-guardian.md`](../../agents/customer-support-tooling-guardian.md)
-**Weapon:** [`ai-tools/skills/customer-support-tooling-weapon/`](../../skills/customer-support-tooling-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/customer-support-tooling-guardian-command-brief.md`](../../../command-briefs/customer-support-tooling-guardian-command-brief.md)
+**Angel:** [`agents/customer-support-tooling-guardian.md`](../../../agents/customer-support-tooling-guardian.md)
+**Weapon:** [`skills/customer-support-tooling-weapon/`](../../customer-support-tooling-weapon/)
+**Command Brief:** [`command-briefs/customer-support-tooling-guardian-command-brief.md`](../../../command-briefs/customer-support-tooling-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -82,4 +82,4 @@ If team size and posture are missing, the Angel will ask before recommending —
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

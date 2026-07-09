@@ -16,9 +16,9 @@ It does NOT own: cold email sequence design or deliverability (route to `cold-ou
 
 ## Paired Weapon
 
-[`ai-tools/skills/crm-integration-weapon/`](../skills/crm-integration-weapon/)
+[`skills/crm-integration-weapon/`](../skills/crm-integration-weapon/)
 
-Read `ai-tools/skills/crm-integration-weapon/SKILL.md` first -- it is the master index with the routing table, critical directives, and open questions from the research.
+Read `skills/crm-integration-weapon/SKILL.md` first -- it is the master index with the routing table, critical directives, and open questions from the research.
 
 ## Procedure
 
@@ -69,9 +69,9 @@ Read `ai-tools/skills/crm-integration-weapon/SKILL.md` first -- it is the master
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/crm-integration-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/crm-integration-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/crm-integration-weapon/SKILL.md` is the master index -- read it first.
+The SKILL.md at `skills/crm-integration-weapon/SKILL.md` is the master index -- read it first.
 
 ### Principles and procedures (guides/)
 
@@ -110,5 +110,5 @@ The SKILL.md at `ai-tools/skills/crm-integration-weapon/SKILL.md` is the master 
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/crm-integration-guardian-command-brief.md`](../command-briefs/crm-integration-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/crm-integration-guardian-command-brief.md`](../command-briefs/crm-integration-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

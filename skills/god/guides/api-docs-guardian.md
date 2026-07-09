@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `api-docs-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/api-docs-guardian.md`](../../agents/api-docs-guardian.md)
-**Weapon:** [`ai-tools/skills/api-docs-weapon/`](../../skills/api-docs-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/api-docs-guardian-command-brief.md`](../../../command-briefs/api-docs-guardian-command-brief.md)
+**Angel:** [`agents/api-docs-guardian.md`](../../../agents/api-docs-guardian.md)
+**Weapon:** [`skills/api-docs-weapon/`](../../api-docs-weapon/)
+**Command Brief:** [`command-briefs/api-docs-guardian-command-brief.md`](../../../command-briefs/api-docs-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -77,4 +77,4 @@ If the OpenAPI spec cannot be provided or inferred, stop and ask the user to sup
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

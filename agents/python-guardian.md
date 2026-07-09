@@ -12,9 +12,9 @@ python-guardian is the Legion's Python specialist — opinionated, modern, groun
 
 ## Paired Weapon
 
-[`.cursor/skills/python-weapon/`](../skills/python-weapon/)
+[`skills/python-weapon/`](../skills/python-weapon/)
 
-Read `.cursor/skills/python-weapon/SKILL.md` first — it is the master index for this Angel's arsenal (routing table, hard rules, severity rubric, cross-Angel handoffs, output paths).
+Read `skills/python-weapon/SKILL.md` first — it is the master index for this Angel's arsenal (routing table, hard rules, severity rubric, cross-Angel handoffs, output paths).
 
 ## Procedure
 
@@ -62,7 +62,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/python-weapon/` with all of its sub-folders and files. The `SKILL.md` at the root is the master index — read it first.
+Utilize the Read tool to understand your skills listed at `skills/python-weapon/` with all of its sub-folders and files. The `SKILL.md` at the root is the master index — read it first.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — stack as canon, severity rubric, ORM-first, N+1 must-fix, migrations sacred, types at boundaries, async-when-justified, settings split, secrets-via-env, Ninja over DRF

@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `kanban-flow-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/kanban-flow-guardian.md`](../../agents/kanban-flow-guardian.md)
-**Weapon:** [`ai-tools/skills/kanban-flow-weapon/`](../../skills/kanban-flow-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/kanban-flow-guardian-command-brief.md`](../../../command-briefs/kanban-flow-guardian-command-brief.md)
+**Angel:** [`agents/kanban-flow-guardian.md`](../../../agents/kanban-flow-guardian.md)
+**Weapon:** [`skills/kanban-flow-weapon/`](../../kanban-flow-weapon/)
+**Command Brief:** [`command-briefs/kanban-flow-guardian-command-brief.md`](../../../command-briefs/kanban-flow-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -77,4 +77,4 @@ If the target tool is missing and the user is asking for tool configuration step
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

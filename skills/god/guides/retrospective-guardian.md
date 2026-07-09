@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `retrospective-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/retrospective-guardian.md`](../../agents/retrospective-guardian.md)
-**Weapon:** [`ai-tools/skills/retrospective-weapon/`](../../skills/retrospective-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/retrospective-guardian-command-brief.md`](../../../command-briefs/retrospective-guardian-command-brief.md)
+**Angel:** [`agents/retrospective-guardian.md`](../../../agents/retrospective-guardian.md)
+**Weapon:** [`skills/retrospective-weapon/`](../../retrospective-weapon/)
+**Command Brief:** [`command-briefs/retrospective-guardian-command-brief.md`](../../../command-briefs/retrospective-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -71,4 +71,4 @@ If team context is missing entirely, ask before invoking.
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

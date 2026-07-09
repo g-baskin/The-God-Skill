@@ -47,7 +47,7 @@ The Weapon that equips `website-guardian` to build production-grade SvelteKit + 
 
 `research/source-prds/` contains the 12-phase source PRDs. Every guide traces claims back to these files.
 
-For Payload-specific deep research, see: `.cursor/skills/cms-payload-weapon/research/`
+For Payload-specific deep research, see: `skills/cms-payload-weapon/research/`
 
 ## Maintenance
 

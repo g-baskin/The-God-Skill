@@ -6,6 +6,6 @@ This Weapon encodes the formation-platform comparison (Stripe Atlas, Clerky, Doo
 
 **Source of truth:** `SKILL.md` (master index) + `guides/` (seven focused procedural files).
 
-**Command Brief:** `ai-tools/command-briefs/incorporation-startup-stack-guardian-command-brief.md`
+**Command Brief:** `command-briefs/incorporation-startup-stack-guardian-command-brief.md`
 
 **Research:** `research/research-summary.md` — synthesized from 12 external sources, all dated 2025–2026.

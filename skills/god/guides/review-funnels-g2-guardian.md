@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `review-funnels-g2-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/review-funnels-g2-guardian.md`](../../agents/review-funnels-g2-guardian.md)
-**Weapon:** [`ai-tools/skills/review-funnels-g2-weapon/`](../../skills/review-funnels-g2-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/review-funnels-g2-guardian-command-brief.md`](../../../command-briefs/review-funnels-g2-guardian-command-brief.md)
+**Angel:** [`agents/review-funnels-g2-guardian.md`](../../../agents/review-funnels-g2-guardian.md)
+**Weapon:** [`skills/review-funnels-g2-weapon/`](../../review-funnels-g2-weapon/)
+**Command Brief:** [`command-briefs/review-funnels-g2-guardian-command-brief.md`](../../../command-briefs/review-funnels-g2-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -76,4 +76,4 @@ If the specific task is unclear, the Angel will ask one clarifying question befo
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

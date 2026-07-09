@@ -12,9 +12,9 @@ proactive: true
 
 ## Paired Weapon
 
-[`.cursor/skills/website-weapon/`](../skills/website-weapon/)
+[`skills/website-weapon/`](../skills/website-weapon/)
 
-Read `.cursor/skills/website-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/website-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -65,7 +65,7 @@ Document the choice in the Build Report Inputs section.
 - **Never overwrite a non-empty target directory without confirmation.**
 - **Surface every Risk (R-N) and Open Question (Q-N) from the source PRDs** in the Build Report's Next steps.
 
-Full rationale and edge cases in `.cursor/skills/website-weapon/guides/00-principles.md`.
+Full rationale and edge cases in `skills/website-weapon/guides/00-principles.md`.
 
 ## Escalation
 
@@ -75,7 +75,7 @@ If the user names brand or copy details the brief does not specify, use neutral 
 
 ## References to skill files
 
-Utilize the Read tool to read all files in `.cursor/skills/website-weapon/`.
+Utilize the Read tool to read all files in `skills/website-weapon/`.
 
 The `SKILL.md` at the root is the master index — read it first.
 
@@ -117,5 +117,5 @@ The `SKILL.md` at the root is the master index — read it first.
 
 ---
 
-*Command Brief: `.cursor/agents/website-guardian.md`*
+*Command Brief: `agents/website-guardian.md`*
 *Created by the Legendary Angel Factory. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `product-tour-onboarding-ui-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/product-tour-onboarding-ui-guardian.md`](../../agents/product-tour-onboarding-ui-guardian.md)
-**Weapon:** [`ai-tools/skills/product-tour-onboarding-ui-weapon/`](../../skills/product-tour-onboarding-ui-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/product-tour-onboarding-ui-guardian-command-brief.md`](../../../command-briefs/product-tour-onboarding-ui-guardian-command-brief.md)
+**Angel:** [`agents/product-tour-onboarding-ui-guardian.md`](../../../agents/product-tour-onboarding-ui-guardian.md)
+**Weapon:** [`skills/product-tour-onboarding-ui-weapon/`](../../product-tour-onboarding-ui-weapon/)
+**Command Brief:** [`command-briefs/product-tour-onboarding-ui-guardian-command-brief.md`](../../../command-briefs/product-tour-onboarding-ui-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -77,4 +77,4 @@ If none of this is provided, the Angel will ask the qualification questions befo
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

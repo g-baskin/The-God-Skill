@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `csv-xlsx-import-export-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/csv-xlsx-import-export-guardian.md`](../../agents/csv-xlsx-import-export-guardian.md)
-**Weapon:** [`ai-tools/skills/csv-xlsx-import-export-weapon/`](../../skills/csv-xlsx-import-export-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/csv-xlsx-import-export-guardian-command-brief.md`](../../../ai-tools/command-briefs/csv-xlsx-import-export-guardian-command-brief.md)
+**Angel:** [`agents/csv-xlsx-import-export-guardian.md`](../../../agents/csv-xlsx-import-export-guardian.md)
+**Weapon:** [`skills/csv-xlsx-import-export-weapon/`](../../csv-xlsx-import-export-weapon/)
+**Command Brief:** [`command-briefs/csv-xlsx-import-export-guardian-command-brief.md`](../../../command-briefs/csv-xlsx-import-export-guardian-command-brief.md)
 **Trigger policy:** on-demand
 
 ---
@@ -75,4 +75,4 @@ Optional: existing parse/export code to review; a PRD or feature spec.
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

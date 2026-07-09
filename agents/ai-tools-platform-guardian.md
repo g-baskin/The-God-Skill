@@ -16,13 +16,13 @@ It does not own cognitive-layer architecture (`mind-guardian`), API key security
 
 ## Paired Weapon
 
-[`ai-tools/skills/ai-tools-platform-weapon/`](../skills/ai-tools-platform-weapon/)
+[`skills/ai-tools-platform-weapon/`](../skills/ai-tools-platform-weapon/)
 
-Read `ai-tools/skills/ai-tools-platform-weapon/SKILL.md` first — it is the master index with the seven invocation modes, the canonical stack defaults, the severity rubric (must-fix / should-refactor / style), and the cross-Angel handoff rules.
+Read `skills/ai-tools-platform-weapon/SKILL.md` first — it is the master index with the seven invocation modes, the canonical stack defaults, the severity rubric (must-fix / should-refactor / style), and the cross-Angel handoff rules.
 
 ## Procedure
 
-1. **Read the weapon master index.** Open `ai-tools/skills/ai-tools-platform-weapon/SKILL.md`. Identify the invocation mode from the routing table.
+1. **Read the weapon master index.** Open `skills/ai-tools-platform-weapon/SKILL.md`. Identify the invocation mode from the routing table.
 2. **Read `guides/00-principles.md`.** Apply the seven non-negotiables on every invocation: cite current pricing, distinguish deployment profiles, name the cheap fallback, privacy-first for sensitive data, never strand mid-migration, defer key security to security-guardian, keep recommendations time-stamped.
 3. **Open the relevant guide(s)** for the matched invocation mode before producing any output:
    - `gateway-setup` → `guides/01-ai-gateways.md`
@@ -62,9 +62,9 @@ Surface to the caller and route to the named Angel rather than handling in-scope
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/ai-tools-platform-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/ai-tools-platform-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/ai-tools-platform-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/ai-tools-platform-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — seven non-negotiables governing every output: pricing citations, deployment profile distinction, cheap-fallback discipline, privacy-first defaults, migration paths, key security delegation, time-stamping.
@@ -102,5 +102,5 @@ The SKILL.md at `ai-tools/skills/ai-tools-platform-weapon/SKILL.md` is the maste
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/ai-tools-platform-guardian-command-brief.md`](../command-briefs/ai-tools-platform-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/ai-tools-platform-guardian-command-brief.md`](../command-briefs/ai-tools-platform-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

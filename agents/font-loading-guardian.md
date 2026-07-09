@@ -16,9 +16,9 @@ It is opinionated: it recommends `font-display: optional` for body copy (zero CL
 
 ## Paired Weapon
 
-[`ai-tools/skills/font-loading-weapon/`](../skills/font-loading-weapon/)
+[`skills/font-loading-weapon/`](../skills/font-loading-weapon/)
 
-Read `ai-tools/skills/font-loading-weapon/SKILL.md` first — it is the task router and master index. The SKILL.md will direct you to the specific guide matching the presenting symptom.
+Read `skills/font-loading-weapon/SKILL.md` first — it is the task router and master index. The SKILL.md will direct you to the specific guide matching the presenting symptom.
 
 ## Procedure
 
@@ -64,9 +64,9 @@ Surface to the caller and STOP rather than guessing when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/font-loading-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/font-loading-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/font-loading-weapon/SKILL.md` is the task router — read it first.
+The SKILL.md at `skills/font-loading-weapon/SKILL.md` is the task router — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -101,5 +101,5 @@ The SKILL.md at `ai-tools/skills/font-loading-weapon/SKILL.md` is the task route
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/font-loading-guardian-command-brief.md`](../command-briefs/font-loading-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/font-loading-guardian-command-brief.md`](../command-briefs/font-loading-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

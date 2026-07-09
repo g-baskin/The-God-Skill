@@ -6,31 +6,57 @@ Please do not share this outside of The Notorious Avengers.
 
 ## What this is
 
-This repo is the team arsenal. Instead of every person re-explaining the same standards to their AI agent on every project, we keep the standards here once and everyone pulls from the same source. Drop these into Cursor (or any agent that reads `.cursor/skills` and `agents/`) and your AI stops guessing. It already knows how we do auth, how we write a PRD, how we ship a Stripe flow, and what a clean PR looks like.
+This repo is the team arsenal for **GG Coder**. Instead of every person re-explaining the same standards to their AI agent on every project, we keep the standards here once and everyone pulls from the same source. GG Coder enters through `.gg/skills/god/SKILL.md`, then lazy-loads the canonical roster at `skills/god/SKILL.md`, the matched guardian in `agents/`, and the matched weapon in `skills/`.
 
 Three building blocks, and they work together:
 
 - **Guardians** (`agents/`) are the specialists. Each one owns a single domain and knows exactly when to step in and when to hand off. A guardian is the "who" that shows up to do the work.
 - **Weapons** (`skills/`) are the deep reference each guardian carries. The guardian is the operator, the weapon is the full playbook, templates, examples, and research it reads before acting. Every guardian is paired with its weapon below.
-- **Rules** (`rules/`) are the non-negotiables that apply across every guardian and every repo. Voice, planning discipline, and work boundaries.
+- **Rules** (`.gg/rules/`) are the non-negotiables that apply across every guardian and every repo. Voice, planning discipline, and work boundaries. GG Coder auto-loads them from `.gg/rules/`; Cursor-era copies remain in `rules/` for backward compatibility.
 
 The split matters: the guardian decides, the weapon informs, the rules constrain. Keep them separate and you can swap or upgrade a weapon without rewriting the operator, and tighten a rule once instead of in eighty places.
 
-## How to use it while vibe coding
+## How to use it with GG Coder
 
-1. Point your agent at this repo, or copy `agents/`, `skills/`, and `rules/` into your project.
+1. Invoke the `god` skill from GG Coder, or ask GG Coder to route the request through `.gg/skills/god/SKILL.md`.
 2. Describe what you want in plain language. "Set up auth," "audit this branch for security," "write a PRD for X," "fix my Lighthouse score."
-3. The matching guardian fires, reads its weapon, and does the work to our standard. Most guardians also tell you which other guardian to call next, so the handoffs are automatic.
+3. GG Coder reads `skills/god/SKILL.md`, picks one guardian, reads `agents/<guardian>.md`, then reads `skills/<weapon>/SKILL.md`.
+4. If an older file mentions legacy Cursor or `ai-tools` layouts, treat that as a stale alias and use the repo-local `skills/` or `agents/` path instead.
 
 Two guardians are meant to run near the end of every implementation: `security-guardian` does the security pass, then `quality-guardian` checks the build against its plan. Run them in that order.
+
+## Install in another project
+
+GG Coder resolves all paths relative to the project root, so each project needs the directories symlinked in. Clone once, then wire up each project:
+
+```bash
+# Clone to a shared location (once)
+git clone <repo-url> ~/The-God-Skill
+
+# Per project: one command to wire it up
+cd /path/to/any-project
+ln -sf ~/The-God-Skill/.gg .gg
+ln -sf ~/The-God-Skill/agents agents
+ln -sf ~/The-God-Skill/skills skills
+ln -sf ~/The-God-Skill/rules rules
+```
+
+Add a shell alias so you never think about it:
+
+```bash
+# ~/.zshrc or ~/.bashrc
+install-god() { ln -sf ~/The-God-Skill/{.gg,agents,skills,rules} .; }
+```
+
+Then in any project: `install-god` and `/god` works.
 
 ## The rules
 
 | Rule | What it enforces |
 | --- | --- |
-| [`no-em-dashes.mdc`](rules/no-em-dashes.mdc) | Writing reads like a human wrote it. No em-dashes anywhere. |
-| [`plan-construction-protocol.mdc`](rules/plan-construction-protocol.mdc) | How agents build a plan before they touch code, so work is scoped before it starts. |
-| [`respect-agent-work-boundaries.mdc`](rules/respect-agent-work-boundaries.mdc) | Guardians stay in their lane and hand off instead of trampling another guardian's domain. |
+| [`no-em-dashes.md`](.gg/rules/no-em-dashes.md) | Writing reads like a human wrote it. No em-dashes anywhere. |
+| [`plan-construction-protocol.md`](.gg/rules/plan-construction-protocol.md) | How agents build a plan before they touch code, so work is scoped before it starts. |
+| [`respect-agent-work-boundaries.md`](.gg/rules/respect-agent-work-boundaries.md) | Guardians stay in their lane and hand off instead of trampling another guardian's domain. |
 
 ## The roster
 

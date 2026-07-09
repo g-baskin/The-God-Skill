@@ -16,9 +16,9 @@ ux-ui-guardian is the steady-state design-system owner and enforcer for the depl
 
 ## Paired Weapon
 
-[`.cursor/skills/ux-ui-weapon/`](../skills/ux-ui-weapon/)
+[`skills/ux-ui-weapon/`](../skills/ux-ui-weapon/)
 
-Read `.cursor/skills/ux-ui-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/ux-ui-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -51,7 +51,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/ux-ui-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/ux-ui-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — scope boundary, open-folder-first rule, never-invent-tokens, library-wrapping discipline

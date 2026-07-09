@@ -6,8 +6,8 @@ Step 7 of the Command Brief's ACTION list. After the Command Brief is written an
 
 `weapon-forge` is the Phase 2 worker skill. It is documented at:
 
-- `ai-tools/skills/weapon-forge/SKILL.md` (repo-local copy)
-- `~/.cursor/skills-cursor/weapon-forge/SKILL.md` (global Cursor skills cache)
+- `skills/weapon-forge/SKILL.md` (repo-local copy)
+- `~/.gg/skills/weapon-forge/SKILL.md` (global GG Coder skills cache)
 
 The skill takes a Command Brief and a populated `research/` folder, names the Weapon (already named by `command-center`, just verified), and authors the rest of the weapon folder:
 
@@ -25,8 +25,8 @@ The skill is intentionally bounded: it does NOT touch the `research/` folder (th
 
 - The Angel name.
 - The Weapon name.
-- The Command Brief path: `ai-tools/command-briefs/<guardian-name>-command-brief.md`.
-- The Weapon folder path: `ai-tools/skills/<weapon-name>/`.
+- The Command Brief path: `command-briefs/<guardian-name>-command-brief.md`.
+- The Weapon folder path: `skills/<weapon-name>/`.
 
 The skill discovers the research folder automatically as a subdirectory of the weapon folder. It MUST refuse to proceed if `research/` is empty -- the older version of `weapon-forge` (pre-scripture-historian) would conduct its own research; the current version requires `scripture-historian`'s output to exist.
 
@@ -35,13 +35,13 @@ The skill discovers the research folder automatically as a subdirectory of the w
 After `weapon-forge` completes, the following MUST exist:
 
 ```
-ai-tools/skills/<weapon-name>/SKILL.md
-ai-tools/skills/<weapon-name>/README.md
-ai-tools/skills/<weapon-name>/guides/00-principles.md (or similar)
-ai-tools/skills/<weapon-name>/guides/[remaining numbered guides]
-ai-tools/skills/<weapon-name>/examples/[at least one]
-ai-tools/skills/<weapon-name>/templates/[any templates the brief proposed]
-ai-tools/skills/<weapon-name>/reports/README.md
+skills/<weapon-name>/SKILL.md
+skills/<weapon-name>/README.md
+skills/<weapon-name>/guides/00-principles.md (or similar)
+skills/<weapon-name>/guides/[remaining numbered guides]
+skills/<weapon-name>/examples/[at least one]
+skills/<weapon-name>/templates/[any templates the brief proposed]
+skills/<weapon-name>/reports/README.md
 ```
 
 `gods-hand` verifies:
@@ -76,7 +76,7 @@ If `weapon-forge` ran before `scripture-historian`, it would have nothing to rea
 
 Like Phase 1, "invoking" `weapon-forge` from `gods-hand` typically means a skill load:
 
-1. Read `ai-tools/skills/weapon-forge/SKILL.md`.
+1. Read `skills/weapon-forge/SKILL.md`.
 2. Follow its instructions to author the weapon's files.
 3. Verify the expected-output list.
 

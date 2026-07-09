@@ -23,6 +23,6 @@ It does NOT encode any product-domain knowledge. The worker phases own all subst
 
 ## Pairing
 
-- Angel: [`ai-tools/agents/gods-hand.md`](../../agents/gods-hand.md)
-- Command Brief: [`ai-tools/command-briefs/gods-hand-command-brief.md`](../../command-briefs/gods-hand-command-brief.md)
-- Producer counterpart: [`ai-tools/agents/big-bang-space.md`](../../agents/big-bang-space.md) + [`ai-tools/skills/big-bang-earth/`](../big-bang-earth/)
+- Angel: [`agents/gods-hand.md`](../../agents/gods-hand.md)
+- Command Brief: [`command-briefs/gods-hand-command-brief.md`](../../command-briefs/gods-hand-command-brief.md)
+- Producer counterpart: [`agents/big-bang-space.md`](../../agents/big-bang-space.md) + [`skills/big-bang-earth/`](../big-bang-earth/)

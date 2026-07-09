@@ -2,7 +2,7 @@
 
 Opinionated cold outreach playbook for founder-led B2B sales — tool selection (Apollo / Clay / Smartlead / Instantly / Lemlist), email deliverability and domain warmup, multi-touch sequence design, AI personalization without slop, reply handling, and list hygiene.
 
-Paired with `cold-outreach-guardian` (`ai-tools/agents/cold-outreach-guardian.md`). Command Brief at `ai-tools/command-briefs/cold-outreach-guardian-command-brief.md`. Research grounding from `scripture-historian` at `research/research-summary.md`.
+Paired with `cold-outreach-guardian` (`agents/cold-outreach-guardian.md`). Command Brief at `command-briefs/cold-outreach-guardian-command-brief.md`. Research grounding from `scripture-historian` at `research/research-summary.md`.
 
 ## Folder layout
 

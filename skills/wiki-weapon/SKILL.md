@@ -5,10 +5,10 @@ description: Equips wiki-guardian with the 13-type code entity catalog, ts-morph
 
 # wiki-weapon
 
-Cursor-skill wrapper for the `wiki-guardian` Angel's companion resource bundle. The full navigation, directory map, mode table, six-phase procedure, non-negotiables list, and reading order are in `README.md` — start there.
+GG Coder skill entrypoint for the `wiki-guardian` Angel's companion resource bundle. The full navigation, directory map, mode table, six-phase procedure, non-negotiables list, and reading order are in `README.md` — start there.
 
-> **Agent entry point:** [`legion/.cursor/agents/wiki-guardian.md`](../../agents/wiki-guardian.md)
+> **Agent entry point:** [`agents/wiki-guardian.md`](../../agents/wiki-guardian.md)
 > **Source brief:** [`legion/command-briefs/wiki-guardian-command-brief.md`](../../../command-briefs/wiki-guardian-command-brief.md)
 > **Recon report:** [`legion/command-briefs/research/2026-04-29-claude-obsidian-recon.md`](../../../command-briefs/research/2026-04-29-claude-obsidian-recon.md)
 
-This file exists so Cursor's skill router can discover the weapon by description. The Angel reads `README.md` for navigation and the matching `guides/*.md` for procedural detail per invocation.
+This file exists so GG Coder's skill router can discover the weapon by description. The Angel reads `README.md` for navigation and the matching `guides/*.md` for procedural detail per invocation.

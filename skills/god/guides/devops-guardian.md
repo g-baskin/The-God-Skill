@@ -42,7 +42,7 @@ Do **not** invoke for PRD authoring on a large pipeline change — `devops-guard
 
 ## Paired Weapon
 
-`.cursor/skills/devops-weapon/` — contains the master index (SKILL.md) with routing table and severity rubric, 12 guides covering principles, Dockerfile patterns, multi-arch, Compose, scanning, Actions architecture, Actions security, Depot, caching, pipeline shapes, local-CI parity, and common failure modes; 3 worked examples (Next.js + Depot + OIDC, Node API multi-arch + Trivy, Compose Next.js + Postgres + Redis); 9 templates (Dockerfile.node-app, Dockerfile.next-app, docker-compose.dev.yml, docker-compose.prod.yml, .dockerignore, three workflow files, docker-bake.hcl); 3 deterministic scripts (audit-dockerfile.sh, audit-workflow.sh, pin-actions-to-sha.sh); 8 research notes; reports template + index.
+`skills/devops-weapon/` — contains the master index (SKILL.md) with routing table and severity rubric, 12 guides covering principles, Dockerfile patterns, multi-arch, Compose, scanning, Actions architecture, Actions security, Depot, caching, pipeline shapes, local-CI parity, and common failure modes; 3 worked examples (Next.js + Depot + OIDC, Node API multi-arch + Trivy, Compose Next.js + Postgres + Redis); 9 templates (Dockerfile.node-app, Dockerfile.next-app, docker-compose.dev.yml, docker-compose.prod.yml, .dockerignore, three workflow files, docker-bake.hcl); 3 deterministic scripts (audit-dockerfile.sh, audit-workflow.sh, pin-actions-to-sha.sh); 8 research notes; reports template + index.
 
 ## Expected input
 

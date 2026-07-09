@@ -9,8 +9,8 @@ Procedural arsenal for `http-rest-fundamentals-guardian`, the HTTP and REST prot
 
 This weapon encodes the practical reference material needed to audit HTTP and REST usage authoritatively against RFC semantics. It is organized around eight concern areas, each with its own guide, plus templates for common deliverables and worked examples for the most frequently misunderstood scenarios.
 
-**Paired Angel:** `ai-tools/agents/http-rest-fundamentals-guardian.md`
-**Command Brief:** `ai-tools/command-briefs/http-rest-fundamentals-guardian-command-brief.md`
+**Paired Angel:** `agents/http-rest-fundamentals-guardian.md`
+**Command Brief:** `command-briefs/http-rest-fundamentals-guardian-command-brief.md`
 
 ---
 

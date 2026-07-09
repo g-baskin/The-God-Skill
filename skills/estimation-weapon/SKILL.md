@@ -98,5 +98,5 @@ Key data points for advisory conversations:
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/estimation-guardian-command-brief.md`](../../command-briefs/estimation-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/estimation-guardian-command-brief.md`](../../command-briefs/estimation-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -1,12 +1,12 @@
 ---
 name: weapon-forge
-description: Phase 2 of the Legion AI Tools Factory pipeline. Takes a completed Command Brief AND a pre-populated `research/` folder authored by `scripture-historian`, names the Weapon (Cursor skill), scaffolds the rest of the skill folder structure under `ai-tools/skills/`, and forges the Cursor-compatible SKILL.md plus its supporting guides, examples, templates, and reports. This skill no longer conducts its own research -- that is `scripture-historian`'s job, and weapon-forge refuses to run until that folder is populated. Use whenever the user says "forge the weapon", "build the skill", "scaffold the weapon folder", "build guides from the research", "the research is in, build the skill", or signals that scripture-historian has just announced its handoff. Also trigger when the user hands you a path to a filled-in `{angel-name}-command-brief.md` plus a non-empty `ai-tools/skills/<weapon-name>/research/` folder and says to proceed.
+description: Phase 2 of the Legion AI Tools Factory pipeline. Takes a completed Command Brief AND a pre-populated `research/` folder authored by `scripture-historian`, names the Weapon (GG Coder skill), scaffolds the rest of the skill folder structure under `skills/`, and forges the GG Coder SKILL.md plus its supporting guides, examples, templates, and reports. This skill no longer conducts its own research -- that is `scripture-historian`'s job, and weapon-forge refuses to run until that folder is populated. Use whenever the user says "forge the weapon", "build the skill", "scaffold the weapon folder", "build guides from the research", "the research is in, build the skill", or signals that scripture-historian has just announced its handoff. Also trigger when the user hands you a path to a filled-in `{angel-name}-command-brief.md` plus a non-empty `skills/<weapon-name>/research/` folder and says to proceed.
 license: MIT
 ---
 
 # Weapon Forge
 
-You are the blacksmith of the Legion AI Tools Factory. `command-center` has produced a Command Brief (a clear, specific portrait of an Angel and what its Weapon must encode), and `scripture-historian` has pulled the primary sources into the weapon's `research/` folder with a manifest. Your job is to forge the Weapon: the Cursor skill itself -- SKILL.md, guides, examples, templates, and the report shape -- by synthesizing the research that has already been gathered.
+You are the blacksmith of the Legion AI Tools Factory. `command-center` has produced a Command Brief (a clear, specific portrait of an Angel and what its Weapon must encode), and `scripture-historian` has pulled the primary sources into the weapon's `research/` folder with a manifest. Your job is to forge the Weapon: the GG Coder skill itself -- SKILL.md, guides, examples, templates, and the report shape -- by synthesizing the research that has already been gathered.
 
 You do not conduct research. That phase is owned by `scripture-historian` and runs before you. Your raw materials are the brief and the populated `research/` folder. Treat this phase as craftsmanship, not paperwork.
 
@@ -16,8 +16,8 @@ You do not conduct research. That phase is owned by `scripture-historian` and ru
 
 Trigger when BOTH preconditions are met:
 
-1. A completed Command Brief exists at `ai-tools/command-briefs/<angel-name>-command-brief.md`.
-2. A populated `research/` folder exists at `ai-tools/skills/<weapon-name>/research/` with at least a `research-summary.md` and an `index.md` written by `scripture-historian`.
+1. A completed Command Brief exists at `command-briefs/<angel-name>-command-brief.md`.
+2. A populated `research/` folder exists at `skills/<weapon-name>/research/` with at least a `research-summary.md` and an `index.md` written by `scripture-historian`.
 
 Trigger phrases:
 
@@ -25,7 +25,7 @@ Trigger phrases:
 - "Scaffold the skill folder for seo-guardian and build the guides"
 - "Build the skill from scripture-historian's research"
 - "scripture-historian just finished -- proceed"
-- "Here's the brief at `ai-tools/command-briefs/security-guardian-command-brief.md` and the research at `ai-tools/skills/security-weapon/research/`; build it"
+- "Here's the brief at `command-briefs/security-guardian-command-brief.md` and the research at `skills/security-weapon/research/`; build it"
 
 Do NOT trigger when:
 
@@ -41,7 +41,7 @@ Do NOT trigger when:
 
 The Weapon name mirrors the Angel name with the `-weapon` suffix (e.g., `security-guardian` -> `security-weapon`). See `references/naming.md` for details and edge cases. The name should already match the brief's YAML `weapon_name:` field.
 
-`scripture-historian` has already created `ai-tools/skills/<weapon-name>/research/` and populated it. Your job is to scaffold the SIBLING folders without touching `research/`:
+`scripture-historian` has already created `skills/<weapon-name>/research/` and populated it. Your job is to scaffold the SIBLING folders without touching `research/`:
 
 ```
 <weapon-name>/
@@ -62,7 +62,7 @@ After scaffolding the sibling folders, write a stub `README.md` in the skill roo
 
 ### Step 2 -- Read the Command Brief and the research manifest
 
-Open `ai-tools/command-briefs/<angel-name>-command-brief.md`. Read it end to end. Extract:
+Open `command-briefs/<angel-name>-command-brief.md`. Read it end to end. Extract:
 
 1. The **YAML frontmatter** -- confirm `angel_name`, `weapon_name`, and `research_depth` match what `scripture-historian` consumed. A mismatch means someone edited the brief after research ran; surface this to the caller before forging.
 2. The **ACTION** list -- these verbs determine the guides you need to write.
@@ -71,7 +71,7 @@ Open `ai-tools/command-briefs/<angel-name>-command-brief.md`. Read it end to end
 5. The **REFERENCE MATERIAL** section -- this is your map of which sources `scripture-historian` was told to consult.
 6. The **IDEAS, SUGGESTIONS, QUESTIONS** section -- the proposed guide structure starts here.
 
-Then open `ai-tools/skills/<weapon-name>/research/research-summary.md` and `research/index.md`. These are the manifests `scripture-historian` left for you. Read them BEFORE diving into individual research files. The summary tells you:
+Then open `skills/<weapon-name>/research/research-summary.md` and `research/index.md`. These are the manifests `scripture-historian` left for you. Read them BEFORE diving into individual research files. The summary tells you:
 
 - Depth tier consumed and time window covered
 - File counts per subfolder
@@ -85,14 +85,14 @@ If `research-summary.md` lists open questions that block guide authorship, pause
 
 ### Step 3 -- Forge the skill: write SKILL.md, guides, examples, templates, reports
 
-**Author the skill following Cursor's skill specification.** The authoritative reference is https://cursor.com/docs/skills. Key requirements and patterns are summarized in `references/cursor-skill-spec.md` -- read it before writing SKILL.md.
+**Author the skill following the local GG Coder skill contract.** The authoritative local reference is `references/gg-skill-spec.md` -- read it before writing SKILL.md.
 
 The SKILL.md file sits at the root of the skill folder and contains:
 
 - **YAML frontmatter** with at minimum `name` and `description`. The description is the triggering mechanism and must be specific about when the skill activates.
 - **Body** in markdown -- the primary instruction set the Angel reads.
 
-Keep SKILL.md under about 500 lines. When content exceeds that, move detail into `guides/` and reference it from SKILL.md with clear pointers (e.g., "See `guides/02-canonical-tags.md` for the full rule set"). This is Cursor's progressive-disclosure pattern and it matters: a lean SKILL.md triggers reliably and stays in context; bloated SKILL.md files overwhelm the model.
+Keep SKILL.md under about 500 lines. When content exceeds that, move detail into `guides/` and reference it from SKILL.md with clear pointers (e.g., "See `guides/02-canonical-tags.md` for the full rule set"). This progressive-disclosure pattern matters: a lean SKILL.md routes reliably and stays in context; bloated SKILL.md files overwhelm the model.
 
 **Populate the supporting folders:**
 
@@ -125,7 +125,7 @@ A detailed done checklist lives in `references/done-checklist.md`.
 
 When the Weapon is forged, end with the handoff line:
 
-> "Weapon `<weapon-name>` forged at `ai-tools/skills/<weapon-name>/`. Ready to hand off to **angel-creator**."
+> "Weapon `<weapon-name>` forged at `skills/<weapon-name>/`. Ready to hand off to **angel-creator**."
 
 The next skill (`angel-creator`) will author the subagent file that wields this Weapon. Do not author the subagent yourself -- keep the phases separate so each artifact is attributable to its owner.
 

@@ -4,4 +4,4 @@ Procedural skill for `modal-toast-dialog-guardian`. Covers primitive selection, 
 
 See `SKILL.md` for the master index. See `research/research-summary.md` for the literature sweep summary.
 
-Command Brief: `ai-tools/command-briefs/modal-toast-dialog-guardian-command-brief.md`.
+Command Brief: `command-briefs/modal-toast-dialog-guardian-command-brief.md`.

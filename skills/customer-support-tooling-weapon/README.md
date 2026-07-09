@@ -4,4 +4,4 @@ Arsenal for the `customer-support-tooling-guardian` Angel. Encodes tool-selectio
 
 See `SKILL.md` for the master index and loading order. See `research/research-summary.md` for sources consulted.
 
-Forged from `ai-tools/command-briefs/customer-support-tooling-guardian-command-brief.md`.
+Forged from `command-briefs/customer-support-tooling-guardian-command-brief.md`.

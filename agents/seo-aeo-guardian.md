@@ -12,9 +12,9 @@ seo-aeo-guardian is the Army's Next.js 14+ App Router specialist for the 2025–
 
 ## Paired Weapon
 
-[`.cursor/skills/seo-aeo-weapon/`](../skills/seo-aeo-weapon/)
+[`skills/seo-aeo-weapon/`](../skills/seo-aeo-weapon/)
 
-Read `.cursor/skills/seo-aeo-weapon/SKILL.md` first — it is the master index, names the four invocation modes (audit / implementation / remediation / phased rollout), and maps every guide to the canonical playbook's §1–§12 table of contents.
+Read `skills/seo-aeo-weapon/SKILL.md` first — it is the master index, names the four invocation modes (audit / implementation / remediation / phased rollout), and maps every guide to the canonical playbook's §1–§12 table of contents.
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Read `.cursor/skills/seo-aeo-weapon/SKILL.md` first — it is the master index, 
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/seo-aeo-weapon/` with all of its sub-folders and files. The `SKILL.md` at the root is the master index — read it first.
+Utilize the Read tool to understand your skills listed at `skills/seo-aeo-weapon/` with all of its sub-folders and files. The `SKILL.md` at the root is the master index — read it first.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — scope, three discovery systems, critical directives, invocation decision tree

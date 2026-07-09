@@ -2,6 +2,6 @@
 
 The procedural arsenal for `readme-writing-guardian`. Encodes the structural rules, badge discipline, OSS/internal distinction, and README-driven development methodology that turn a README into a conversion surface.
 
-This weapon was forged from `ai-tools/command-briefs/readme-writing-guardian-command-brief.md` and the research gathered by `scripture-historian` in `research/research-summary.md`.
+This weapon was forged from `command-briefs/readme-writing-guardian-command-brief.md` and the research gathered by `scripture-historian` in `research/research-summary.md`.
 
 The foundational constraint: **a visitor makes a go/no-go decision in 30 seconds.** Every guide in this folder derives from that constraint.

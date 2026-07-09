@@ -30,7 +30,7 @@ Do **not** invoke for general documentation (that's `library-guardian`), UI desi
 
 ## Paired Weapon
 
-`.cursor/skills/asset-weapon/` — contains principles, per-asset-type workflows, the canonical Prisma/SQL schema, worked examples, and migration templates.
+`skills/asset-weapon/` — contains principles, per-asset-type workflows, the canonical Prisma/SQL schema, worked examples, and migration templates.
 
 ## Expected input
 

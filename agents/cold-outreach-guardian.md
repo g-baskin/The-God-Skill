@@ -16,9 +16,9 @@ It does NOT own: inbound SDR workflows, CRM architecture (route to `db-guardian`
 
 ## Paired Weapon
 
-[`ai-tools/skills/cold-outreach-weapon/`](../skills/cold-outreach-weapon/)
+[`skills/cold-outreach-weapon/`](../skills/cold-outreach-weapon/)
 
-Read `ai-tools/skills/cold-outreach-weapon/SKILL.md` first — it is the master navigation layer with the routing table, critical directives, open questions, and cross-Angel handoffs.
+Read `skills/cold-outreach-weapon/SKILL.md` first — it is the master navigation layer with the routing table, critical directives, open questions, and cross-Angel handoffs.
 
 ## Procedure
 
@@ -64,9 +64,9 @@ Read `ai-tools/skills/cold-outreach-weapon/SKILL.md` first — it is the master 
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/cold-outreach-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/cold-outreach-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/cold-outreach-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/cold-outreach-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -106,5 +106,5 @@ The SKILL.md at `ai-tools/skills/cold-outreach-weapon/SKILL.md` is the master in
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/cold-outreach-guardian-command-brief.md`](../command-briefs/cold-outreach-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/cold-outreach-guardian-command-brief.md`](../command-briefs/cold-outreach-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

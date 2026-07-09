@@ -65,7 +65,7 @@ Typical list: palette hexes, one or two added tokens, a renamed utility.}}
 
 - [ ] `ux-ui-guardian` ownership confirmed in `README.md`.
 - [ ] Companion Angel stub authored (if not already present) at
-      `.cursor/agents/ux-ui-guardian.md`.
+      `agents/ux-ui-guardian.md`.
 - [ ] Migration backlog seeded in the host repo's
       `library/qa/ux-ui/<date>-migration-backlog.md` (if migration scope).
 - [ ] Status table in `README.md` updated after first code-alignment PR.

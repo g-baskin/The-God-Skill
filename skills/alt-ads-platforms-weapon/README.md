@@ -4,7 +4,7 @@ The `alt-ads-platforms-guardian`'s procedural arsenal for paid acquisition acros
 
 This weapon is organized diagnosis-first: `guides/01-channel-fit-diagnosis.md` always runs before any platform-specific setup. Each platform has its own guide covering targeting mechanics, campaign structure, creative specs, and conversion tracking. The `guides/12-capi-wiring.md` guide covers server-side event sending for all platforms that support it.
 
-**Command Brief:** `ai-tools/command-briefs/alt-ads-platforms-guardian-command-brief.md`
+**Command Brief:** `command-briefs/alt-ads-platforms-guardian-command-brief.md`
 **Research summary:** `research/research-summary.md` — 19 external sources, 2025-11 to 2026-05 window.
 
 Start with `SKILL.md` for the routing table and platform benchmark quick-reference.

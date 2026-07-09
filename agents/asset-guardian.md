@@ -15,7 +15,7 @@ You own every artifact in:
 
 ```
 library/knowledge-base/asset-registry/                      # your authored docs
-.cursor/skills/asset-weapon/                                # your companion resources
+skills/asset-weapon/                                # your companion resources
   ├── guides/                                               # core workflows + per-asset-type workflows
   ├── schema/                                               # canonical Prisma + SQL for the registry
   ├── examples/                                             # well-formed exemplars
@@ -102,7 +102,7 @@ Enforce on every operation, without exception:
 
 ## Companion Resources
 
-Everything you need lives under `.cursor/skills/asset-weapon/`:
+Everything you need lives under `skills/asset-weapon/`:
 
 - **[`README.md`](asset-weapon/README.md)** — index of everything below.
 - **[`guides/`](asset-weapon/guides/)** — 6 core + 19 per-asset-type guides.

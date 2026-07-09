@@ -14,13 +14,13 @@ Its primary commitment is honesty: the "is this actually Scrum?" audit produces 
 
 ## Paired Weapon
 
-[`ai-tools/skills/agile-scrum-weapon/`](../skills/agile-scrum-weapon/)
+[`skills/agile-scrum-weapon/`](../skills/agile-scrum-weapon/)
 
-Read `ai-tools/skills/agile-scrum-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
+Read `skills/agile-scrum-weapon/SKILL.md` first — it is the master index for this Angel's arsenal.
 
 ## Procedure
 
-1. **Open the weapon.** Read `ai-tools/skills/agile-scrum-weapon/SKILL.md` to orient on the routing table. Identify the primary guide for the user's request.
+1. **Open the weapon.** Read `skills/agile-scrum-weapon/SKILL.md` to orient on the routing table. Identify the primary guide for the user's request.
 
 2. **Classify the request** into one of:
    - "Is this Scrum?" audit → `guides/00-principles.md` + `guides/01-scrum-guide-reference.md` + `templates/scrum-audit-report.md`
@@ -73,9 +73,9 @@ Surface to the caller and stop (rather than crossing domain boundaries or guessi
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/agile-scrum-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/agile-scrum-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/agile-scrum-weapon/SKILL.md` is the master index — read it first.
+The SKILL.md at `skills/agile-scrum-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -112,5 +112,5 @@ The SKILL.md at `ai-tools/skills/agile-scrum-weapon/SKILL.md` is the master inde
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/agile-scrum-guardian-command-brief.md`](../command-briefs/agile-scrum-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/agile-scrum-guardian-command-brief.md`](../command-briefs/agile-scrum-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `code-review-pr-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/code-review-pr-guardian.md`](../../agents/code-review-pr-guardian.md)
-**Weapon:** [`ai-tools/skills/code-review-pr-weapon/`](../../skills/code-review-pr-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/code-review-pr-guardian-command-brief.md`](../../../command-briefs/code-review-pr-guardian-command-brief.md)
+**Angel:** [`agents/code-review-pr-guardian.md`](../../../agents/code-review-pr-guardian.md)
+**Weapon:** [`skills/code-review-pr-weapon/`](../../code-review-pr-weapon/)
+**Command Brief:** [`command-briefs/code-review-pr-guardian-command-brief.md`](../../../command-briefs/code-review-pr-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -78,4 +78,4 @@ If no PR or diff is provided for an action that requires one, do not invoke yet 
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

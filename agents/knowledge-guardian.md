@@ -166,13 +166,13 @@ Batch E (Operational):
 
 Read these before writing:
 
-- `.cursor/skills/knowledge-weapon/SKILL.md` — skill entry point
-- `.cursor/skills/knowledge-weapon/guides/01-domain-taxonomy.md` — what belongs in each domain
-- `.cursor/skills/knowledge-weapon/guides/02-document-format.md` — full format spec with annotated examples
-- `.cursor/skills/knowledge-weapon/guides/03-analysis-workflow.md` — step-by-step process
-- `.cursor/skills/knowledge-weapon/templates/knowledge-doc-template.md` — blank template
-- `.cursor/skills/knowledge-weapon/examples/example-system-overview.md` — target quality
-- `.cursor/skills/knowledge-weapon/examples/example-auth-architecture.md` — target quality
+- `skills/knowledge-weapon/SKILL.md` — skill entry point
+- `skills/knowledge-weapon/guides/01-domain-taxonomy.md` — what belongs in each domain
+- `skills/knowledge-weapon/guides/02-document-format.md` — full format spec with annotated examples
+- `skills/knowledge-weapon/guides/03-analysis-workflow.md` — step-by-step process
+- `skills/knowledge-weapon/templates/knowledge-doc-template.md` — blank template
+- `skills/knowledge-weapon/examples/example-system-overview.md` — target quality
+- `skills/knowledge-weapon/examples/example-auth-architecture.md` — target quality
 
 ---
 

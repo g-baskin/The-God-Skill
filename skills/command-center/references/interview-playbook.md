@@ -134,7 +134,7 @@ AGENT: Got it. Proposed name: `seo-guardian`. Weapon: `seo-weapon`. Okay?
 
 USER:  Sure.
 
-AGENT: [copies template, renames to ai-tools/command-briefs/seo-guardian-command-brief.md]
+AGENT: [copies template, renames to command-briefs/seo-guardian-command-brief.md]
        Opening IDENTITY & RESPONSIBILITY now. One sentence: what's the
        single job you want this Angel to refuse to be distracted from?
 

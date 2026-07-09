@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `wiki-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/wiki-guardian.md`](../../../agents/wiki-guardian.md)
-**Weapon:** [`ai-tools/skills/wiki-weapon/`](../../wiki-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/wiki-guardian-command-brief.md`](../../../command-briefs/wiki-guardian-command-brief.md)
+**Angel:** [`agents/wiki-guardian.md`](../../../agents/wiki-guardian.md)
+**Weapon:** [`skills/wiki-weapon/`](../../wiki-weapon/)
+**Command Brief:** [`command-briefs/wiki-guardian-command-brief.md`](../../../command-briefs/wiki-guardian-command-brief.md)
 **Trigger policy:** on-demand (invoked by the Legion VS Code extension's TS driver, or by Cursor user `@`-mention)
 
 ---
@@ -98,4 +98,4 @@ If the canonical path's `mode` or `chunk` is missing, do not invoke yet — ask 
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

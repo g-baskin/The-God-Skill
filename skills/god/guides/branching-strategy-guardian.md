@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `branching-strategy-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/branching-strategy-guardian.md`](../../agents/branching-strategy-guardian.md)
-**Weapon:** [`ai-tools/skills/branching-strategy-weapon/`](../../skills/branching-strategy-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/branching-strategy-guardian-command-brief.md`](../../command-briefs/branching-strategy-guardian-command-brief.md)
+**Angel:** [`agents/branching-strategy-guardian.md`](../../../agents/branching-strategy-guardian.md)
+**Weapon:** [`skills/branching-strategy-weapon/`](../../branching-strategy-weapon/)
+**Command Brief:** [`command-briefs/branching-strategy-guardian-command-brief.md`](../../../command-briefs/branching-strategy-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -85,4 +85,4 @@ Optional but helpful: `git log --oneline --graph` dump, branch list, or `.github
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

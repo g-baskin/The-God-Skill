@@ -142,9 +142,9 @@ dependency-audit-weapon/
 
 | Role | Artifact |
 |---|---|
-| This weapon | `ai-tools/skills/dependency-audit-weapon/` |
-| Paired Angel | `ai-tools/agents/dependency-audit-guardian.md` |
-| Command Brief | `ai-tools/command-briefs/dependency-audit-guardian-command-brief.md` |
+| This weapon | `skills/dependency-audit-weapon/` |
+| Paired Angel | `agents/dependency-audit-guardian.md` |
+| Command Brief | `command-briefs/dependency-audit-guardian-command-brief.md` |
 
 ---
 

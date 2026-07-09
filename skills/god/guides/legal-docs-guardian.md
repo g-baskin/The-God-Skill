@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `legal-docs-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/legal-docs-guardian.md`](../../agents/legal-docs-guardian.md)
-**Weapon:** [`ai-tools/skills/legal-docs-weapon/`](../../skills/legal-docs-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/legal-docs-guardian-command-brief.md`](../../../command-briefs/legal-docs-guardian-command-brief.md)
+**Angel:** [`agents/legal-docs-guardian.md`](../../../agents/legal-docs-guardian.md)
+**Weapon:** [`skills/legal-docs-weapon/`](../../legal-docs-weapon/)
+**Command Brief:** [`command-briefs/legal-docs-guardian-command-brief.md`](../../../command-briefs/legal-docs-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -77,4 +77,4 @@ If the document type or geography is missing, ask one targeted question rather t
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

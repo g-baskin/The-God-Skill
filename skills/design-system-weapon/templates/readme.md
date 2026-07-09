@@ -1,7 +1,7 @@
 # UX/UI — Source of Truth
 
 > **Read order for anyone building or reviewing UI in this repo.**
-> Companion agent: [`.cursor/agents/ux-ui-guardian.md`](../../../.cursor/agents/ux-ui-guardian.md)
+> Companion agent: [`agents/ux-ui-guardian.md`](../../../agents/ux-ui-guardian.md)
 
 ## What lives here
 
@@ -42,7 +42,7 @@ decision in the {{product}} app. Created by `design-system-guardian` on
 
 ## Change control
 
-The [`ux-ui-guardian`](../../../.cursor/agents/ux-ui-guardian.md) subagent
+The [`ux-ui-guardian`](../../../agents/ux-ui-guardian.md) subagent
 owns this folder. A PR that changes UI in a way not already described here
 must either (a) land an update to this folder as part of the same PR, or
 (b) be rejected by `quality-guardian` with a pointer back here.

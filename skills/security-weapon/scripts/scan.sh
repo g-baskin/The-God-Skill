@@ -8,7 +8,7 @@
 # own observations, and promotes findings into the audit report.
 #
 # Usage (from repo root being audited):
-#   bash .cursor/skills/security-weapon/scripts/scan.sh
+#   bash skills/security-weapon/scripts/scan.sh
 #
 # Exit code is always 0 — the Angel decides what's fatal.
 
@@ -59,10 +59,12 @@ echo "  -> $OUT_DIR/cve-version-check.txt"
 # ----------------------------------------------------------------------------
 # 3. Rules File Backdoor — hidden Unicode in AI rules files
 # ----------------------------------------------------------------------------
-hr "3. Unicode scan (.cursor/rules, .cursorrules, AGENTS.md, CLAUDE.md, copilot-instructions)"
+hr "3. Unicode scan (GG Coder rules, AI instruction files, legacy Cursor rules when present)"
 : > "$OUT_DIR/unicode-scan.txt"
 UNICODE_RE='[\x{200B}-\x{200F}\x{202A}-\x{202E}\x{2060}-\x{2069}\x{FEFF}]'
 SCAN_GLOBS=(
+  "rules"
+  ".gg"
   ".cursor/rules"
   ".cursorrules"
   "AGENTS.md"

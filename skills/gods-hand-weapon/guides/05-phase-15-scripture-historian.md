@@ -6,9 +6,9 @@ This is the ONLY phase that uses the Task tool instead of a skill load. The asym
 
 ## What `scripture-historian` does
 
-`scripture-historian` is the Phase 1.5 worker subagent. Its job is to download, summarize, and categorize 2026-current sources for the new Angel/Weapon pair's domain, then file them into `ai-tools/skills/<weapon-name>/research/`. It does NOT author `SKILL.md` or guides; that is `weapon-forge`'s job.
+`scripture-historian` is the Phase 1.5 worker subagent. Its job is to download, summarize, and categorize 2026-current sources for the new Angel/Weapon pair's domain, then file them into `skills/<weapon-name>/research/`. It does NOT author `SKILL.md` or guides; that is `weapon-forge`'s job.
 
-The subagent's full contract lives at `ai-tools/agents/scripture-historian.md`. Read it before Phase 1.5 if you need the depth-tier rubric, the file shape, the tool-availability rules, or the handoff line format.
+The subagent's full contract lives at `agents/scripture-historian.md`. Read it before Phase 1.5 if you need the depth-tier rubric, the file shape, the tool-availability rules, or the handoff line format.
 
 ## Why this phase uses Task, not skill load
 
@@ -30,8 +30,8 @@ The other four phases (`command-center`, `weapon-forge`, `angel-creator`, `god-r
 Construct a Task tool call with `subagent_type="scripture-historian"` and a prompt that contains:
 
 - The Angel name and Weapon name.
-- The exact path to the Command Brief at `ai-tools/command-briefs/<guardian-name>-command-brief.md`.
-- The exact path to the research output folder at `ai-tools/skills/<weapon-name>/research/`.
+- The exact path to the Command Brief at `command-briefs/<guardian-name>-command-brief.md`.
+- The exact path to the research output folder at `skills/<weapon-name>/research/`.
 - The depth tier from the backlog metadata.
 - A reminder of the handoff-line format the subagent must emit on completion.
 
@@ -42,17 +42,17 @@ A worked example prompt is in `examples/happy-path.md`.
 After `scripture-historian` completes, the following MUST exist:
 
 ```
-ai-tools/skills/<weapon-name>/research/research-plan.md
-ai-tools/skills/<weapon-name>/research/research-summary.md
-ai-tools/skills/<weapon-name>/research/index.md
-ai-tools/skills/<weapon-name>/research/[internal-or-external]/<dated-files>.md
+skills/<weapon-name>/research/research-plan.md
+skills/<weapon-name>/research/research-summary.md
+skills/<weapon-name>/research/index.md
+skills/<weapon-name>/research/[internal-or-external]/<dated-files>.md
 ```
 
 The `research-plan.md` is the audit trail of which queries the subagent ran. The `research-summary.md` is the executive summary `weapon-forge` reads first. The `index.md` is the manifest of all source files. The dated `.md` files in `internal/` and `external/` subfolders are one-source-per-file research notes with YAML frontmatter.
 
 The subagent's final message must end with the handoff line:
 
-> "Research for `<guardian-name>` is complete at `ai-tools/skills/<weapon-name>/research/` (<N> files, depth: <tier>, window: <N> months). Ready to hand off to **weapon-forge**."
+> "Research for `<guardian-name>` is complete at `skills/<weapon-name>/research/` (<N> files, depth: <tier>, window: <N> months). Ready to hand off to **weapon-forge**."
 
 `gods-hand` verifies (a) the four required files exist, (b) the subfolders contain at least one source file each (or one of them is empty with a documented reason in the summary), and (c) the handoff line is present in the subagent's response. If any check fails, STOP and route to `guides/10-failure-modes.md` under "scripture-historian failed."
 

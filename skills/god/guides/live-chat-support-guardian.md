@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `live-chat-support-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/live-chat-support-guardian.md`](../../agents/live-chat-support-guardian.md)  
-**Weapon:** [`ai-tools/skills/live-chat-support-weapon/`](../../skills/live-chat-support-weapon/)  
-**Command Brief:** [`ai-tools/command-briefs/live-chat-support-guardian-command-brief.md`](../../../command-briefs/live-chat-support-guardian-command-brief.md)  
+**Angel:** [`agents/live-chat-support-guardian.md`](../../../agents/live-chat-support-guardian.md)  
+**Weapon:** [`skills/live-chat-support-weapon/`](../../live-chat-support-weapon/)  
+**Command Brief:** [`command-briefs/live-chat-support-guardian-command-brief.md`](../../../command-briefs/live-chat-support-guardian-command-brief.md)  
 **Trigger policy:** proactive
 
 ---
@@ -80,4 +80,4 @@ If platform and tech stack are unknown, the Angel will ask before producing inte
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

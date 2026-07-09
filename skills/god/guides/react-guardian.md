@@ -41,7 +41,7 @@ Do **not** invoke for security audits of Server Actions, auth, or storage — `r
 
 ## Paired Weapon
 
-`.cursor/skills/react-weapon/` — contains the master index (SKILL.md) with routing table and severity rubric, 14 guides covering the bulletproof-react pillars plus React 19 idioms and Server Components, the ecosystem catalog, worked examples (ADR, before/after review, refactor proposal), output templates (ADR, project structure, provider stack, error boundary, test setup, ESLint config), deterministic scripts (`scan-anti-patterns.ts`, `bundle-budget-check.ts`, `react-version-audit.ts`), and the research trail.
+`skills/react-weapon/` — contains the master index (SKILL.md) with routing table and severity rubric, 14 guides covering the bulletproof-react pillars plus React 19 idioms and Server Components, the ecosystem catalog, worked examples (ADR, before/after review, refactor proposal), output templates (ADR, project structure, provider stack, error boundary, test setup, ESLint config), deterministic scripts (`scan-anti-patterns.ts`, `bundle-budget-check.ts`, `react-version-audit.ts`), and the research trail.
 
 ## Expected input
 

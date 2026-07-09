@@ -7,7 +7,7 @@ Three stub scanners react-weapon can invoke on a codebase. All are written in Ty
 AST scan for the first 8 anti-patterns in `guides/12-anti-patterns.md`. Emits a markdown report; exit code = number of must-fix findings.
 
 ```bash
-pnpm tsx .cursor/skills/react-weapon/scripts/scan-anti-patterns.ts src/
+pnpm tsx skills/react-weapon/scripts/scan-anti-patterns.ts src/
 ```
 
 Dependencies: `ts-morph`.
@@ -18,7 +18,7 @@ Checks built bundle sizes against per-route budgets from `react-weapon.budgets.j
 
 ```bash
 pnpm build
-pnpm tsx .cursor/skills/react-weapon/scripts/bundle-budget-check.ts dist/
+pnpm tsx skills/react-weapon/scripts/bundle-budget-check.ts dist/
 ```
 
 See `guides/07-performance.md §bundle-budgets` for default budgets.
@@ -28,7 +28,7 @@ See `guides/07-performance.md §bundle-budgets` for default budgets.
 Reads `package.json` and reports React version, Compiler readiness, deprecated dependencies, and which version-specific idioms apply.
 
 ```bash
-pnpm tsx .cursor/skills/react-weapon/scripts/react-version-audit.ts
+pnpm tsx skills/react-weapon/scripts/react-version-audit.ts
 ```
 
 Run this **first** on any invocation — the output tells you which guides are relevant for the stack.

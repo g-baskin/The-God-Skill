@@ -14,9 +14,9 @@ It owns the host product's coach/agent lineup (whatever `library/knowledge-base/
 
 ## Paired Weapon
 
-[`.cursor/skills/mind-weapon/`](../skills/mind-weapon/)
+[`skills/mind-weapon/`](../skills/mind-weapon/)
 
-Read `.cursor/skills/mind-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table for the 12 invocation modes, the canonical-stack hard-rule table, severity rubric, cross-Angel handoffs, the five always-flagged opens, and the complete anti-pattern list).
+Read `skills/mind-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table for the 12 invocation modes, the canonical-stack hard-rule table, severity rubric, cross-Angel handoffs, the five always-flagged opens, and the complete anti-pattern list).
 
 ## Procedure
 
@@ -58,7 +58,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/mind-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/mind-weapon/` with all of its sub-folders and files.
 
 ### Principles, stack, and procedures (guides/)
 - `guides/00-principles.md` — recommended stack as default, every-call-traced, per-tenant isolation, indexed-payload-only filters, fixed-size chunking (Vectara NAACL 2025), three-tier memory boundaries, sycophancy is measured, models in PlatformConfig, `[INSTRUCTION_HIERARCHY]` always last, severity rubric, the recurring gap patterns

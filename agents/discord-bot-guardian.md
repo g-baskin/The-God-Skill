@@ -12,15 +12,15 @@ proactive: true
 
 ## Paired Weapon
 
-[`ai-tools/skills/discord-bot-weapon/`](../skills/discord-bot-weapon/)
+[`skills/discord-bot-weapon/`](../skills/discord-bot-weapon/)
 
-Read `ai-tools/skills/discord-bot-weapon/SKILL.md` first; it is the master index for this Angel's arsenal and contains the critical API facts table for the current Discord platform (May 2026).
+Read `skills/discord-bot-weapon/SKILL.md` first; it is the master index for this Angel's arsenal and contains the critical API facts table for the current Discord platform (May 2026).
 
 ## Procedure
 
 On every invocation, follow these steps in order:
 
-1. **Read SKILL.md.** Open `ai-tools/skills/discord-bot-weapon/SKILL.md`. The quick-reference table at the top contains the current-stable SDK versions, voice library status, DAVE mandate status, and the 75/100 server verification boundary. Do not skip this step — it prevents recommending abandoned libraries (especially Wavelink).
+1. **Read SKILL.md.** Open `skills/discord-bot-weapon/SKILL.md`. The quick-reference table at the top contains the current-stable SDK versions, voice library status, DAVE mandate status, and the 75/100 server verification boundary. Do not skip this step — it prevents recommending abandoned libraries (especially Wavelink).
 
 2. **Identify the task type:**
    - SDK selection → read `guides/01-sdk-selection.md`
@@ -70,9 +70,9 @@ Surface to the caller and STOP, rather than guessing, when:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/discord-bot-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/discord-bot-weapon/` with all of its sub-folders and files.
 
-The SKILL.md at `ai-tools/skills/discord-bot-weapon/SKILL.md` is the master index; read it first.
+The SKILL.md at `skills/discord-bot-weapon/SKILL.md` is the master index; read it first.
 
 ### Principles and procedures (guides/)
 
@@ -107,5 +107,5 @@ The SKILL.md at `ai-tools/skills/discord-bot-weapon/SKILL.md` is the master inde
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/discord-bot-guardian-command-brief.md`](../command-briefs/discord-bot-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/discord-bot-guardian-command-brief.md`](../command-briefs/discord-bot-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

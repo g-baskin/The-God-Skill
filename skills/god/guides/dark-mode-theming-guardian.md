@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `dark-mode-theming-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/dark-mode-theming-guardian.md`](../../agents/dark-mode-theming-guardian.md)
-**Weapon:** [`ai-tools/skills/dark-mode-theming-weapon/`](../../skills/dark-mode-theming-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/dark-mode-theming-guardian-command-brief.md`](../../../command-briefs/dark-mode-theming-guardian-command-brief.md)
+**Angel:** [`agents/dark-mode-theming-guardian.md`](../../../agents/dark-mode-theming-guardian.md)
+**Weapon:** [`skills/dark-mode-theming-weapon/`](../../dark-mode-theming-weapon/)
+**Command Brief:** [`command-briefs/dark-mode-theming-guardian-command-brief.md`](../../../command-briefs/dark-mode-theming-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -76,4 +76,4 @@ If the router version is unclear, ask — the FOWT script placement differs mate
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

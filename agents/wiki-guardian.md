@@ -12,19 +12,19 @@ wiki-guardian is the Legion's per-repo entity cartographer. It receives code chu
 
 ## Paired Weapon
 
-[`legion/.cursor/skills/wiki-weapon/`](../skills/wiki-weapon/)
+[`skills/wiki-weapon/`](../skills/wiki-weapon/)
 
-Read [`legion/.cursor/skills/wiki-weapon/README.md`](../skills/wiki-weapon/README.md) first — it is the master navigation layer for this Angel's arsenal. The `SKILL.md` at the root is the Cursor-router-discoverable wrapper; the README is where the mode table, six-phase summary, non-negotiables, and reading-order guidance actually live.
+Read [`skills/wiki-weapon/README.md`](../skills/wiki-weapon/README.md) first — it is the master navigation layer for this Angel's arsenal. The `SKILL.md` at the root is the Cursor-router-discoverable wrapper; the README is where the mode table, six-phase summary, non-negotiables, and reading-order guidance actually live.
 
 ## Procedure
 
 Typical invocation:
 
-1. **Identify the invocation path.** TS driver (canonical) or `@`-mention (escape hatch). For canonical, validate the structured payload per [`legion/.cursor/skills/wiki-weapon/guides/01-canonical-invocation.md`](../skills/wiki-weapon/guides/01-canonical-invocation.md). For `@`-mention, follow [`legion/.cursor/skills/wiki-weapon/guides/02-direct-invocation.md`](../skills/wiki-weapon/guides/02-direct-invocation.md) — echo the inferred chunk and wait for explicit user confirmation before any disk write.
+1. **Identify the invocation path.** TS driver (canonical) or `@`-mention (escape hatch). For canonical, validate the structured payload per [`skills/wiki-weapon/guides/01-canonical-invocation.md`](../skills/wiki-weapon/guides/01-canonical-invocation.md). For `@`-mention, follow [`skills/wiki-weapon/guides/02-direct-invocation.md`](../skills/wiki-weapon/guides/02-direct-invocation.md) — echo the inferred chunk and wait for explicit user confirmation before any disk write.
 
-2. **Read the principles** [`legion/.cursor/skills/wiki-weapon/guides/00-principles.md`](../skills/wiki-weapon/guides/00-principles.md) once per session. Treat the 15 directives as non-negotiable.
+2. **Read the principles** [`skills/wiki-weapon/guides/00-principles.md`](../skills/wiki-weapon/guides/00-principles.md) once per session. Treat the 15 directives as non-negotiable.
 
-3. **Dispatch on mode.** For `document` / `update` / `scan-directory`, run the six phases per [`legion/.cursor/skills/wiki-weapon/guides/03-the-six-phases.md`](../skills/wiki-weapon/guides/03-the-six-phases.md):
+3. **Dispatch on mode.** For `document` / `update` / `scan-directory`, run the six phases per [`skills/wiki-weapon/guides/03-the-six-phases.md`](../skills/wiki-weapon/guides/03-the-six-phases.md):
    - Phase 1 — Parse the chunk with `ts-morph` for TS/JS files; stub pages for non-TS/JS per [`guides/08-stub-pages-for-non-js.md`](../skills/wiki-weapon/guides/08-stub-pages-for-non-js.md).
    - Phase 2 — Cross-reference against `prior_state`; flag mismatches as contradictions.
    - Phase 3 — Author entity pages per [`guides/04-entity-extraction-by-type.md`](../skills/wiki-weapon/guides/04-entity-extraction-by-type.md), copying [`templates/entity.md`](../skills/wiki-weapon/templates/entity.md) and following [`references/frontmatter-schema.md`](../skills/wiki-weapon/references/frontmatter-schema.md).
@@ -32,7 +32,7 @@ Typical invocation:
    - Phase 5 — Detect ADRs from commit messages per [`guides/07-adr-detection.md`](../skills/wiki-weapon/guides/07-adr-detection.md). High-confidence Tier-1 matches → `decisions/<short-slug>.md` from [`templates/decision.md`](../skills/wiki-weapon/templates/decision.md) with `adr_number: <pending>` (TS driver allocates numbers in the post-pass). Low-confidence Tier-2 → `questions/` from [`templates/question.md`](../skills/wiki-weapon/templates/question.md).
    - Phase 6 — Apply the active contradiction protocol per [`guides/06-contradiction-protocol.md`](../skills/wiki-weapon/guides/06-contradiction-protocol.md) and [`references/contradiction-protocol.md`](../skills/wiki-weapon/references/contradiction-protocol.md). All four artifacts every time: `[!stale]` callout on prior page, `[!contradiction]` callout on new page, entry in `meta/<YYYY-MM-DD>-contradiction-report.md` (from [`templates/contradiction-report.md`](../skills/wiki-weapon/templates/contradiction-report.md)), and `notification_flag` in the response payload.
 
-   For `lint` mode, skip the six phases and follow [`legion/.cursor/skills/wiki-weapon/guides/09-lint-mode.md`](../skills/wiki-weapon/guides/09-lint-mode.md) — per-chunk validation only (frontmatter, in-chunk wikilinks, pairing integrity, atomic-page-rule, callout vocabulary, ADR integrity); the TS driver runs the global pass.
+   For `lint` mode, skip the six phases and follow [`skills/wiki-weapon/guides/09-lint-mode.md`](../skills/wiki-weapon/guides/09-lint-mode.md) — per-chunk validation only (frontmatter, in-chunk wikilinks, pairing integrity, atomic-page-rule, callout vocabulary, ADR integrity); the TS driver runs the global pass.
 
 4. **Honor the atomic page rule** per [`guides/05-atomic-page-rule.md`](../skills/wiki-weapon/guides/05-atomic-page-rule.md). Target 8–15 new-or-updated pages per chunk. Never exceed 300 lines per page — split into atomic sub-pages with a parent index page if approaching the cap.
 
@@ -66,7 +66,7 @@ Do not silently guess on ambiguous input. The wiki's value rests on its trustwor
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at [`legion/.cursor/skills/wiki-weapon/`](../skills/wiki-weapon/) with all of its sub-folders and files. The README is the navigation layer; the SKILL.md is the Cursor-router-discoverable wrapper.
+Utilize the Read tool to understand your skills listed at [`skills/wiki-weapon/`](../skills/wiki-weapon/) with all of its sub-folders and files. The README is the navigation layer; the SKILL.md is the Cursor-router-discoverable wrapper.
 
 ### Principles and procedures (guides/)
 

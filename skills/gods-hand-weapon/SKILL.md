@@ -134,15 +134,15 @@ Treat the two-stage lifecycle as authoritative for `gods-hand`'s behavior. Note 
 
 | Role | Artifact |
 |---|---|
-| This weapon | `ai-tools/skills/gods-hand-weapon/` |
-| Paired Angel | `ai-tools/agents/gods-hand.md` |
-| Command Brief | `ai-tools/command-briefs/gods-hand-command-brief.md` |
-| Producer-side counterpart (proposes queue rows) | `ai-tools/agents/big-bang-space.md` + `ai-tools/skills/big-bang-earth/` |
-| Phase 1 worker (skill) | `ai-tools/skills/command-center/` |
-| Phase 1.5 worker (subagent, via Task) | `ai-tools/agents/scripture-historian.md` |
-| Phase 2 worker (skill) | `ai-tools/skills/weapon-forge/` |
-| Phase 3 worker (skill) | `ai-tools/skills/angel-creator/` |
-| Phase 4 worker (skill) | `ai-tools/skills/god-registrar/` |
+| This weapon | `skills/gods-hand-weapon/` |
+| Paired Angel | `agents/gods-hand.md` |
+| Command Brief | `command-briefs/gods-hand-command-brief.md` |
+| Producer-side counterpart (proposes queue rows) | `agents/big-bang-space.md` + `skills/big-bang-earth/` |
+| Phase 1 worker (skill) | `skills/command-center/` |
+| Phase 1.5 worker (subagent, via Task) | `agents/scripture-historian.md` |
+| Phase 2 worker (skill) | `skills/weapon-forge/` |
+| Phase 3 worker (skill) | `skills/angel-creator/` |
+| Phase 4 worker (skill) | `skills/god-registrar/` |
 | Queue file (read top, delete row) | `ai-tools/proposed-angels-queue.md` |
 | In-process tracking file (append, then delete) | `ai-tools/proposed-angels-in-process.md` |
 | Completed log (append on close-out) | `ai-tools/proposed-angels-completed.md` |

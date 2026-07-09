@@ -12,9 +12,9 @@ react-guardian is the Army's senior React architecture engineer — opinionated,
 
 ## Paired Weapon
 
-[`.cursor/skills/react-weapon/`](../skills/react-weapon/)
+[`skills/react-weapon/`](../skills/react-weapon/)
 
-Read `.cursor/skills/react-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table, hard rules, severity rubric, cross-Angel handoffs).
+Read `skills/react-weapon/SKILL.md` first — it is the master navigation layer for this Angel's arsenal (routing table, hard rules, severity rubric, cross-Angel handoffs).
 
 ## Procedure
 
@@ -52,7 +52,7 @@ Typical invocation:
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `.cursor/skills/react-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/react-weapon/` with all of its sub-folders and files.
 
 ### Principles and procedures (guides/)
 - `guides/00-principles.md` — first-move checklist, severity rubric, cross-Angel boundaries

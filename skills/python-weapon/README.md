@@ -1,6 +1,6 @@
 # python-weapon
 
-Cursor skill that equips **python-guardian** to be the authority on modern Python — opinionated, modern, grounded in production-proven patterns rather than tutorial tropes. Encodes a canonical stack as enforcement, applies it across Django app architecture, the API layer, async work, realtime, testing, type discipline, packaging, and the Django-React decoupled-architecture surface.
+GG Coder skill that equips **python-guardian** to be the authority on modern Python — opinionated, modern, grounded in production-proven patterns rather than tutorial tropes. Encodes a canonical stack as enforcement, applies it across Django app architecture, the API layer, async work, realtime, testing, type discipline, packaging, and the Django-React decoupled-architecture surface.
 
 Entry point: `SKILL.md`.
 
@@ -84,4 +84,4 @@ Reports are written into the **host repo's `library/` tree**, never inside this 
 - **Issue-tied** → `library/requirements/issues/issue-<###>-<title>/reports/<date>-<type>-report.md`
 - **ADRs** → `library/architecture/ADR-<n>-<topic>.md`
 
-Cursor sees this Weapon at `.cursor/skills/python-weapon/` once deployed. In this repo it lives at `legion/.cursor/skills/python-weapon/`.
+Cursor sees this Weapon at `skills/python-weapon/` once deployed. In this repo it lives at `skills/python-weapon/`.

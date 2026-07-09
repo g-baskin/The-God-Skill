@@ -24,7 +24,7 @@ commissioned.
 ```markdown
 ## Change control
 
-The [`ux-ui-guardian`](../../../.cursor/agents/ux-ui-guardian.md) subagent
+The [`ux-ui-guardian`](../../../agents/ux-ui-guardian.md) subagent
 owns this folder. A PR that changes UI in a way not already described
 here must either (a) land an update to this folder as part of the same
 PR, or (b) be rejected by `quality-guardian` with a pointer back here.
@@ -61,7 +61,7 @@ So the git log reads:
 ### 4. Optional — stub the companion Angel
 
 If the consumer product doesn't yet have `ux-ui-guardian`, emit a stub
-at `.cursor/agents/ux-ui-guardian.md` with:
+at `agents/ux-ui-guardian.md` with:
 
 - A pointer to the new folder.
 - The list of guardrails (from `00-principles.md`).

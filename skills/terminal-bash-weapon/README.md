@@ -6,6 +6,6 @@ This weapon encodes playbooks for Bash/Zsh/Fish configuration, modern CLI tool a
 
 **Source plan:** `research/research-plan.md`
 **Research summary:** `research/research-summary.md`
-**Command Brief:** `ai-tools/command-briefs/terminal-bash-guardian-command-brief.md`
+**Command Brief:** `command-briefs/terminal-bash-guardian-command-brief.md`
 
 Forged 2026-05-20 from a shallow-tier literature sweep.

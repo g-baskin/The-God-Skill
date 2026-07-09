@@ -6,11 +6,11 @@
  *
  * Run (Vite):
  *   pnpm build
- *   pnpm tsx .cursor/skills/react-weapon/scripts/bundle-budget-check.ts dist/
+ *   pnpm tsx skills/react-weapon/scripts/bundle-budget-check.ts dist/
  *
  * Run (Next.js):
  *   pnpm build
- *   pnpm tsx .cursor/skills/react-weapon/scripts/bundle-budget-check.ts .next/
+ *   pnpm tsx skills/react-weapon/scripts/bundle-budget-check.ts .next/
  *
  * Configure budgets in `react-weapon.budgets.json` at repo root:
  *

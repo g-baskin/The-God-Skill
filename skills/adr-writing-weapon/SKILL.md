@@ -148,5 +148,5 @@ The research folder was populated by `scripture-historian` at normal depth (15 f
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/adr-writing-guardian-command-brief.md`](../../command-briefs/adr-writing-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/adr-writing-guardian-command-brief.md`](../../command-briefs/adr-writing-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*

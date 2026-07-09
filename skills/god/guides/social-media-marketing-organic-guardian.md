@@ -2,9 +2,9 @@
 
 The God routing skill's record of when to invoke `social-media-marketing-organic-guardian`. Use this guide to decide whether a user request belongs to this Angel.
 
-**Angel:** [`ai-tools/agents/social-media-marketing-organic-guardian.md`](../../agents/social-media-marketing-organic-guardian.md)
-**Weapon:** [`ai-tools/skills/social-media-marketing-organic-weapon/`](../../skills/social-media-marketing-organic-weapon/)
-**Command Brief:** [`ai-tools/command-briefs/social-media-marketing-organic-guardian-command-brief.md`](../../../command-briefs/social-media-marketing-organic-guardian-command-brief.md)
+**Angel:** [`agents/social-media-marketing-organic-guardian.md`](../../../agents/social-media-marketing-organic-guardian.md)
+**Weapon:** [`skills/social-media-marketing-organic-weapon/`](../../social-media-marketing-organic-weapon/)
+**Command Brief:** [`command-briefs/social-media-marketing-organic-guardian-command-brief.md`](../../../command-briefs/social-media-marketing-organic-guardian-command-brief.md)
 **Trigger policy:** proactive
 
 ---
@@ -79,8 +79,8 @@ All outputs are terminal deliverables — there is no downstream Angel in this w
 - Refuse "going viral" requests — redirect to audience specificity and consistency
 - Ground all growth projections in 2026 benchmarks from `guides/07-growth-benchmarks.md`, not aspirational estimates
 
-(Full list with rationale in `ai-tools/agents/social-media-marketing-organic-guardian.md#critical-directives`)
+(Full list with rationale in `agents/social-media-marketing-organic-guardian.md#critical-directives`)
 
 ---
 
-*Part of God's roster. See [`ai-tools/skills/god/SKILL.md`](../SKILL.md) for the full Army.*
+*Part of God's roster. See [`skills/god/SKILL.md`](../SKILL.md) for the full Army.*

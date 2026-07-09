@@ -29,7 +29,7 @@ Do **not** invoke before `security-guardian`. If you route to `quality-guardian`
 
 ## Paired Weapon
 
-`.cursor/skills/quality-weapon/` — contains the audit checklist, the report template for `library/qa/`, and heuristics for classifying findings.
+`skills/quality-weapon/` — contains the audit checklist, the report template for `library/qa/`, and heuristics for classifying findings.
 
 ## Expected input
 

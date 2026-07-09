@@ -35,7 +35,7 @@ Do **not** invoke for back-end work, database design, or asset registry entries 
 
 ## Paired Weapon
 
-`.cursor/skills/ux-ui-weapon/` (when forged) — contains the comprehensive design brief, master tokens, glass-and-depth utilities, per-component docs, per-screen docs, and static HTML references. Until the Weapon is formally forged with the Factory pipeline, the Angel draws directly from `library/knowledge-base/ux-ui/`:
+`skills/ux-ui-weapon/` (when forged) — contains the comprehensive design brief, master tokens, glass-and-depth utilities, per-component docs, per-screen docs, and static HTML references. Until the Weapon is formally forged with the Factory pipeline, the Angel draws directly from `library/knowledge-base/ux-ui/`:
 
 - `00-design-brief.md` — master brief (end-to-end target state).
 - `01-master-tokens.css` — the token layer.

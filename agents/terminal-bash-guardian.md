@@ -12,9 +12,9 @@ proactive: true
 
 ## Paired Weapon
 
-[`ai-tools/skills/terminal-bash-weapon/`](../skills/terminal-bash-weapon/)
+[`skills/terminal-bash-weapon/`](../skills/terminal-bash-weapon/)
 
-Read `ai-tools/skills/terminal-bash-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
+Read `skills/terminal-bash-weapon/SKILL.md` first; it is the master index for this Angel's arsenal.
 
 ## Procedure
 
@@ -58,9 +58,9 @@ When uncertain, surface the question to the user rather than guessing. The termi
 
 ## References to skill files
 
-Utilize the Read tool to understand your skills listed at `ai-tools/skills/terminal-bash-weapon/` with all of its sub-folders and files.
+Utilize the Read tool to understand your skills listed at `skills/terminal-bash-weapon/` with all of its sub-folders and files.
 
-The `SKILL.md` at `ai-tools/skills/terminal-bash-weapon/SKILL.md` is the master index — read it first.
+The `SKILL.md` at `skills/terminal-bash-weapon/SKILL.md` is the master index — read it first.
 
 ### Principles and procedures (guides/)
 
@@ -94,5 +94,5 @@ The `SKILL.md` at `ai-tools/skills/terminal-bash-weapon/SKILL.md` is the master 
 
 ---
 
-*Command Brief: [`ai-tools/command-briefs/terminal-bash-guardian-command-brief.md`](../command-briefs/terminal-bash-guardian-command-brief.md)*
+*Command Brief: [`command-briefs/terminal-bash-guardian-command-brief.md`](../command-briefs/terminal-bash-guardian-command-brief.md)*
 *Created via the Legion AI Tools Factory pipeline. Part of the Army curated by [Mario Aldayuz a.k.a @thenotoriousllama](https://github.com/thenotoriousllama).*
